@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
+  <link href="http://jordanljesse.github.io/"/>
+  <updated>2017-04-25T13:37:52-05:00</updated>
+  <id>http://jordanljesse.github.io/</id>
+  <author>
+    <name><![CDATA[Jordan Jesse]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started With Vim and Tmux]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/03/31/getting-started-with-vim-and-tmux/"/>
+    <updated>2017-03-31T22:41:50-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/03/31/getting-started-with-vim-and-tmux</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;ve been hacking away at learning how to use TMUX and VIM lately, and I must say that it feels like taking the training wheels off of my computer. By that, I mean that it feels like a more complex way to use my computer, however it also feels more efficient and &lsquo;freeing&rsquo;, in a way.</p>
+
+<p>I first heard about TMUX from a friendly hacker at a Linux User Group meetup here in town. He showed me what it looked like, told me a little about what it could do, and then encouraged me to go home and give TMUX a try. A few nights later, I installed TMUX and read a few online tutorials, and now my life in the Terminal will never be the same again. I can&rsquo;t believe how much more convenient having sessions that can be detaached/reattached to are! Why didn&rsquo;t I do this years ago?!(I feel like I&rsquo;ve been experiencing that sentiment at an(alarmingly) increasing rate).</p>
+
+<p>I decided to take a look at VIM after getting the feeling that at some point in the future I would eventually wind up there(it seems that most dev wind up in vim-land eventually), so why not learn it a little early? I&rsquo;m excited by the idea of an editor that&rsquo;s cross-platform and readily available. Not only that, but the concept of a modal editor that has a sort of minimal language used to interact with code strikes me as brilliant. The first night I went through the vim tutuorial(vimtutor), I stayed up late lying in bed thinking about how much more efficient vim seems compared to a more modern editor(Sublime Text, Atom, etc.).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Open Source Pull Request]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/03/16/first-open-source-pull-request/"/>
+    <updated>2017-03-16T22:40:23-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/03/16/first-open-source-pull-request</id>
+    <content type="html"><![CDATA[<p>I made my first open source contribution today, and it felt triumphant! The challenges! The errors! Feeling like you&rsquo;re contributing to something bigger than yourself.  To be clear, I only replaced an outdated link with a more current one, but that doesn&rsquo;t mean that the first step of a long journey is less exciting.</p>
+
+<p>Since deciding that I would learn how to code, I&rsquo;ve always been enamored with open source software, or more specifically <em>free</em> open source software(there&rsquo;s a difference &ndash; ask Richard Stallman). So when I learned that Operation Code was a FOSS program designed by veterans to help veterans I knew I had to be a part of it. I think that the majority of veterans miss being part of a team working towards a common goal; I know I do. Being able to spend time working on a project like Operation Code</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fibonacci Sequence in Ruby]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/03/16/fibonacci-sequence-in-ruby/"/>
+    <updated>2017-03-16T22:38:32-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/03/16/fibonacci-sequence-in-ruby</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;m teaching myself Ruby and today was all about solving some Euler problems. Euler problems are math problems at scale, so that they&rsquo;re best done with a computer and a programming language(like Ruby). When I first looked at the problem, I had an idea of what was supposed to happen but was unsure of how to write the expression in Ruby. Being a very visual person/learner, I found it helpful to write out the first few numbers of the Fibonacci sequence with pen and paper, and then to sketch in where the variables would go and how they move as the sequence progresses. Once I was able to visualize how the variables leapfrog each other within the loop and are added together for the next number in the Fibonacci sequence, it was much more clear how I needed to write the expression in Ruby. It&rsquo;s like that art school school saying &ldquo;Practice safe design, use a concept&rdquo;. By outlining my problem and subsequent solution with pen and paper first, I was able to spend less time writing code.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rejection Letter]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/"/>
+    <updated>2017-02-23T21:34:06-06:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/23/rejection-letter</id>
+    <content type="html"><![CDATA[<p>I received my fist rejection letter today from Launch Code after applying for a paid apprenticeship and failing miserable at their HackerRank code puzzles. At first I felt bewildered, as if perhaps I wasn&rsquo;t smart enough to be a professional programmer. Maybe I just should stick to design, making logos and book covers? Failure is a hard thing sometimes, but I wouldn&rsquo;t have known about some of my critical week areas(sorting arrays, Math methods) had I not tried and failed at these code puzzles. The result of all this has left me motivated to redouble my efforts and to invest more time in learning my base programming language(Ruby).</p>
+
+<p>I&rsquo;ve also been working through Ruby Basics on the Odin Project, and today I completed a set of dice, a puppy Tamagotchi-like program, and a simple text based orange tree. They&rsquo;re all pretty rudimentary, but it&rsquo;s still exciting to complete these small projects and see that they actually work. It&rsquo;s much more exciting to get everything working after spending hours not knowing how to solve a problem or being stuck; when it suddenly clicks and things start to work, it&rsquo;s a great feeling.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
+    <updated>2017-02-22T21:20:20-06:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
+    <content type="html"><![CDATA[<p>My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy developing a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that of all my creative pursuits(design, music, photography, painting) that writing code is the most satisfying and intellectually challenging. I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+]]></content>
+  </entry>
+  
+</feed>
