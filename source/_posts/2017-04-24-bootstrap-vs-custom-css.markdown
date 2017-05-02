@@ -4,7 +4,7 @@ title: "learning bootstrap vs vanilla CSS?"
 date: 2017-04-24 23:15:18 -0500
 comments: true
 categories: css, front end
-published: false
+published: true
 ---
 
 So I've been following along with freeCodeCamp(fCC) and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually *doing*. This may be a personal preference though as I feel *strongly compelled* to understand the inner-workings of my projects.
