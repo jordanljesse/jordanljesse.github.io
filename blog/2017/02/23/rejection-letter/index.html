@@ -86,6 +86,9 @@
 
 <div class="entry-content"><p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who&rsquo;ve come before me have received. I applied to a paid internship at Launch Code in Kansas City and received a professional yet tactful &lsquo;no&rsquo; regarding the position, suggesting that I practice interviewing more and reapply in the future. Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
 
+<!-- more -->
+
+
 <p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn&rsquo;t smart enough to be a professional developer. &ldquo;Maybe I just should just stick to design, making t-shirts and posters?&rdquo; I thought to myself. That kind of work can be fun. But, and it&rsquo;s a big <em>but</em>, it doesn&rsquo;t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I&rsquo;m realizing lately that as long as I&rsquo;m able to learn <em>something</em> from the experience it&rsquo;s not a waste. That, and I&rsquo;m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
 </div>
 
@@ -115,8 +118,6 @@
     </p>
     
       <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/" data-via="" data-counturl="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/" >Tweet</a>
   
   
   
@@ -157,8 +158,34 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/jordanljesse">@jordanljesse</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
 
-
+        github.showRepos({
+            user: 'jordanljesse',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
 
 
   
@@ -180,16 +207,6 @@
 
 
 
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 
