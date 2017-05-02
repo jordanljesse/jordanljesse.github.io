@@ -4,7 +4,7 @@
   <title><![CDATA[Category: General | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-05-02T16:52:35-05:00</updated>
+  <updated>2017-05-02T16:56:14-05:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +18,9 @@
     <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
     <updated>2017-02-22T21:20:20-06:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
-    <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging. I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+    <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging.
+<!-- more -->
+I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
