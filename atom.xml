@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-05-02T16:56:14-05:00</updated>
+  <updated>2017-05-02T16:59:25-05:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,9 +18,9 @@
     <link href="http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css/"/>
     <updated>2017-04-24T23:15:18-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css</id>
-    <content type="html"><![CDATA[<p>So I’ve been following along with freeCodeCamp(fCC) and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually <em>doing</em>. This may be a personal preference though as I feel <em>strongly compelled</em> to understand the inner-workings of my projects.</p>
+    <content type="html"><![CDATA[<p>So I’ve been following along with freeCodeCamp(fCC) and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually <em>doing</em>. This may be a personal preference though as I feel <em>strongly compelled</em> to understand the inner-workings of my projects.
+<!-- more --></p>
 
-<!-- more -->
 <p>The first few websites I made I had designed them first before moving on to implementing them in code, trying to get as close to the high fidelity mockup as possible. This work flow felt smooth and yielded decent results. However, redesigning my personal portfolio while following along with the fCC curriculum it seems that the design takes place in the browser and relies heavily on Bootstrap knowledge. I gotta’ be honest, at first this approach irked me and felt a little lazy. Skip the static mockups? Where do my markers and sketchbooks fit into this work flow? I had almost decided to write off the fCC method in favor of my own(because speed) when I realized that I would be robbing myself of a learning opportunity.</p>
 
 <p>I decide that even if it added a whole day to my personal portfolio redesign that learning Bootstrap 4 would be worth the time. I <em>did</em> decide to sketch out my site before coding it up though. Personally, I find it much easier to make design changes and get visual feedback using a design tool like Sketch 3 rather than designing in the browser or with an IDE. That said, after my first few hours googling various Bootstrap features the framework started to grow on me and I can now appreciate how knowing how to use it could speed up development on projects in the future.</p>
@@ -110,8 +110,9 @@ Being a very visual person/learner, I found it helpful to write out the first fe
     <updated>2017-02-22T21:20:20-06:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
     <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging.
-<!-- more -->
-I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+<!-- more --></p>
+
+<p>I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
