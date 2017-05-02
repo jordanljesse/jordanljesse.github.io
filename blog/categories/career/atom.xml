@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Job | Jordan Learns Code]]></title>
-  <link href="http://jordanljesse.github.io/blog/categories/job/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Career | Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/blog/categories/career/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-05-02T16:08:11-05:00</updated>
+  <updated>2017-05-02T16:18:48-05:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[The Journey to Development Is Paved With Rejection Letters]]></title>
+    <title type="html"><![CDATA[What I Learned From My First Rejection Letter]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/"/>
     <updated>2017-02-23T21:34:06-06:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/23/rejection-letter</id>
