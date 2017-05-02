@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "the journey to development is paved with rejection letters"
+title: "what I learned from my first rejection letter"
 date: 2017-02-23 22:34:06 -0500
 comments: true
-categories: job
+categories: career
 published: true
 ---
 
