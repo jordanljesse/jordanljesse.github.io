@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I wrote my first fibonacci sequence in ruby"
+title: "My first fibonacci sequence in ruby"
 date: 2017-03-15 22:38:32 -0500
 comments: true
 categories: ruby
