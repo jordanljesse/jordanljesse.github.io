@@ -4,11 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-<<<<<<< HEAD
-  <updated>2017-09-18T23:38:16-07:00</updated>
-=======
-  <updated>2017-06-07T20:38:07-05:00</updated>
->>>>>>> 7aa4f918ddee45f4ab5cdef4871c844e6722e6f2
+  <updated>2017-09-18T23:46:01-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +14,6 @@
 
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Managing Multiple Ruby Versions]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
     <updated>2017-09-18T23:20:20-05:00</updated>
@@ -67,8 +62,6 @@
   </entry>
   
   <entry>
-=======
->>>>>>> 7aa4f918ddee45f4ab5cdef4871c844e6722e6f2
     <title type="html"><![CDATA[Intro to Javascript Objects]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/05/12/javascript-objects/"/>
     <updated>2017-05-12T10:10:43-05:00</updated>
@@ -216,7 +209,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
   </entry>
   
   <entry>
-<<<<<<< HEAD
     <title type="html"><![CDATA[Hello World!]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
     <updated>2017-02-22T22:20:20-05:00</updated>
@@ -225,27 +217,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
 <!-- more --></p>
 
 <p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
-=======
-    <title type="html"><![CDATA[What I Learned From My First Rejection Letter]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/"/>
-    <updated>2017-02-23T21:34:06-06:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/23/rejection-letter</id>
-    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. I applied to a paid internship at Launch Code in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future.<!-- more --> Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
-
-<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World!]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
-    <updated>2017-02-22T21:20:20-06:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
-    <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging.
-<!-- more --></p>
-
-<p>I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
->>>>>>> 7aa4f918ddee45f4ab5cdef4871c844e6722e6f2
 ]]></content>
   </entry>
   
