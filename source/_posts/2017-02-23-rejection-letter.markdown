@@ -4,7 +4,7 @@ title: "what I learned from my first rejection letter"
 date: 2017-02-23 22:34:06 -0500
 comments: true
 categories: career
-published: true
+published: false
 ---
 
 Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who've come before me have received. I applied to a paid internship at Launch Code in Kansas City and received a professional yet tactful 'no' regarding the position, suggesting that I practice interviewing more and reapply in the future.<!-- more --> Admittedly, I did *not* do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.
