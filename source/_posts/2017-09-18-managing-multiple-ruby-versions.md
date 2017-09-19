@@ -3,7 +3,7 @@ layout: post
 title: "Managing multiple Ruby versions"
 date: 2017-09-18 23:20:20 -0500
 comments: true
-categories: general, ruby
+categories: general ruby tools
 published: true
 ---
 
