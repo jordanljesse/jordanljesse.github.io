@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Tools | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-09-19T01:34:50-07:00</updated>
+  <updated>2017-09-19T14:00:02-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
     <updated>2017-09-18T23:20:20-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions</id>
-    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still need to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
+    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still needed to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
 <!-- more --></p>
 
 <p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
@@ -30,7 +30,7 @@
   <li>easier to get set up and back to work</li>
 </ul>
 
-<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv you’ll want to have Homebrew installed and up to date. After making sure that Homebrew is up to date you’re ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.
+<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv we will want to have Homebrew installed and up to date. After making sure that Homebrew is up to date we are ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.
 <code>bash
 $ brew update
 $ brew install rbenv ruby-build
@@ -41,7 +41,7 @@ $ brew install rbenv ruby-build
 $ rbenv install 2.4.2
 </code></p>
 
-<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. You’ll want to run the <code>rehash</code> command each time you install a new version of Ruby or a gem that provides commands.
+<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. We will want to run the <code>rehash</code> command each time we install a new version of Ruby or a gem that provides commands.
 <code>
 $ rbenv rehash
 </code></p>
@@ -51,7 +51,7 @@ $ rbenv rehash
 $ rbenv local 2.4.2
 </code></p>
 
-<p>You can verify the current active Ruby version by running either of the following commands:
+<p>We can verify the current active Ruby version by running:
 <code>
 $ rbenv version
 </code></p>

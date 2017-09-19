@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Jordan Learns Code</a></h1>
   
-    <h2>From military to software development *hooah!*</h2>
+    <h2>From military sergeant to software developer</h2>
   
 </hgroup>
 
@@ -84,7 +84,7 @@
   </header>
 
 
-<div class="entry-content"><p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still need to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
+<div class="entry-content"><p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still needed to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
 <!-- more --></p>
 
 <p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
@@ -96,7 +96,7 @@
   <li>easier to get set up and back to work</li>
 </ul>
 
-<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv you’ll want to have Homebrew installed and up to date. After making sure that Homebrew is up to date you’re ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.</p>
+<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv we will want to have Homebrew installed and up to date. After making sure that Homebrew is up to date we are ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.</p>
 <figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 <span class="line-number">2</span>
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew update
@@ -108,7 +108,7 @@
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install 2.4.2
 </span></code></pre></td></tr></table></div></figure>
 
-<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. You’ll want to run the <code>rehash</code> command each time you install a new version of Ruby or a gem that provides commands.</p>
+<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. We will want to run the <code>rehash</code> command each time we install a new version of Ruby or a gem that provides commands.</p>
 <figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv rehash
 </span></code></pre></td></tr></table></div></figure>
@@ -118,7 +118,7 @@
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv <span class="nb">local </span>2.4.2
 </span></code></pre></td></tr></table></div></figure>
 
-<p>You can verify the current active Ruby version by running either of the following commands:</p>
+<p>We can verify the current active Ruby version by running:</p>
 <figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
 </pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv version
 </span></code></pre></td></tr></table></div></figure>
@@ -188,14 +188,43 @@
       </li>
     
       <li class="post">
-        <a href="/blog/2017/03/15/fibonacci-sequence-in-ruby/">I Wrote My First Fibonacci Sequence in Ruby</a>
+        <a href="/blog/2017/03/15/fibonacci-sequence-in-ruby/">My First Fibonacci Sequence in Ruby</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2017/02/23/rejection-letter/">On Failure and Moving Forward</a>
+        <a href="/blog/2017/02/23/fail-forward/">On Failure and Moving Forward</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/jordanljesse">@jordanljesse</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'jordanljesse',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

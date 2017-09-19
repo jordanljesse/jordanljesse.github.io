@@ -38,7 +38,7 @@
   <header role="banner"><hgroup>
   <h1><a href="/">Jordan Learns Code</a></h1>
   
-    <h2>From military to software development *hooah!*</h2>
+    <h2>From military sergeant to software developer</h2>
   
 </hgroup>
 
@@ -127,7 +127,7 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2017/03/15/fibonacci-sequence-in-ruby/" title="Previous Post: I wrote my first fibonacci sequence in ruby">&laquo; I wrote my first fibonacci sequence in ruby</a>
+        <a class="basic-alignment left" href="/blog/2017/03/15/fibonacci-sequence-in-ruby/" title="Previous Post: My first fibonacci sequence in ruby">&laquo; My first fibonacci sequence in ruby</a>
       
       
         <a class="basic-alignment right" href="/blog/2017/05/12/javascript-objects/" title="Next Post: intro to javascript objects">intro to javascript objects &raquo;</a>
@@ -157,14 +157,43 @@
       </li>
     
       <li class="post">
-        <a href="/blog/2017/03/15/fibonacci-sequence-in-ruby/">I Wrote My First Fibonacci Sequence in Ruby</a>
+        <a href="/blog/2017/03/15/fibonacci-sequence-in-ruby/">My First Fibonacci Sequence in Ruby</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2017/02/23/rejection-letter/">On Failure and Moving Forward</a>
+        <a href="/blog/2017/02/23/fail-forward/">On Failure and Moving Forward</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/jordanljesse">@jordanljesse</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'jordanljesse',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Open-source | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/open-source/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-09-19T01:34:50-07:00</updated>
+  <updated>2017-09-19T14:00:02-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[First Open Source Pull Request!]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/22/first-open-source-pull-request/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/02/22/first-pull-request/"/>
     <updated>2017-02-22T23:40:23-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/22/first-open-source-pull-request</id>
+    <id>http://jordanljesse.github.io/blog/2017/02/22/first-pull-request</id>
     <content type="html"><![CDATA[<p>I made my first open source contribution today, and it felt triumphant! The challenges! The errors! The long nights searching the internet by candlelight!(Okay maybe not that last part.)<!--more--> Feeling like you’re contributing to something bigger than yourself.  To be clear, I only replaced an outdated link with a more current one, but that doesn’t mean that the first step of a long journey is less exciting.</p>
 
 <p>Since deciding that I would learn how to code, I’ve always been enamored with open source software, or more specifically <em>free</em> open source software(there’s a difference – ask <a href="https://stallman.org">Richard Stallman</a>). So when I learned that Operation Code was a FOSS program designed by veterans to help fellow veterans I knew I had to be a part of it. I think that the majority of veterans miss being part of a team working towards a common goal; I know I do. Being able to spend time working on a project like Operation Code makes me feel like I’m able to give back, even if it’s in a small way.</p>

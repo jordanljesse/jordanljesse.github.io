@@ -4,7 +4,7 @@
   <title><![CDATA[Category: General | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-09-19T01:34:50-07:00</updated>
+  <updated>2017-09-19T14:00:02-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +18,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
     <updated>2017-09-18T23:20:20-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions</id>
-    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still need to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
+    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still needed to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
 <!-- more --></p>
 
 <p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
@@ -30,7 +30,7 @@
   <li>easier to get set up and back to work</li>
 </ul>
 
-<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv you’ll want to have Homebrew installed and up to date. After making sure that Homebrew is up to date you’re ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.
+<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv we will want to have Homebrew installed and up to date. After making sure that Homebrew is up to date we are ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.
 <code>bash
 $ brew update
 $ brew install rbenv ruby-build
@@ -41,7 +41,7 @@ $ brew install rbenv ruby-build
 $ rbenv install 2.4.2
 </code></p>
 
-<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. You’ll want to run the <code>rehash</code> command each time you install a new version of Ruby or a gem that provides commands.
+<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. We will want to run the <code>rehash</code> command each time we install a new version of Ruby or a gem that provides commands.
 <code>
 $ rbenv rehash
 </code></p>
@@ -51,7 +51,7 @@ $ rbenv rehash
 $ rbenv local 2.4.2
 </code></p>
 
-<p>You can verify the current active Ruby version by running either of the following commands:
+<p>We can verify the current active Ruby version by running:
 <code>
 $ rbenv version
 </code></p>
@@ -65,7 +65,7 @@ $ rbenv version
     <link href="http://jordanljesse.github.io/blog/2017/02/20/hello-world/"/>
     <updated>2017-02-20T19:20:20-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor.</p>
+    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor - and eventually get paid to learn!</p>
 
 <p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
