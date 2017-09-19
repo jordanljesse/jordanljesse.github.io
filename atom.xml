@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
+  <link href="http://jordanljesse.github.io/"/>
+  <updated>2017-06-07T20:38:07-05:00</updated>
+  <id>http://jordanljesse.github.io/</id>
+  <author>
+    <name><![CDATA[Jordan Jesse]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Intro to Javascript Objects]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/05/12/javascript-objects/"/>
+    <updated>2017-05-12T10:10:43-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/05/12/javascript-objects</id>
+    <content type="html"><![CDATA[<p>To understand how functions and other objects work in Javascript it’s important to first understand objects. What makes an object, how are they used, and what can we do with them? Let’s tackle a few of these questions!
+<!-- more --></p>
+
+<h3 id="objects">Objects</h3>
+<p>Almost everything in Javascript is an object as the language is an object-based programming language(compared to an object-<em>oriented</em> language an object-<em>based</em> language lacks inheritance and subtyping). The first important takeaway is that an object is a collection of <em>properties</em> and that properties themselves are key/value pairs. When a property’s value is a function, that property is then referred to as a <em>method</em> and can be used by(or “called on”) the object that it is attached to. Additionally, while there are many predefined objects in the browser you can also create your own objects, complete with unique properties and methods. But how do we use these properties and methods?</p>
+
+<h3 id="properties--methods">Properties &amp; Methods</h3>
+<p>Objects and their properties/methods can be accessed by using <em>dot notation</em>. It’s also important to note that object names and property names are case-sensitive in Javascript.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">propertyName</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>Additionally, properties can be accessed by the use of <em>bracket notation</em>, which yields the same results as the line of code above.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">[</span><span class="s1">&#39;propertyName&#39;</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>In Javascript, any valid string can be used as a property name - even an empty string - however if a property name is not considered a valid identifier(such as a string that contains a space, hyphen, or begins with a number) it can only be accessed using bracket notation. Bracket notation is also useful for passing in dynamically generated property names and property names that are not determined until the program is run. Properties can also be referenced by using strings stored in variables:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;make&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chevy&quot;</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;model&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Impala&quot;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>When it comes to methods, calling them is similar to calling properties, except that methods contain a pair of parentheses at the end for accepting arguments(much like a function because it <em>is</em> a function). It looks like this:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">methodName</span><span class="p">(</span><span class="nx">argument</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>To pull it all together, here is what it looks like to create a new object with a method that accepts an argument and what happens when the method is called:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">dog</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ownerName</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="line">    <span class="k">return</span> <span class="s2">&quot;Woof! Good morning&quot;</span> <span class="o">+</span> <span class="nx">ownerName</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span><span class="p">(</span><span class="s2">&quot;Dave&quot;</span><span class="p">);</span>  <span class="c1">// prints &quot;Woof! Good morning Dave!&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="wrap-up">Wrap up</h3>
+<p>I highly recommend giving this <a href="http://eloquentjavascript.net/06_object.html">excellent article</a> a read if you want a more thorough(and entertaining!) history of objects. Also, I would be remiss if I didn’t remind you that I myself am still learning this stuff and while I do my best to pick up best practices and incorporate them into my thinking, this post will probably be revised as I better organize my understanding of objects. All that to say, read this with an open mind and a grain of salt ;-)</p>
+
+<h5 id="sources">Sources</h5>
+<ul>
+  <li>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects</li>
+  <li>https://en.wikipedia.org/wiki/Object-based_language</li>
+  <li>https://en.wikipedia.org/wiki/Object-oriented_programming</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Learning Bootstrap vs Vanilla CSS?]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css/"/>
+    <updated>2017-04-24T23:15:18-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css</id>
+    <content type="html"><![CDATA[<p>I’ve been following along with freeCodeCamp(fCC) and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually <em>doing</em>. This may be a personal preference though as I feel <em>strongly compelled</em> to understand the inner-workings of my projects.
+<!-- more --></p>
+
+<p>The first few websites I made I had designed them first before moving on to implementing them in code, trying to get as close to the high fidelity mockup as possible. This work flow felt smooth and yielded decent results. However, redesigning my personal portfolio while following along with the fCC curriculum it seems that the design takes place in the browser and relies heavily on Bootstrap knowledge. I gotta’ be honest, at first this approach irked me and felt a little lazy. Skip the static mockups? Where do my markers and sketchbooks fit into this work flow? I had almost decided to write off the fCC method in favor of my own(because speed) when I realized that I would be robbing myself of a learning opportunity.</p>
+
+<p>I decided that even if it added a whole day to my personal portfolio redesign that learning Bootstrap 4 would be worth the time. I <em>did</em> decide to sketch out my site before coding it up though. Personally, I find it much easier to make design changes and get visual feedback using a design tool like Sketch 3 rather than designing in the browser or with an IDE. That said, after my first few hours googling various Bootstrap features the framework started to grow on me and I can now appreciate how knowing how to use it could speed up development on projects in the future.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Wrote My First Fibonacci Sequence in Ruby]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/03/16/fibonacci-sequence-in-ruby/"/>
+    <updated>2017-03-16T22:38:32-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/03/16/fibonacci-sequence-in-ruby</id>
+    <content type="html"><![CDATA[<p>So I’m teaching myself Ruby and today was all about solving some Euler problems. Euler problems are math problems at scale, so that they’re best done with a computer and a programming language(like Ruby). When I first looked at the problem, I had an idea of what was supposed to happen but was unsure of how to write the expression in Ruby.
+<!-- more -->
+Being a very visual person/learner, I found it helpful to write out the first few numbers of the Fibonacci sequence with pen and paper, and then to sketch in where the variables would go and how they move as the sequence progresses. Once I was able to visualize how the variables leapfrog each other within the loop and are added together for the next number in the Fibonacci sequence, it was much more clear how I needed to write the expression in Ruby. Sometimes you just need to sketch something to see the pattern. By outlining my problem and subsequent solution with pen and paper first, I was able to spend less time writing code. My Fibonacci sequence in Ruby(the solution to Euler Problem #2) looks like this:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+<span class="line-number">27</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="c1"># Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.</span>
+</span><span class="line">
+</span><span class="line"><span class="k">class</span> <span class="nc">Euler</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">initialize</span> <span class="n">problem_number</span>
+</span><span class="line">        <span class="vi">@numA</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span class="line">        <span class="vi">@numB</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="vi">@sum</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="nb">puts</span> <span class="s2">&quot;Let&#39;s solve Euler problem #&quot;</span> <span class="o">+</span> <span class="n">problem_number</span><span class="o">.</span><span class="n">to_s</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span>
+</span><span class="line">        <span class="nb">self</span><span class="o">.</span><span class="n">fibonacci_sequence</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">fibonacci_sequence</span>
+</span><span class="line">        <span class="k">while</span> <span class="vi">@fibonacci_number</span> <span class="o">&lt;</span> <span class="mi">4000000</span>
+</span><span class="line">            <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="vi">@numA</span> <span class="o">+</span> <span class="vi">@numB</span>
+</span><span class="line">            <span class="nb">puts</span> <span class="s2">&quot;fibonacci_number</span><span class="se">\&#39;</span><span class="s2">s current value is &quot;</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span><span class="o">.</span><span class="n">to_s</span>
+</span><span class="line">            <span class="vi">@numB</span> <span class="o">=</span> <span class="vi">@numA</span>
+</span><span class="line">            <span class="vi">@numA</span> <span class="o">=</span> <span class="vi">@fibonacci_number</span>
+</span><span class="line">            <span class="vi">@sum</span> <span class="o">=</span> <span class="vi">@sum</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span>
+</span><span class="line">        <span class="k">end</span>
+</span><span class="line">        <span class="nb">puts</span> <span class="s2">&quot;The sum of the Fibonacci sequence thus far is &quot;</span> <span class="o">+</span> <span class="vi">@sum</span><span class="o">.</span><span class="n">to_s</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="n">euler_problem_2</span> <span class="o">=</span> <span class="no">Euler</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What I Learned From My First Rejection Letter]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/"/>
+    <updated>2017-02-23T21:34:06-06:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/23/rejection-letter</id>
+    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. I applied to a paid internship at Launch Code in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future.<!-- more --> Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
+
+<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
+    <updated>2017-02-22T21:20:20-06:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
+    <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging.
+<!-- more --></p>
+
+<p>I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+]]></content>
+  </entry>
+  
+</feed>
