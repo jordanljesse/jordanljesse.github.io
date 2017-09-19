@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Intro to Javascript Objects - Jordan Learns Code</title>
+  <meta name="author" content="Jordan Jesse">
+
+  
+  <meta name="description" content="To understand how functions and other objects work in Javascript it’s important to first understand objects. What makes an object, how are they used &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jordanljesse.github.io/blog/2017/05/12/javascript-objects/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Jordan Learns Code" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jordan Learns Code</a></h1>
+  
+    <h2>From military to software development *hooah!*</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="jordanljesse.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Intro to Javascript Objects</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-05-12T10:10:43-05:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>12</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>10:10 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>To understand how functions and other objects work in Javascript it’s important to first understand objects. What makes an object, how are they used, and what can we do with them? Let’s tackle a few of these questions!
+<!-- more --></p>
+
+<h3 id="objects">Objects</h3>
+<p>Almost everything in Javascript is an object as the language is an object-based programming language(compared to an object-<em>oriented</em> language an object-<em>based</em> language lacks inheritance and subtyping). The first important takeaway is that an object is a collection of <em>properties</em> and that properties themselves are key/value pairs. When a property’s value is a function, that property is then referred to as a <em>method</em> and can be used by(or “called on”) the object that it is attached to. Additionally, while there are many predefined objects in the browser you can also create your own objects, complete with unique properties and methods. But how do we use these properties and methods?</p>
+
+<h3 id="properties--methods">Properties &amp; Methods</h3>
+<p>Objects and their properties/methods can be accessed by using <em>dot notation</em>. It’s also important to note that object names and property names are case-sensitive in Javascript.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">propertyName</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>Additionally, properties can be accessed by the use of <em>bracket notation</em>, which yields the same results as the line of code above.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">[</span><span class="s1">&#39;propertyName&#39;</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>In Javascript, any valid string can be used as a property name - even an empty string - however if a property name is not considered a valid identifier(such as a string that contains a space, hyphen, or begins with a number) it can only be accessed using bracket notation. Bracket notation is also useful for passing in dynamically generated property names and property names that are not determined until the program is run. Properties can also be referenced by using strings stored in variables:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;make&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chevy&quot;</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;model&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Impala&quot;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>When it comes to methods, calling them is similar to calling properties, except that methods contain a pair of parentheses at the end for accepting arguments(much like a function because it <em>is</em> a function). It looks like this:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">methodName</span><span class="p">(</span><span class="nx">argument</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>To pull it all together, here is what it looks like to create a new object with a method that accepts an argument and what happens when the method is called:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">dog</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ownerName</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="line">    <span class="k">return</span> <span class="s2">&quot;Woof! Good morning&quot;</span> <span class="o">+</span> <span class="nx">ownerName</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span><span class="p">(</span><span class="s2">&quot;Dave&quot;</span><span class="p">);</span>  <span class="c1">// prints &quot;Woof! Good morning Dave!&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="wrap-up">Wrap up</h3>
+<p>I highly recommend giving this <a href="http://eloquentjavascript.net/06_object.html">excellent article</a> a read if you want a more thorough(and entertaining!) history of objects. Also, I would be remiss if I didn’t remind you that I myself am still learning this stuff and while I do my best to pick up best practices and incorporate them into my thinking, this post will probably be revised as I better organize my understanding of objects. All that to say, read this with an open mind and a grain of salt ;-)</p>
+
+<h5 id="sources">Sources</h5>
+<ul>
+  <li>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects</li>
+  <li>https://en.wikipedia.org/wiki/Object-based_language</li>
+  <li>https://en.wikipedia.org/wiki/Object-oriented_programming</li>
+</ul>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jordan Jesse</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-05-12T10:10:43-05:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>12</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>10:10 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/javascript/'>javascript</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/04/24/bootstrap-vs-custom-css/" title="Previous Post: learning bootstrap vs vanilla CSS?">&laquo; learning bootstrap vs vanilla CSS?</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/05/12/javascript-objects/">Intro to Javascript Objects</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/04/24/bootstrap-vs-custom-css/">Learning Bootstrap vs Vanilla CSS?</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/03/16/fibonacci-sequence-in-ruby/">I Wrote My First Fibonacci Sequence in Ruby</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/02/23/rejection-letter/">What I Learned From My First Rejection Letter</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/02/22/hello-world/">Hello World!</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Jordan Jesse -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
