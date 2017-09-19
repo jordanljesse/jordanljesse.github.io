@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-06-07T20:38:07-05:00</updated>
+  <updated>2017-09-18T23:13:12-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,54 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Managing Multiple Ruby Versions]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
+    <updated>2017-09-18T23:20:20-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions</id>
+    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still need to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
+<!-- more --></p>
+
+<p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
+
+<ul>
+  <li>it’s <em>light</em> compared to RVM</li>
+  <li>I can set <em>application-specific Ruby versions</em></li>
+  <li><em>no configuration file!</em></li>
+  <li>easier to get set up and back to work</li>
+</ul>
+
+<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv you’ll want to have Homebrew installed and up to date. After making sure that Homebrew is up to date you’re ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew update
+</span><span class="line"><span class="nv">$ </span>brew install rbenv ruby-build
+</span></code></pre></td></tr></table></div></figure>
+
+<p>When the above completes, we’re ready to install our desired version(s) of Ruby by running:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install 2.4.2
+</span></code></pre></td></tr></table></div></figure>
+
+<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. You’ll want to run the <code>rehash</code> command each time you install a new version of Ruby or a gem that provides commands.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv rehash
+</span></code></pre></td></tr></table></div></figure>
+
+<p>After restarting our terminal we should be able to specify which version of Ruby we’d like to run in our project by <code>cd</code>-ing into the root folder of the project and running the following command:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv <span class="nb">local </span>2.4.2
+</span></code></pre></td></tr></table></div></figure>
+
+<p>You can verify the current active Ruby version by running either of the following commands:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv version
+</span></code></pre></td></tr></table></div></figure>
+
+<p>And that’s it! We’re now able to install and manage multiple versions of Ruby on a per-project basis with minimal fuss.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Intro to Javascript Objects]]></title>
@@ -161,25 +209,14 @@ Being a very visual person/learner, I found it helpful to write out the first fe
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[What I Learned From My First Rejection Letter]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/23/rejection-letter/"/>
-    <updated>2017-02-23T21:34:06-06:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/23/rejection-letter</id>
-    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. I applied to a paid internship at Launch Code in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future.<!-- more --> Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
-
-<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Hello World!]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/02/22/hello-world/"/>
-    <updated>2017-02-22T21:20:20-06:00</updated>
+    <updated>2017-02-22T22:20:20-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/22/hello-world</id>
-    <content type="html"><![CDATA[<p>Hi! My name’s Jordan and I’m a military veteran and polymath learning to code. I say polymath because I enjoy cultivating a variety of skills that are(mostly) complimentary to one another. I’ve been teaching myself how to code for a few months now, and recently I’ve realized that out of all my hobbies(design, music, photography, painting) I find solving problems with code to be the most satisfying and challenging.
+    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor.
 <!-- more --></p>
 
-<p>I want to start this blog because I spend a fair amount of time solving beginner problems related to web development and would like to document them with the hope that other developers starting out might find something useful and save themselves some time. Additionally, I want to be better about documenting my learning path so that in the future I can look back and really <em>see</em> that I’ve made some progress. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
