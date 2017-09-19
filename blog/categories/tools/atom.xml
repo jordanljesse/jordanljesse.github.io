@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: General | Jordan Learns Code]]></title>
-  <link href="http://jordanljesse.github.io/blog/categories/general/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Tools | Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
   <updated>2017-09-19T01:34:50-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
@@ -57,17 +57,6 @@ $ rbenv version
 </code></p>
 
 <p>And that’s it! We’re now able to install and manage multiple versions of Ruby on a per-project basis with minimal fuss.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World!]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/20/hello-world/"/>
-    <updated>2017-02-20T19:20:20-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor.</p>
-
-<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   

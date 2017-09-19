@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Css | Jordan Learns Code]]></title>
-  <link href="http://jordanljesse.github.io/blog/categories/css/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Front-end | Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/blog/categories/front-end/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
   <updated>2017-09-19T01:34:50-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
