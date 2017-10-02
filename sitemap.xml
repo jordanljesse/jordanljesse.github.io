@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://jordanljesse.github.io/blog/2017/10/01/managing-passwords/</loc>
+<lastmod>2017-10-01T21:40:17-05:00</lastmod>
+</url>
+<url>
+<loc>http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy/</loc>
+<lastmod>2017-09-30T22:18:25-05:00</lastmod>
+</url>
+<url>
 <loc>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/</loc>
 <lastmod>2017-09-18T23:20:20-05:00</lastmod>
 </url>
@@ -57,5 +65,8 @@
 </url>
 <url>
 <loc>http://jordanljesse.github.io/blog/categories/tools/</loc>
+</url>
+<url>
+<loc>http://jordanljesse.github.io/blog/categories/productivity/</loc>
 </url>
 </urlset>

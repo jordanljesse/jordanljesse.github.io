@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Backup Strategy - Jordan Learns Code</title>
+  <meta name="author" content="Jordan Jesse">
+
+  
+  <meta name="description" content="If you’re like me, then you probably store a lot of precious data on your digital devices: family photos, videos, music, fun projects, work projects &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Jordan Learns Code" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jordan Learns Code</a></h1>
+  
+    <h2>From military sergeant to software developer</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="jordanljesse.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Backup Strategy</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-09-30T22:18:25-05:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>10:18 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>If you’re like me, then you probably store a lot of precious data on your digital devices: family photos, videos, music, fun projects, work projects, notes, and the like. When(it’s <em>definitely</em> when, not if) we experience a device failure/loss, the last thing we want to worry about is whether the data we’ve accumuated over the years, our digital life, is safe or not. Here is the backup strategy I use to make sure that when a computer fails it’s a minor inconvenience instead of a major headache(or heartache).
+<!-- more --></p>
+
+<h3 id="the-3-2-1-rule">The 3-2-1 Rule</h3>
+<p>There is a rule for reliable digital backups called <a href="http://#"><em>The 3-2-1 Rule</em></a> and it goes like this: for our data to be properly backed up it needs to exist in <em>three</em> places, on <em>two</em> seperate mediums, and with at least <em>one</em> backup offsite. So if we have a copy of our data on our laptop, an external hard drive, and in the cloud we can be pretty confident that our data is safe. Let’s dig into the tools to get this done!</p>
+
+<h3 id="local-versioned-backups">Local Versioned Backups</h3>
+<p>The first, and perhaps easiest to implement, backup we should make is a local versioned backup of our data. The <em>“local”</em> in local versioned backup means that the data exists locally, physically near us, and not offsite on some remote server or cloud service(Dropbox, iCloud, etc.). The <em>“versioned”</em> part means that our data is backed up incrementally and different versions of our data are maintained. A good use case for this would be if we have a project we’re working on and the files get corrupted, or we make a change that we’re not happy with and want to restore the project to an earlier version. With local versioned backups, we can do this!</p>
+
+<p>One of the easiest ways to maintain local versioned backups of our data on a Mac is to use Apple’s own <a href="http://#">Time Machine</a> software, which is included with every Mac. We open up <code>System Preferences</code>, select <code>Time Machine</code>, check the box labeled <code>Back Up Automatically</code>, and click on <code>Select Disk</code> to choose which disk we would like to use with Time Machine. It’s important to note that the disk we choose should <em>NOT</em> be our Mac’s startup disk - it should be a seperate disk. This is so that if our Mac were to fail or get lost our local versioned backup would remain intact, keeping our data safe. It’s worth mentioning that Time Machine only backs up our <em>data</em>(photos, videos, music, notes, etc.), <em>not</em> our applications or settings, which is where our second backup comes in.</p>
+
+<h3 id="local-bootable-backups">Local Bootable Backups</h3>
+<p>A local bootable backup is like the previous backup, except with two major differences: it backs up our <em>entire</em> hard drive including data, apps, and settings, and we can use it to boot up our computer. The <em>“bootable”</em> in local bootable backup means that we can take the drive that contains our backup, plug it into another computer, and boot from it. It is a clone of our system in its entirety. One of the shortcomings of this type of backup is that if we make a change to a project that we don’t like or a file gets messed up, those changes will get backed up to the local bootable backup as well. That is exactly why we keep a versioned backup <em>in addition to</em> a bootable backup.</p>
+
+<p>For a bootable backup I use and highly recommend the application <a href="http://#"><em>Carbon Copy Cloner</em></a> by Bombich Software. After installing Carbon Copy Cloner, we select which disk we would like the application to use as a backup(again, one that is <em>seperate</em> from our startup disk), the schedule for our backup(I recommend daily), and click on the <code>clone</code> button.</p>
+
+<h3 id="offsite-backups">Offsite Backups</h3>
+<p>An offsite backup of our data is data that is literally <em>offsite</em> - it is located far away from our devices and backup drives. This is typically used as a worst case scenario backup, like if our house were subject to flood, fire, or theft. It would be nice to know that if we were unfortunate enough to lose everything that all of our data would be safe somewhere, and with an offsite backup this is possible.</p>
+
+<p>For most poeple, one of the easiest ways to maintain an offsite backup is to use a service who’s mission is to keep our data backed up safely. Services like <a href="http://#">Backblaze</a> can back up our entire computer to their servers(the cloud) and restore those files at our request.</p>
+
+<p>For the more technically inclined, I use and recommend <a href="http://#">Arq</a> configured to back up our data to AWS Glacier servers, which have relatively low storage fees. Arq is essentially Time Machine for the cloud - it creates versioned backups of our data stored on Amazon’s servers. As long as we have an internet connection our files are constantly being backed up to the cloud. However, unlike local backups, we will need to be connected to the internet to restore our files.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jordan Jesse</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-09-30T22:18:25-05:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>10:18 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/general/'>general</a>, <a class='category' href='/blog/categories/productivity/'>productivity</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/09/18/managing-multiple-ruby-versions/" title="Previous Post: Managing multiple Ruby versions">&laquo; Managing multiple Ruby versions</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2017/10/01/managing-passwords/" title="Next Post: Managing Passwords In 2017">Managing Passwords In 2017 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/10/01/managing-passwords/">Managing Passwords in 2017</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/30/mac-backup-strategy/">Backup Strategy</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/09/18/managing-multiple-ruby-versions/">Managing Multiple Ruby Versions</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/05/12/javascript-objects/">Intro to Javascript Objects</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/04/24/bootstrap-vs-custom-css/">Learning Bootstrap vs Vanilla CSS</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/jordanljesse">@jordanljesse</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'jordanljesse',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Jordan Jesse -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
