@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Backup Strategy"
+title: "Mac Backup Strategy"
 date: 2017-09-30 22:18:25 -0500
 comments: true
 categories: general productivity
