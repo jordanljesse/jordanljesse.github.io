@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Productivity | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/productivity/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-02T11:40:04-07:00</updated>
+  <updated>2017-10-02T22:09:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,20 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Managing Passwords in 2017]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/01/managing-passwords/"/>
-    <updated>2017-10-01T21:40:17-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/01/managing-passwords</id>
-    <content type="html"><![CDATA[<p>The amount of logins and passwords we have to remember to live our digital lives seems to be growing every year. Using the same password for every site puts us and our data at risk and remembering unique passwords for every site is a lot of cognitive overhead for us ordinary folk. So how do we stay sane <em>and</em> maintain robust, unique, and memorable passwords moving forward? <em>Password Managers</em>.
-<!-- more --></p>
-
-<h3 id="password-managers">Password Managers</h3>
-<p>Use 1Password. LastPass and KeePass are also options.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Backup Strategy]]></title>
+    <title type="html"><![CDATA[Mac Backup Strategy]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy/"/>
     <updated>2017-09-30T22:18:25-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy</id>

@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-02T11:40:04-07:00</updated>
+  <updated>2017-10-02T22:09:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,20 +14,17 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Managing Passwords in 2017]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/01/managing-passwords/"/>
-    <updated>2017-10-01T21:40:17-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/01/managing-passwords</id>
-    <content type="html"><![CDATA[<p>The amount of logins and passwords we have to remember to live our digital lives seems to be growing every year. Using the same password for every site puts us and our data at risk and remembering unique passwords for every site is a lot of cognitive overhead for us ordinary folk. So how do we stay sane <em>and</em> maintain robust, unique, and memorable passwords moving forward? <em>Password Managers</em>.
-<!-- more --></p>
+    <title type="html"><![CDATA[Day 1 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in/"/>
+    <updated>2017-10-02T22:07:12-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in</id>
+    <content type="html"><![CDATA[<p>Today I started code bootcamp at Sabio and I was surprised at how much <em>fun</em> I had. My class received a crash course in the new learning management systems and a rundown of what was expected of us before we learned about the project we’ll be building for the next few weeks. My cohort will be building an app to help students record and organize notes, media, and other resources from class - pretty cool right? Our new instructor is pretty cool too - he explains things in a way that never makes you feel small. I enjoyed having new and interesting problems to solve, and at one point found myself thinking that there couldn’t be much out there that would be better than getting paid to learn about new technology and solve real world problems with it.</p>
 
-<h3 id="password-managers">Password Managers</h3>
-<p>Use 1Password. LastPass and KeePass are also options.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Backup Strategy]]></title>
+    <title type="html"><![CDATA[Mac Backup Strategy]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy/"/>
     <updated>2017-09-30T22:18:25-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy</id>
@@ -187,7 +184,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[My First Fibonacci Sequence in Ruby]]></title>
+    <title type="html"><![CDATA[Fibonacci Sequence in Ruby]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby/"/>
     <updated>2017-03-15T22:38:32-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby</id>

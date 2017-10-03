@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-02T11:40:04-07:00</updated>
+  <updated>2017-10-02T22:09:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -61,7 +61,7 @@ $ rbenv version
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[My First Fibonacci Sequence in Ruby]]></title>
+    <title type="html"><![CDATA[Fibonacci Sequence in Ruby]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby/"/>
     <updated>2017-03-15T22:38:32-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby</id>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: School | Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
+  <link href="http://jordanljesse.github.io/"/>
+  <updated>2017-10-02T22:09:46-07:00</updated>
+  <id>http://jordanljesse.github.io/</id>
+  <author>
+    <name><![CDATA[Jordan Jesse]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Day 1 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in/"/>
+    <updated>2017-10-02T22:07:12-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in</id>
+    <content type="html"><![CDATA[<p>Today I started code bootcamp at Sabio and I was surprised at how much <em>fun</em> I had. My class received a crash course in the new learning management systems and a rundown of what was expected of us before we learned about the project we’ll be building for the next few weeks. My cohort will be building an app to help students record and organize notes, media, and other resources from class - pretty cool right? Our new instructor is pretty cool too - he explains things in a way that never makes you feel small. I enjoyed having new and interesting problems to solve, and at one point found myself thinking that there couldn’t be much out there that would be better than getting paid to learn about new technology and solve real world problems with it.</p>
+
+]]></content>
+  </entry>
+  
+</feed>
