@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-06T15:16:22-07:00</updated>
+  <updated>2017-10-06T15:18:20-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,6 +14,15 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 5 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/06/day-five-check-in/"/>
+    <updated>2017-10-06T20:53:42-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/06/day-five-check-in</id>
+    <content type="html"><![CDATA[<p>It’s Friday! Woohoo! Sabio hosted a meet ‘n greet lunch this afternoon for all of the cohorts to meet each other and it was great to hear everybody’s stories and put faces with the names we’ve been hearing about. My class has spent the day learning Angular and getting ready to rewrite the app we wrote with jQuery.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 4 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/05/day-four-check-in/"/>
     <updated>2017-10-05T21:55:22-05:00</updated>
@@ -21,15 +30,6 @@
     <content type="html"><![CDATA[<p>This morning we had our first standup meeting as we’ll be working in a Agile/Scrum workflow for the duration of bootcamp. We learned about object references in JavaScript and the jQuery.data function. We received an introduction to Angular and it seems we’ll be using that to build our apps moving forward. I’m excited to start digging into Angular tomorrow.
 <!--more-->
 On a more personal note, I’ve been struggling to get my routines back online with the intense new schedule; 9am to at least 7pm Monday through Saturday. I haven’t done my yoga, meditation, or workouts yet this week and it’s starting to affect my productivity and focus. I think I need to prioritize my routines a little more if I’m going to maximize my experience here at Sabio.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 4 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/05/day-five-check-in/"/>
-    <updated>2017-10-05T21:55:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/05/day-five-check-in</id>
-    <content type="html"><![CDATA[<p>It’s Friday! Woohoo! Sabio hosted a meet ‘n greet lunch this afternoon for all of the cohorts to meet each other and it was great to hear everybody’s stories and put faces with the names we’ve been hearing about. My class has spent the day learning Angular and getting ready to rewrite the app we wrote with jQuery.</p>
 ]]></content>
   </entry>
   
