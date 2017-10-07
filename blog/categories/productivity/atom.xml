@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Productivity | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/productivity/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-07T09:56:39-07:00</updated>
+  <updated>2017-10-07T10:00:16-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -37,9 +37,9 @@
 <h3 id="offsite-backups">Offsite Backups</h3>
 <p>An offsite backup of our data is data that is literally <em>offsite</em> - it is located far away from our devices and backup drives. This is typically used as a worst case scenario backup, like if our house were subject to flood, fire, or theft. It would be nice to know that if we were unfortunate enough to lose everything that all of our data would be safe somewhere, and with an offsite backup this is possible.</p>
 
-<p>For most poeple, one of the easiest ways to maintain an offsite backup is to use a service who’s mission is to keep our data backed up safely. Services like <a href="https://www.backblaze.com">Backblaze</a> can back up our entire computer to their servers(the cloud) and restore those files at our request.</p>
+<p>For most people, one of the easiest ways to maintain an offsite backup is to use a service who’s mission is to keep our data backed up safely. Services like <a href="https://www.backblaze.com">Backblaze</a> can back up our entire computer to their servers(the cloud) and restore those files at our request.</p>
 
-<p>For the more technically inclined, I use and recommend <a href="https://www.arqbackup.com">Arq</a> configured to back up our data to AWS Glacier servers, which have relatively low storage fees. Arq is essentially Time Machine for the cloud - it creates versioned backups of our data stored on Amazon’s servers. As long as we have an internet connection our files are constantly being backed up to the cloud. However, unlike local backups, we will need to be connected to the internet to restore our files.</p>
+<p>For the more technically inclined, I use and recommend <a href="https://www.arqbackup.com">Arq</a> configured to back up our data to AWS Glacier servers, which have relatively low storage fees. Arq is essentially Time Machine for the cloud - it creates versioned backups of our data stored on a server of our choosing. As long as we have an internet connection our files are constantly being backed up to the cloud. However, unlike local backups, we will need to be connected to the internet to restore our files.</p>
 ]]></content>
   </entry>
   
