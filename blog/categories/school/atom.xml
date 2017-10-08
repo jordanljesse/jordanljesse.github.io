@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-07T10:00:16-07:00</updated>
+  <updated>2017-10-07T22:12:52-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 6 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in/"/>
+    <updated>2017-10-07T21:57:37-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in</id>
+    <content type="html"><![CDATA[<p>The Sabio bootcamp schedule includes Saturdays, so after peeling myself out of bed this morning I braced myself for 90 minutes of traffic on the 405 only to find that there was hardly any traffic at all, and before I knew it I had made the journey from the valley to Culver City in less than 30 minutes; it was an LA miracle!<!--more--></p>
+
+<p>My class has started learning Angular and we have begun replacing all of the jQuery we used to solve our assignments with AnglarJs and it’s been fun but challenging. I ran into an issue today where I couldn’t get Angular to parse even the simplest of code(something like <code></code>) and suspect that I’m having some sort of issue with project dependancies, I just can’t figure it out. I”ve tried linking to a local file, loading Angular from a CDN, and double checking my file paths to make sure they’re accurate along with my code. I need to sleep on the problem and tackle ig with fresh eyes.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 5 Check In]]></title>
@@ -49,16 +60,6 @@
     <updated>2017-10-03T21:26:34-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/03/day-two-check-in</id>
     <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 1 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in/"/>
-    <updated>2017-10-02T22:07:12-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in</id>
-    <content type="html"><![CDATA[<p>Today was the first day of “code bootcamp” at Sabio and it was similar to the first day of class at most colleges - review the code of conduct, overview of the syllabus, and some warmup assignments to assess where each of us are skillwise. The instructor explains things in a way that never makes you feel small and the classroom feels open and airy with one glass wall.</p>
-
 ]]></content>
   </entry>
   
