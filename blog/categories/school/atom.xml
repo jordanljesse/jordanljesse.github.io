@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-07T22:12:52-07:00</updated>
+  <updated>2017-10-09T21:30:00-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 7 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/09/day-seven-check-in/"/>
+    <updated>2017-10-09T20:32:22-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/09/day-seven-check-in</id>
+    <content type="html"><![CDATA[<p>Week two begins! I’m finally getting my routines back online and feeling like this might be sustainable. Today we covered promises in Angular, form validation, and the concept of scope. Angular is starting to sink in and feeling like something I can write and make good use of; the more it sinks in the more stoked I am on what it can do.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 6 Check In]]></title>
@@ -51,15 +60,6 @@
     <updated>2017-10-04T23:12:48-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/04/day-three-check-in</id>
     <content type="html"><![CDATA[<p>We got a crash course in Git today and have been consuming API’s for most of this week’s warmup. Time management has been challenging - I’m still adjusting to the new schedule and trying to figure out where workouts fit in with code bootcamp + sleep. Nevertheless, I’m enjoying the grind.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 2 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/03/day-two-check-in/"/>
-    <updated>2017-10-03T21:26:34-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/03/day-two-check-in</id>
-    <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.</p>
 ]]></content>
   </entry>
   
