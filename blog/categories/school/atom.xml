@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-09T21:30:00-07:00</updated>
+  <updated>2017-10-11T23:02:38-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 9 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in/"/>
+    <updated>2017-10-12T00:42:36-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in</id>
+    <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 8 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in/"/>
+    <updated>2017-10-10T22:45:22-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in</id>
+    <content type="html"><![CDATA[<p>We learned more about AnguarJS today including UI-Router, how to make route tables, and how to build a single page application. Angular is feeling more comfortable each day and I’m loving that I’m able to take a deep dive into the parts that interest me like prototypal inheritance and promises.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 7 Check In]]></title>
@@ -39,27 +57,6 @@
     <updated>2017-10-06T20:53:42-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/06/day-five-check-in</id>
     <content type="html"><![CDATA[<p>It’s Friday! Woohoo! Sabio hosted a meet ‘n greet lunch this afternoon for all of the cohorts to meet each other and it was great to hear everybody’s stories and put faces with the names we’ve been hearing about. My class has spent the day learning Angular and getting ready to rewrite the app we wrote with jQuery.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 4 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/05/day-four-check-in/"/>
-    <updated>2017-10-05T21:55:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/05/day-four-check-in</id>
-    <content type="html"><![CDATA[<p>This morning we had our first standup meeting as we’ll be working in a Agile/Scrum workflow for the duration of bootcamp. We learned about object references in JavaScript and the jQuery.data function. We received an introduction to Angular and it seems we’ll be using that to build our apps moving forward. I’m excited to start digging into Angular tomorrow.
-<!--more--></p>
-
-<p>On a more personal note, I’ve been struggling to get my routines back online with the intense new schedule; 9am to at least 7pm Monday through Saturday. I haven’t done my yoga, meditation, or workouts yet this week and it’s starting to affect my productivity and focus. I think I need to prioritize my routines a little more if I’m going to maximize my experience here at Sabio.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 3 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/04/day-three-check-in/"/>
-    <updated>2017-10-04T23:12:48-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/04/day-three-check-in</id>
-    <content type="html"><![CDATA[<p>We got a crash course in Git today and have been consuming API’s for most of this week’s warmup. Time management has been challenging - I’m still adjusting to the new schedule and trying to figure out where workouts fit in with code bootcamp + sleep. Nevertheless, I’m enjoying the grind.</p>
 ]]></content>
   </entry>
   

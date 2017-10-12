@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-09T21:30:00-07:00</updated>
+  <updated>2017-10-11T23:02:38-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 9 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in/"/>
+    <updated>2017-10-12T00:42:36-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in</id>
+    <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 8 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in/"/>
+    <updated>2017-10-10T22:45:22-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in</id>
+    <content type="html"><![CDATA[<p>We learned more about AnguarJS today including UI-Router, how to make route tables, and how to build a single page application. Angular is feeling more comfortable each day and I’m loving that I’m able to take a deep dive into the parts that interest me like prototypal inheritance and promises.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 7 Check In]]></title>
