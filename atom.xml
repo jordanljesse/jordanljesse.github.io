@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-13T23:58:05-07:00</updated>
+  <updated>2017-10-13T23:59:57-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -15,27 +15,27 @@
   
   <entry>
     <title type="html"><![CDATA[Day 11 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-eleven-check-in/"/>
     <updated>2017-10-13T23:46:16-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/13/day-eleven-check-in</id>
     <content type="html"><![CDATA[<p>We’re wrapping up our crash course in AngularJS and getting ready to start working on our project on Monday. We got an overview of how the full stack fits together including the front end, middle tier, and back end. Our instructor live coded a simple full stack application from scratch in under 30 minutes! Tomorrow will be the last day we spend on Angular warmups, Sunday is for life maintenance, and come Monday we will start building features for our class project.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 10 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-ten-check-in/"/>
     <updated>2017-10-12T23:19:41-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/12/day-ten-check-in</id>
     <content type="html"><![CDATA[<p>I spent the majority of today learning how to build more flexible views/states in AngularJS with $ctrl and $stateParams - I was surprised by how easy URL based routing could be implemented with Angular. I feel like using jQuery it required a dozen lines of code but with Angular it’s only two. I learned how to write a service that communicates data between two controllers today, which was fun to read up on, and that estimating the amount of time it takes to complete a feature is a challenge.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 9 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in/"/>
-    <updated>2017-10-12T00:42:36-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/12/day-nine-check-in</id>
+    <link href="http://jordanljesse.github.io/blog/2017/10/11/day-nine-check-in/"/>
+    <updated>2017-10-11T23:42:36-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/11/day-nine-check-in</id>
     <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
 ]]></content>
   </entry>
