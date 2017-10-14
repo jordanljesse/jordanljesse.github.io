@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-12T22:03:57-07:00</updated>
+  <updated>2017-10-13T23:58:05-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 11 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in/"/>
+    <updated>2017-10-13T23:46:16-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in</id>
+    <content type="html"><![CDATA[<p>We’re wrapping up our crash course in AngularJS and getting ready to start working on our project on Monday. We got an overview of how the full stack fits together including the front end, middle tier, and back end. Our instructor live coded a simple full stack application from scratch in under 30 minutes! Tomorrow will be the last day we spend on Angular warmups, Sunday is for life maintenance, and come Monday we will start building features for our class project.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 10 Check In]]></title>

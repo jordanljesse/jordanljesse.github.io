@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-12T22:03:57-07:00</updated>
+  <updated>2017-10-13T23:58:05-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 11 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in/"/>
+    <updated>2017-10-13T23:46:16-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in</id>
+    <content type="html"><![CDATA[<p>We’re wrapping up our crash course in AngularJS and getting ready to start working on our project on Monday. We got an overview of how the full stack fits together including the front end, middle tier, and back end. Our instructor live coded a simple full stack application from scratch in under 30 minutes! Tomorrow will be the last day we spend on Angular warmups, Sunday is for life maintenance, and come Monday we will start building features for our class project.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 10 Check In]]></title>
@@ -46,17 +55,6 @@
     <updated>2017-10-09T20:32:22-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/09/day-seven-check-in</id>
     <content type="html"><![CDATA[<p>Week two begins! I’m finally getting my routines back online and feeling like this might be sustainable. Today we covered promises in Angular, form validation, and the concept of scope. Angular is starting to sink in and feeling like something I can write and make good use of; the more it sinks in the more stoked I am on what it can do.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 6 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in/"/>
-    <updated>2017-10-07T21:57:37-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in</id>
-    <content type="html"><![CDATA[<p>The Sabio bootcamp schedule includes Saturdays, so after peeling myself out of bed this morning I braced myself for 90 minutes of traffic on the 405 only to find that there was hardly any traffic at all, and before I knew it I had made the journey from the valley to Culver City in less than 30 minutes; it was an LA miracle!<!--more--></p>
-
-<p>My class has started learning Angular and we have begun replacing all of the jQuery we used to solve our assignments with AnglarJs and it’s been fun but challenging. I ran into an issue today where I couldn’t get Angular to parse even the simplest of code(something like <code></code>) and suspect that I’m having some sort of issue with project dependancies, I just can’t figure it out. I”ve tried linking to a local file, loading Angular from a CDN, and double checking my file paths to make sure they’re accurate along with my code. I need to sleep on the problem and tackle ig with fresh eyes.</p>
 ]]></content>
   </entry>
   
