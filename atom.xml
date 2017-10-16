@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-14T20:51:15-07:00</updated>
+  <updated>2017-10-16T13:04:52-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,64 +14,73 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 14 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in/"/>
+    <updated>2017-10-16T21:45:15-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in</id>
+    <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 12 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/14/day-twelve-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/14/day-12-check-in/"/>
     <updated>2017-10-14T21:42:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/14/day-twelve-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/14/day-12-check-in</id>
     <content type="html"><![CDATA[<p>No Los Angeles traffic on Saturdays! That means I was able to get an early start on coding and complete another card today! I spent most of my day sorting and filtering data; it’s amazing to me how relatively easy it is to implement some of these features with AngularJS compared to jQuery.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 11 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-eleven-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in/"/>
     <updated>2017-10-13T23:46:16-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/13/day-eleven-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/13/day-11-check-in</id>
     <content type="html"><![CDATA[<p>We’re wrapping up our crash course in AngularJS and getting ready to start working on our project on Monday. We got an overview of how the full stack fits together including the front end, middle tier, and back end. Our instructor live coded a simple full stack application from scratch in under 30 minutes! Tomorrow will be the last day we spend on Angular warmups, Sunday is for life maintenance, and come Monday we will start building features for our class project.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 10 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-ten-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in/"/>
     <updated>2017-10-12T23:19:41-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/12/day-ten-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in</id>
     <content type="html"><![CDATA[<p>I spent the majority of today learning how to build more flexible views/states in AngularJS with $ctrl and $stateParams - I was surprised by how easy URL based routing could be implemented with Angular. I feel like using jQuery it required a dozen lines of code but with Angular it’s only two. I learned how to write a service that communicates data between two controllers today, which was fun to read up on, and that estimating the amount of time it takes to complete a feature is a challenge.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 9 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/11/day-nine-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in/"/>
     <updated>2017-10-11T23:42:36-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/11/day-nine-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in</id>
     <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 8 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/10/day-8-check-in/"/>
     <updated>2017-10-10T22:45:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/10/day-eight-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/10/day-8-check-in</id>
     <content type="html"><![CDATA[<p>We learned more about AnguarJS today including UI-Router, how to make route tables, and how to build a single page application. Angular is feeling more comfortable each day and I’m loving that I’m able to take a deep dive into the parts that interest me like prototypal inheritance and promises.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 7 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/09/day-seven-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/09/day-7-check-in/"/>
     <updated>2017-10-09T20:32:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/09/day-seven-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/09/day-7-check-in</id>
     <content type="html"><![CDATA[<p>Week two begins! I’m finally getting my routines back online and feeling like this might be sustainable. Today we covered promises in Angular, form validation, and the concept of scope. Angular is starting to sink in and feeling like something I can write and make good use of; the more it sinks in the more stoked I am on what it can do.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 6 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/07/day-6-check-in/"/>
     <updated>2017-10-07T21:57:37-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/07/day-six-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/07/day-6-check-in</id>
     <content type="html"><![CDATA[<p>The Sabio bootcamp schedule includes Saturdays, so after peeling myself out of bed this morning I braced myself for 90 minutes of traffic on the 405 only to find that there was hardly any traffic at all, and before I knew it I had made the journey from the valley to Culver City in less than 30 minutes; it was an LA miracle!<!--more--></p>
 
 <p>My class has started learning Angular and we have begun replacing all of the jQuery we used to solve our assignments with AnglarJs and it’s been fun but challenging. I ran into an issue today where I couldn’t get Angular to parse even the simplest of code(something like ``) and suspect that I’m having some sort of issue with project dependancies, I just can’t figure it out. I”ve tried linking to a local file, loading Angular from a CDN, and double checking my file paths to make sure they’re accurate along with my code. I need to sleep on the problem and tackle ig with fresh eyes.</p>
@@ -80,18 +89,18 @@
   
   <entry>
     <title type="html"><![CDATA[Day 5 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/06/day-five-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/06/day-5-check-in/"/>
     <updated>2017-10-06T20:53:42-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/06/day-five-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/06/day-5-check-in</id>
     <content type="html"><![CDATA[<p>It’s Friday! Woohoo! Sabio hosted a meet ‘n greet lunch this afternoon for all of the cohorts to meet each other and it was great to hear everybody’s stories and put faces with the names we’ve been hearing about. My class has spent the day learning Angular and getting ready to rewrite the app we wrote with jQuery.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 4 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/05/day-four-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/05/day-4-check-in/"/>
     <updated>2017-10-05T21:55:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/05/day-four-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/05/day-4-check-in</id>
     <content type="html"><![CDATA[<p>This morning we had our first standup meeting as we’ll be working in a Agile/Scrum workflow for the duration of bootcamp. We learned about object references in JavaScript and the jQuery.data function. We received an introduction to Angular and it seems we’ll be using that to build our apps moving forward. I’m excited to start digging into Angular tomorrow.
 <!--more--></p>
 
@@ -101,27 +110,27 @@
   
   <entry>
     <title type="html"><![CDATA[Day 3 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/04/day-three-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/04/day-3-check-in/"/>
     <updated>2017-10-04T23:12:48-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/04/day-three-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/04/day-3-check-in</id>
     <content type="html"><![CDATA[<p>We got a crash course in Git today and have been consuming API’s for most of this week’s warmup. Time management has been challenging - I’m still adjusting to the new schedule and trying to figure out where workouts fit in with code bootcamp + sleep. Nevertheless, I’m enjoying the grind.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 2 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/03/day-two-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in/"/>
     <updated>2017-10-03T21:26:34-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/03/day-two-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in</id>
     <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 1 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in/"/>
+    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in/"/>
     <updated>2017-10-02T22:07:12-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/02/day-one-check-in</id>
+    <id>http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in</id>
     <content type="html"><![CDATA[<p>Today was the first day of “code bootcamp” at Sabio and it was similar to the first day of class at most colleges - review the code of conduct, overview of the syllabus, and some warmup assignments to assess where each of us are skillwise. The instructor explains things in a way that never makes you feel small and the classroom feels open and airy with one glass wall.</p>
 
 ]]></content>
@@ -370,17 +379,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
     <content type="html"><![CDATA[<p>I made my first open source contribution today, and it felt triumphant! The challenges! The errors! The long nights searching the internet by candlelight!(Okay maybe not that last part.)<!--more--> Feeling like you’re contributing to something bigger than yourself.  To be clear, I only replaced an outdated link with a more current one, but that doesn’t mean that the first step of a long journey is less exciting.</p>
 
 <p>Since deciding that I would learn how to code, I’ve always been enamored with open source software, or more specifically <em>free</em> open source software(there’s a difference – ask <a href="https://stallman.org">Richard Stallman</a>). So when I learned that Operation Code was a FOSS program designed by veterans to help fellow veterans I knew I had to be a part of it. I think that the majority of veterans miss being part of a team working towards a common goal; I know I do. Being able to spend time working on a project like Operation Code makes me feel like I’m able to give back, even if it’s in a small way.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World!]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/20/hello-world/"/>
-    <updated>2017-02-20T19:20:20-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor - and eventually get paid to learn!</p>
-
-<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
