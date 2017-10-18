@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-16T13:10:15-07:00</updated>
+  <updated>2017-10-17T22:28:50-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 14 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in/"/>
+    <updated>2017-10-17T21:45:15-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in</id>
+    <content type="html"><![CDATA[<p>I spent most of today feeling overwhelmed and trying to keep my head up and press forward despite the feeling. We started building our individual components today, from the database, through the middle tier, and to the front end(using SQL, .NET, and AngularJS respectively). I struggled most of the day to understand how all of the pieces communicate with each other, however by the end of the day I felt like I had a grasp on the flow of data. I was able to write a console application that allowed me to test the API I had written in C# along with the SQL procedures. The pace is definitely moving fast at Sabio however I feel like I’m learning some non-trivial new things every single day here. I’m looking forward to going in tomorrow and building out the front end of this component with AngularJS, and then watching the data go from the client, to the Angular controller, to the Angular service, to the Api Controller, to the Api Service, to the SQL database, and back again. The internet is a series of pipes indeed!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 13 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in/"/>
     <updated>2017-10-16T21:45:15-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in</id>
-    <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building.</p>
+    <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building. Tonight we’ll start working on our respective components, building them out from the database to the view in the browser - full stack.</p>
 ]]></content>
   </entry>
   
@@ -46,15 +55,6 @@
     <updated>2017-10-12T23:19:41-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in</id>
     <content type="html"><![CDATA[<p>I spent the majority of today learning how to build more flexible views/states in AngularJS with $ctrl and $stateParams - I was surprised by how easy URL based routing could be implemented with Angular. I feel like using jQuery it required a dozen lines of code but with Angular it’s only two. I learned how to write a service that communicates data between two controllers today, which was fun to read up on, and that estimating the amount of time it takes to complete a feature is a challenge.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 9 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in/"/>
-    <updated>2017-10-11T23:42:36-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in</id>
-    <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
 ]]></content>
   </entry>
   

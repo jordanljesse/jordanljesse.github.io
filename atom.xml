@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-16T13:10:15-07:00</updated>
+  <updated>2017-10-17T22:28:50-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 14 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in/"/>
+    <updated>2017-10-17T21:45:15-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in</id>
+    <content type="html"><![CDATA[<p>I spent most of today feeling overwhelmed and trying to keep my head up and press forward despite the feeling. We started building our individual components today, from the database, through the middle tier, and to the front end(using SQL, .NET, and AngularJS respectively). I struggled most of the day to understand how all of the pieces communicate with each other, however by the end of the day I felt like I had a grasp on the flow of data. I was able to write a console application that allowed me to test the API I had written in C# along with the SQL procedures. The pace is definitely moving fast at Sabio however I feel like I’m learning some non-trivial new things every single day here. I’m looking forward to going in tomorrow and building out the front end of this component with AngularJS, and then watching the data go from the client, to the Angular controller, to the Angular service, to the Api Controller, to the Api Service, to the SQL database, and back again. The internet is a series of pipes indeed!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 13 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in/"/>
     <updated>2017-10-16T21:45:15-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in</id>
-    <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building.</p>
+    <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building. Tonight we’ll start working on our respective components, building them out from the database to the view in the browser - full stack.</p>
 ]]></content>
   </entry>
   
@@ -122,7 +131,8 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in/"/>
     <updated>2017-10-03T21:26:34-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in</id>
-    <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.</p>
+    <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.<!--more--></p>
+
 ]]></content>
   </entry>
   
@@ -131,7 +141,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in/"/>
     <updated>2017-10-02T22:07:12-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in</id>
-    <content type="html"><![CDATA[<p>Today was the first day of “code bootcamp” at Sabio and it was similar to the first day of class at most colleges - review the code of conduct, overview of the syllabus, and some warmup assignments to assess where each of us are skillwise. The instructor explains things in a way that never makes you feel small and the classroom feels open and airy with one glass wall.</p>
+    <content type="html"><![CDATA[<p>Today was the first day of “code bootcamp” at Sabio and it was similar to the first day of class at most colleges - review the code of conduct, overview of the syllabus, and some warmup assignments to assess where each of us are skillwise. The instructor explains things in a way that never makes you feel small and the classroom feels open and airy with one wall that’s entirely glass and looks out into the courtyard full of redwoods.</p>
 
 ]]></content>
   </entry>
@@ -368,17 +378,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
     <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. <!-- more -->I applied to a paid internship at a company in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future. Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
 
 <p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Open Source Pull Request!]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/22/first-pull-request/"/>
-    <updated>2017-02-22T23:40:23-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/22/first-pull-request</id>
-    <content type="html"><![CDATA[<p>I made my first open source contribution today, and it felt triumphant! The challenges! The errors! The long nights searching the internet by candlelight!(Okay maybe not that last part.)<!--more--> Feeling like you’re contributing to something bigger than yourself.  To be clear, I only replaced an outdated link with a more current one, but that doesn’t mean that the first step of a long journey is less exciting.</p>
-
-<p>Since deciding that I would learn how to code, I’ve always been enamored with open source software, or more specifically <em>free</em> open source software(there’s a difference – ask <a href="https://stallman.org">Richard Stallman</a>). So when I learned that Operation Code was a FOSS program designed by veterans to help fellow veterans I knew I had to be a part of it. I think that the majority of veterans miss being part of a team working towards a common goal; I know I do. Being able to spend time working on a project like Operation Code makes me feel like I’m able to give back, even if it’s in a small way.</p>
 ]]></content>
   </entry>
   
