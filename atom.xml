@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-17T22:30:29-07:00</updated>
+  <updated>2017-10-17T22:31:22-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Day 14 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in/"/>
-    <updated>2017-10-17T21:45:15-05:00</updated>
+    <updated>2017-10-17T23:21:48-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in</id>
     <content type="html"><![CDATA[<p>I spent most of today feeling overwhelmed and trying to keep my head up and press forward despite the feeling. We started building our individual components today, from the database, through the middle tier, and to the front end(using SQL, .NET, and AngularJS respectively). I struggled most of the day to understand how all of the pieces communicate with each other, however by the end of the day I felt like I had a grasp on the flow of data.<!--more--></p>
 

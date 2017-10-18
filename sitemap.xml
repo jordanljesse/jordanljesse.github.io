@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in/</loc>
-<lastmod>2017-10-17T21:45:15-05:00</lastmod>
+<lastmod>2017-10-17T23:21:48-05:00</lastmod>
 </url>
 <url>
 <loc>http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in/</loc>
@@ -123,11 +123,5 @@
 </url>
 <url>
 <loc>http://jordanljesse.github.io/blog/categories/school/</loc>
-</url>
-<url>
-<loc>http://jordanljesse.github.io/posts/2/</loc>
-</url>
-<url>
-<loc>http://jordanljesse.github.io/posts/3/</loc>
 </url>
 </urlset>
