@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-17T22:31:22-07:00</updated>
+  <updated>2017-10-19T09:21:41-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 15 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in/"/>
+    <updated>2017-10-18T23:18:23-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in</id>
+    <content type="html"><![CDATA[<p>I finished up my full stack component last night and spent today giving it some styling and then integrating it into the main project. I learned some fancy git commands like <code>git log --all --graph --pretty=oneline</code> and how do deal with merge conflicts(edit by hand with attention to detail). Reading and writing code is feeling more natural with each day. I finally installed the Vim plugin in Visual Studio so that I can start moving around my code more nimbly! I find myself marveling at how clever Vim is ever time I use it - my goal is to be a Vim wizard by the end of this year.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 14 Check In]]></title>
@@ -369,17 +378,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
 </span><span class="line">
 </span><span class="line"><span class="n">fibonacciNumber</span> <span class="o">=</span> <span class="no">Fibonacci</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
 </span></code></pre></td></tr></table></div></figure>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[On Failure and Moving Forward]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/23/fail-forward/"/>
-    <updated>2017-02-23T22:34:06-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/23/fail-forward</id>
-    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. <!-- more -->I applied to a paid internship at a company in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future. Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
-
-<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
 ]]></content>
   </entry>
   
