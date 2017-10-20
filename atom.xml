@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-19T09:21:41-07:00</updated>
+  <updated>2017-10-19T21:30:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 16 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in/"/>
+    <updated>2017-10-19T23:23:45-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in</id>
+    <content type="html"><![CDATA[<p>So I thought I finished my full stack component yesterday, however I added some validation to the API I wrote with C#… and it broke. As a result, today I learned how to troubleshoot The Unity framework configuration, how to implement validation on the server(as opposed to client side), and how to improve my debugging by digging into the call stack more.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 15 Check In]]></title>
@@ -314,70 +323,6 @@
 <p>The first few websites I made I had designed them first before moving on to implementing them in code, trying to get as close to the high fidelity mockup as possible. This work flow felt smooth and yielded decent results. However, redesigning my personal portfolio while following along with the fCC curriculum it seems that the fCC workflow has me designing in the browser(skipping wireframes and mockups) and relies heavily on the Bootstrap framework. At first, this approach irked me and felt a little lazy. Skip the static mockups? Where do my markers and sketchbooks fit into this work flow? I had almost decided to write off the fCC method in favor of my own(because habits) when I realized that I would be robbing myself of a learning opportunity.</p>
 
 <p>I decided that even if it added a whole day to my personal portfolio redesign that trying out new workflows and learning Bootstrap 4 would be worth the time. After all, it’s knowledge I can carry forward with me. I <em>did</em> decide to sketch out my site before coding it up though. Personally, I find it much easier to make design changes and get visual feedback using a design tool like <a href="https://www.sketchapp.com">Sketch</a> rather than designing in the browser or with an IDE. That said, after my first few hours googling various Bootstrap features the framework started to grow on me and I can now appreciate how knowing how to use it could speed up development on projects in the future. It definitely felt like a step forward after having used the <a href="https://960.gs">960 grid system</a> and I liked how easy it was to implement responsive features.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Fibonacci Sequence in Ruby]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby/"/>
-    <updated>2017-03-15T22:38:32-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby</id>
-    <content type="html"><![CDATA[<p>So I’m teaching myself Ruby and today I decided to learn how to write a <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> sequence after hearing about them on Twitter. When I first looked at this particular problem, I had an idea of what was supposed to happen but was unsure of how to write the expression in Ruby - that is until I stopped to draw it out on paper.
-<!-- more -->
-Being a very visual person/learner, I found it helpful to write out the first few numbers of the Fibonacci sequence with pen and paper, and then to sketch in where the variables would go and how they move as the sequence progresses. Once I was able to visualize how the variables leapfrog each other within the loop and are added together for the next number in the Fibonacci sequence, it was much more clear how I needed to write the expression in Ruby. Sometimes you just need to sketch something to see the pattern. By outlining my problem and subsequent solution with pen and paper first, I was able to spend less time writing code. My Fibonacci sequence in Ruby looks like this:</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-<span class="line-number">3</span>
-<span class="line-number">4</span>
-<span class="line-number">5</span>
-<span class="line-number">6</span>
-<span class="line-number">7</span>
-<span class="line-number">8</span>
-<span class="line-number">9</span>
-<span class="line-number">10</span>
-<span class="line-number">11</span>
-<span class="line-number">12</span>
-<span class="line-number">13</span>
-<span class="line-number">14</span>
-<span class="line-number">15</span>
-<span class="line-number">16</span>
-<span class="line-number">17</span>
-<span class="line-number">18</span>
-<span class="line-number">19</span>
-<span class="line-number">20</span>
-<span class="line-number">21</span>
-<span class="line-number">22</span>
-<span class="line-number">23</span>
-<span class="line-number">24</span>
-<span class="line-number">25</span>
-<span class="line-number">26</span>
-</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="c1"># Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... Calculate the Fibonacci sequence up to 4 million.</span>
-</span><span class="line">
-</span><span class="line"><span class="k">class</span> <span class="nc">Fibonacci</span>
-</span><span class="line">
-</span><span class="line">    <span class="k">def</span> <span class="nf">initialize</span>
-</span><span class="line">        <span class="vi">@numA</span> <span class="o">=</span> <span class="mi">1</span>
-</span><span class="line">        <span class="vi">@numB</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span class="line">        <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span class="line">        <span class="vi">@sum</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span class="line">        <span class="nb">self</span><span class="o">.</span><span class="n">fibonacci_sequence</span>
-</span><span class="line">    <span class="k">end</span>
-</span><span class="line">
-</span><span class="line">    <span class="k">def</span> <span class="nf">fibonacci_sequence</span>
-</span><span class="line">        <span class="k">while</span> <span class="vi">@fibonacci_number</span> <span class="o">&lt;</span> <span class="mi">4000000</span>
-</span><span class="line">            <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="vi">@numA</span> <span class="o">+</span> <span class="vi">@numB</span>
-</span><span class="line">            <span class="nb">puts</span> <span class="s2">&quot;fibonacci_number</span><span class="se">\&#39;</span><span class="s2">s current value is &quot;</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span><span class="o">.</span><span class="n">to_s</span>
-</span><span class="line">            <span class="vi">@numB</span> <span class="o">=</span> <span class="vi">@numA</span>
-</span><span class="line">            <span class="vi">@numA</span> <span class="o">=</span> <span class="vi">@fibonacci_number</span>
-</span><span class="line">            <span class="vi">@sum</span> <span class="o">=</span> <span class="vi">@sum</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span>
-</span><span class="line">        <span class="k">end</span>
-</span><span class="line">        <span class="nb">puts</span> <span class="s2">&quot;The sum of the Fibonacci sequence thus far is &quot;</span> <span class="o">+</span> <span class="vi">@sum</span><span class="o">.</span><span class="n">to_s</span>
-</span><span class="line">    <span class="k">end</span>
-</span><span class="line">
-</span><span class="line"><span class="k">end</span>
-</span><span class="line">
-</span><span class="line"><span class="n">fibonacciNumber</span> <span class="o">=</span> <span class="no">Fibonacci</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
-</span></code></pre></td></tr></table></div></figure>
 ]]></content>
   </entry>
   
