@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-19T21:30:46-07:00</updated>
+  <updated>2017-10-20T20:39:32-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 17 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in/"/>
+    <updated>2017-10-20T22:51:37-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in</id>
+    <content type="html"><![CDATA[<p>I started working on my second component today and it was different from the first in that it already contained a bunch of code that I had to work around, which provided some extra challenges. The main thing I learned about today was encryption and how to apply it to a user’s password; trying to handle the password so that it’s secure is tricky business however I’m really enjoying the challenge.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 16 Check In]]></title>
@@ -308,21 +317,6 @@
   <li>https://en.wikipedia.org/wiki/Object-based_language</li>
   <li>https://en.wikipedia.org/wiki/Object-oriented_programming</li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Learning Bootstrap vs Vanilla CSS]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css/"/>
-    <updated>2017-04-24T23:15:18-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css</id>
-    <content type="html"><![CDATA[<p>I don’t know why I had an aversion to learning a framework. Perhaps I was a CSS purist? During my internet travels I had come to believe that frameworks were for people who didn’t understand the underlying “vanilla” language that powered them. I was wrong.<!-- more --></p>
-
-<p>I’ve been following along with <a href="https://www.freecodecamp.org/challenges/factorialize-a-number">freeCodeCamp(fCC)</a> and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually <em>doing</em>. This may be a personal preference though as I feel <em>strongly compelled</em> to understand the inner-workings of my projects.</p>
-
-<p>The first few websites I made I had designed them first before moving on to implementing them in code, trying to get as close to the high fidelity mockup as possible. This work flow felt smooth and yielded decent results. However, redesigning my personal portfolio while following along with the fCC curriculum it seems that the fCC workflow has me designing in the browser(skipping wireframes and mockups) and relies heavily on the Bootstrap framework. At first, this approach irked me and felt a little lazy. Skip the static mockups? Where do my markers and sketchbooks fit into this work flow? I had almost decided to write off the fCC method in favor of my own(because habits) when I realized that I would be robbing myself of a learning opportunity.</p>
-
-<p>I decided that even if it added a whole day to my personal portfolio redesign that trying out new workflows and learning Bootstrap 4 would be worth the time. After all, it’s knowledge I can carry forward with me. I <em>did</em> decide to sketch out my site before coding it up though. Personally, I find it much easier to make design changes and get visual feedback using a design tool like <a href="https://www.sketchapp.com">Sketch</a> rather than designing in the browser or with an IDE. That said, after my first few hours googling various Bootstrap features the framework started to grow on me and I can now appreciate how knowing how to use it could speed up development on projects in the future. It definitely felt like a step forward after having used the <a href="https://960.gs">960 grid system</a> and I liked how easy it was to implement responsive features.</p>
 ]]></content>
   </entry>
   
