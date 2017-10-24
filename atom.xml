@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-21T22:11:32-07:00</updated>
+  <updated>2017-10-23T20:27:49-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 19 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in/"/>
+    <updated>2017-10-23T22:01:14-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in</id>
+    <content type="html"><![CDATA[<p>I spent most of my day ‘off’ yesterday building a web app that can get the user’s location data and return the local weather using the Weather Underground API and the <code>navigator.geolocation</code> API built into HTML5. I learned a lot about SSL, HTTPS, and ports 443/80 while attempting(the operative word here) to securely retrieve and transmit the user’s location. You can check out my little weather API experiment <a href="http://codepen.io/jljesse/pen/LzvoJq">here</a>. Additionally, I’m trying to be better about digging into the call stack when I’m debugging; it’s a really helpful tool.<!--more--></p>
+
+<p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together instructor supplied crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 18 Check In]]></title>
@@ -211,54 +222,6 @@
 <p>For most people, one of the easiest ways to maintain an offsite backup is to use a service who’s mission is to keep our data backed up safely. Services like <a href="https://www.backblaze.com">Backblaze</a> can back up our entire computer to their servers(the cloud) and restore those files at our request.</p>
 
 <p>For the more technically inclined, I use and recommend <a href="https://www.arqbackup.com">Arq</a> configured to back up our data to AWS Glacier servers, which have relatively low storage fees. Arq is essentially Time Machine for the cloud - it creates versioned backups of our data stored on a server of our choosing. As long as we have an internet connection our files are constantly being backed up to the cloud. However, unlike local backups, we will need to be connected to the internet to restore our files.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Managing Multiple Ruby Versions]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
-    <updated>2017-09-18T23:20:20-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions</id>
-    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still needed to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
-<!-- more --></p>
-
-<p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
-
-<ul>
-  <li>it’s <em>light</em> compared to RVM</li>
-  <li>I can set <em>application-specific Ruby versions</em></li>
-  <li><em>no configuration file!</em></li>
-  <li>easier to get set up and back to work</li>
-</ul>
-
-<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv we will want to have Homebrew installed and up to date. After making sure that Homebrew is up to date we are ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-<span class="line-number">2</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew update
-</span><span class="line"><span class="nv">$ </span>brew install rbenv ruby-build
-</span></code></pre></td></tr></table></div></figure>
-
-<p>When the above completes, we’re ready to install our desired version(s) of Ruby by running:</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install 2.4.2
-</span></code></pre></td></tr></table></div></figure>
-
-<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. We will want to run the <code>rehash</code> command each time we install a new version of Ruby or a gem that provides commands.</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv rehash
-</span></code></pre></td></tr></table></div></figure>
-
-<p>After restarting our terminal we should be able to specify which version of Ruby we’d like to run in our project by <code>cd</code>-ing into the root folder of the project and running the following command:</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv <span class="nb">local </span>2.4.2
-</span></code></pre></td></tr></table></div></figure>
-
-<p>We can verify the current active Ruby version by running:</p>
-<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
-</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv version
-</span></code></pre></td></tr></table></div></figure>
-
-<p>And that’s it! We’re now able to install and manage multiple versions of Ruby on a per-project basis with minimal fuss.</p>
 ]]></content>
   </entry>
   
