@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-23T20:27:49-07:00</updated>
+  <updated>2017-10-24T21:27:45-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 20 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in/"/>
+    <updated>2017-10-24T23:27:24-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in</id>
+    <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this techie logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 19 Check In]]></title>
@@ -48,15 +57,6 @@
     <updated>2017-10-19T23:23:45-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in</id>
     <content type="html"><![CDATA[<p>So I thought I finished my full stack component yesterday, however I added some validation to the API I wrote with C#… and it broke. As a result, today I learned how to troubleshoot The Unity framework configuration, how to implement validation on the server(as opposed to client side), and how to improve my debugging by digging into the call stack more.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 15 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in/"/>
-    <updated>2017-10-18T23:18:23-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in</id>
-    <content type="html"><![CDATA[<p>I finished up my full stack component last night and spent today giving it some styling and then integrating it into the main project. I learned some fancy git commands like <code>git log --all --graph --pretty=oneline</code> and how do deal with merge conflicts(edit by hand with attention to detail). Reading and writing code is feeling more natural with each day. I finally installed the Vim plugin in Visual Studio so that I can start moving around my code more nimbly! I find myself marveling at how clever Vim is ever time I use it - my goal is to be a Vim wizard by the end of this year.</p>
 ]]></content>
   </entry>
   
