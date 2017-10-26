@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-24T21:27:45-07:00</updated>
+  <updated>2017-10-25T22:31:20-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 21 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in/"/>
+    <updated>2017-10-25T22:05:24-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in</id>
+    <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it. I thought it was Thursday all day and it’s actually Wednesday; it’s been one of those weeks.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 20 Check In]]></title>
@@ -190,16 +199,6 @@
     <updated>2017-10-03T21:26:34-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in</id>
     <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.<!--more--></p>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 1 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in/"/>
-    <updated>2017-10-02T22:07:12-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/02/day-1-check-in</id>
-    <content type="html"><![CDATA[<p>Today was the first day of “code bootcamp” at Sabio and it was similar to the first day of class at most colleges - review the code of conduct, overview of the syllabus, and some warmup assignments to assess where each of us are skillwise. The instructor explains things in a way that never makes you feel small and the classroom feels open and airy with one wall that’s entirely glass and looks out into the courtyard full of redwoods.</p>
 
 ]]></content>
   </entry>
