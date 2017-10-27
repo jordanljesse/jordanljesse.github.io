@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-27T09:55:57-07:00</updated>
+  <updated>2017-10-27T09:59:40-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 23 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
+    <updated>2017-10-27T21:40:04-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
+    <content type="html"><![CDATA[<p>TIL.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 22 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
     <updated>2017-10-26T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
-    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration.</p>
+    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!</p>
 
 <h3 id="data-binding-characters">Data Binding Characters</h3>
 <ul>
@@ -197,15 +206,6 @@
 <!--more--></p>
 
 <p>On a more personal note, I’ve been struggling to get my routines back online with the intense new schedule; 9am to at least 7pm Monday through Saturday. I haven’t done my yoga, meditation, or workouts yet this week and it’s starting to affect my productivity and focus. I think I need to prioritize my routines a little more if I’m going to maximize my experience here at Sabio.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 3 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/04/day-3-check-in/"/>
-    <updated>2017-10-04T23:12:48-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/04/day-3-check-in</id>
-    <content type="html"><![CDATA[<p>We got a crash course in Git today and have been consuming API’s for most of this week’s warmup. Time management has been challenging - I’m still adjusting to the new schedule and trying to figure out where workouts fit in with code bootcamp + sleep. Nevertheless, I’m enjoying the grind.</p>
 ]]></content>
   </entry>
   

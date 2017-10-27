@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-27T09:55:57-07:00</updated>
+  <updated>2017-10-27T09:59:40-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 23 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
+    <updated>2017-10-27T21:40:04-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
+    <content type="html"><![CDATA[<p>TIL.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 22 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
     <updated>2017-10-26T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
-    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration.</p>
+    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!</p>
 
 <h3 id="data-binding-characters">Data Binding Characters</h3>
 <ul>
@@ -55,15 +64,6 @@
     <content type="html"><![CDATA[<p>I spent most of my day ‘off’ yesterday building a web app that can get the user’s location data and return the local weather using the Weather Underground API and the <code>navigator.geolocation</code> API built into HTML5. I learned a lot about SSL, HTTPS, and ports 443/80 while attempting(the operative word here) to securely retrieve and transmit the user’s location. You can check out my little weather API experiment <a href="http://codepen.io/jljesse/pen/LzvoJq">here</a>. Additionally, I’m trying to be better about digging into the call stack when I’m debugging; it’s a really helpful tool.<!--more--></p>
 
 <p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together instructor supplied crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 18 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/21/day-18-check-in/"/>
-    <updated>2017-10-21T22:01:14-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/21/day-18-check-in</id>
-    <content type="html"><![CDATA[<p>This morning was rough; I felt like I wrote more bugs than functioning code. I’m trying to encrypt the user’s password before it is sent to the server and ran into some trouble with the <code>salt</code> portion of the encryption. Nevertheless, I’m getting more confident in my ability to debug things, knowing which tools to use, and how to follow the flow of data through my application from the user’s input on the front end to the database in the back end. By the late evening, I had my second component mostly complete and felt like I was able to learn from most of this morning’s missteps.</p>
 ]]></content>
   </entry>
   
