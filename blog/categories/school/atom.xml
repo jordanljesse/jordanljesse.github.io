@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-27T10:00:58-07:00</updated>
+  <updated>2017-10-27T10:37:36-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +18,25 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
     <updated>2017-10-27T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
-    <content type="html"><![CDATA[<p>TIL.</p>
+    <content type="html"><![CDATA[<p>Today we learned more about data structures, binary trees, and how to traverse a binary tree using recursion. I’d always perceived binary trees as some scary part of the interview process based off of the complaints of tech interviewees, however they didn’t seem that complex and traversal via recursion made really good sense.<!--more--></p>
+
+<h1 id="recursion">Recursion</h1>
+
+<h2 id="binary-tree-traversal">Binary Tree Traversal</h2>
+<p>### Preorder
+- node(contains contents, left child, and right child)
+- traversal function uses recursion
+- print the parents before the children</p>
+
+<h3 id="postorder">Postorder</h3>
+<ul>
+  <li>print the children before printing the parents</li>
+</ul>
+
+<h3 id="inorder">Inorder</h3>
+<ul>
+  <li>print the left child, print the parent, then print the right child</li>
+</ul>
 ]]></content>
   </entry>
   
