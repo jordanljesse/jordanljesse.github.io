@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-25T22:31:20-07:00</updated>
+  <updated>2017-10-26T21:40:48-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 22 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
+    <updated>2017-10-26T21:40:04-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
+    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 21 Check In]]></title>
@@ -190,16 +199,6 @@
     <updated>2017-10-04T23:12:48-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/04/day-3-check-in</id>
     <content type="html"><![CDATA[<p>We got a crash course in Git today and have been consuming API’s for most of this week’s warmup. Time management has been challenging - I’m still adjusting to the new schedule and trying to figure out where workouts fit in with code bootcamp + sleep. Nevertheless, I’m enjoying the grind.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 2 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in/"/>
-    <updated>2017-10-03T21:26:34-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/03/day-2-check-in</id>
-    <content type="html"><![CDATA[<p>We took a deeper dive into Chrome’s developer tools today - specifically using the network tab to troubleshoot AJAX calls. I feel like I’m moving slower than I’d hoped, however I realize there’s a mountain of knowledge ahead of me and to paraphrase Jack Kerouac, <em>I gotta’ climb that mountain</em>.<!--more--></p>
-
 ]]></content>
   </entry>
   

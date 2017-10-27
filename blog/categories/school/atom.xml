@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-25T22:31:20-07:00</updated>
+  <updated>2017-10-26T21:40:48-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 22 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
+    <updated>2017-10-26T21:40:04-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
+    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 21 Check In]]></title>
@@ -48,15 +57,6 @@
     <updated>2017-10-21T22:01:14-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/21/day-18-check-in</id>
     <content type="html"><![CDATA[<p>This morning was rough; I felt like I wrote more bugs than functioning code. I’m trying to encrypt the user’s password before it is sent to the server and ran into some trouble with the <code>salt</code> portion of the encryption. Nevertheless, I’m getting more confident in my ability to debug things, knowing which tools to use, and how to follow the flow of data through my application from the user’s input on the front end to the database in the back end. By the late evening, I had my second component mostly complete and felt like I was able to learn from most of this morning’s missteps.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 17 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in/"/>
-    <updated>2017-10-20T22:51:37-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in</id>
-    <content type="html"><![CDATA[<p>I started working on my second component today and it was different from the first in that it already contained a bunch of code that I had to work around, which provided some extra challenges. The main thing I learned about today was encryption and how to apply it to a user’s password; trying to handle the password so that it’s secure is tricky business however I’m really enjoying the challenge.</p>
 ]]></content>
   </entry>
   
