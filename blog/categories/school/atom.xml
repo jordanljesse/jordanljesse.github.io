@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-27T10:39:14-07:00</updated>
+  <updated>2017-10-27T10:41:10-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -23,10 +23,13 @@
 <h2 id="recursion">Recursion</h2>
 
 <h3 id="binary-tree-traversal">Binary Tree Traversal</h3>
-<p>##### Preorder
-- node(contains contents, left child, and right child)
-- traversal function uses recursion
-- print the parents before the children</p>
+
+<h5 id="preorder">Preorder</h5>
+<ul>
+  <li>node(contains contents, left child, and right child)</li>
+  <li>traversal function uses recursion</li>
+  <li>print the parents before the children</li>
+</ul>
 
 <h5 id="postorder">Postorder</h5>
 <ul>
