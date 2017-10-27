@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-26T21:40:48-07:00</updated>
+  <updated>2017-10-27T09:55:57-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -19,6 +19,13 @@
     <updated>2017-10-26T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
     <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration.</p>
+
+<h3 id="data-binding-characters">Data Binding Characters</h3>
+<ul>
+  <li><code>&lt;</code> one-way data binding</li>
+  <li><code>=</code> two-way data binding</li>
+  <li><code>@</code> access a string value passed into a directive</li>
+</ul>
 ]]></content>
   </entry>
   
