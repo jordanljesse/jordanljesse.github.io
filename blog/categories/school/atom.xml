@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-27T20:02:25-07:00</updated>
+  <updated>2017-10-28T20:54:08-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 24 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in/"/>
+    <updated>2017-10-28T22:23:39-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in</id>
+    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on (Hacker Rank)[] every day for the rest of this year. We’ll see how it goes!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 23 Check In]]></title>
@@ -77,17 +86,6 @@
     <updated>2017-10-24T23:27:24-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in</id>
     <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this techie logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 19 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in/"/>
-    <updated>2017-10-23T22:01:14-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in</id>
-    <content type="html"><![CDATA[<p>I spent most of my day ‘off’ yesterday building a web app that can get the user’s location data and return the local weather using the Weather Underground API and the <code>navigator.geolocation</code> API built into HTML5. I learned a lot about SSL, HTTPS, and ports 443/80 while attempting(the operative word here) to securely retrieve and transmit the user’s location. You can check out my little weather API experiment <a href="http://codepen.io/jljesse/pen/LzvoJq">here</a>. Additionally, I’m trying to be better about digging into the call stack when I’m debugging; it’s a really helpful tool.<!--more--></p>
-
-<p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together instructor supplied crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
 ]]></content>
   </entry>
   
