@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-28T20:54:08-07:00</updated>
+  <updated>2017-10-30T18:57:23-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 25 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in/"/>
+    <updated>2017-10-30T23:46:52-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in</id>
+    <content type="html"><![CDATA[<p>I had an idea for an app last night that I really want to build, so I’m using it as an excuse to run through making a full stack CRUD app again with Angular/.NET/SQL. It’s a web app to help unlicensed social workers track the hours required for their licensure. After hearing a few social workers frustrated with the process of tracking their hours it seemed like an app that could store the hours and return some meaningful analysis to the user would be the way forward - certainly more convenient than an Excel spreadsheet.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 24 Check In]]></title>
@@ -77,15 +86,6 @@
     <updated>2017-10-25T22:05:24-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in</id>
     <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it. I thought it was Thursday all day and it’s actually Wednesday; it’s been one of those weeks.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 20 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in/"/>
-    <updated>2017-10-24T23:27:24-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in</id>
-    <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this techie logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
 ]]></content>
   </entry>
   
