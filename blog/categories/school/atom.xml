@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-31T12:35:52-07:00</updated>
+  <updated>2017-10-31T13:51:53-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Dirty Checking vs. VDOM]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom/"/>
-    <updated>2017-10-31T23:46:52-05:00</updated>
+    <updated>2017-10-31T14:50:12-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom</id>
     <content type="html"><![CDATA[<p>What is the difference between updating the DOM using dirty checking and VDOM manipulation? Is one more efficient than the other? What the heck <em>is</em> the DOM? Let’s try to answer these questions!<!--more--></p>
 
@@ -26,7 +26,7 @@
 <h5 id="the-dom-is">The DOM is:</h5>
 <ul>
   <li>a programming interface for HTML and XML documents</li>
-  <li>a an object-oriented representation of the HTML we wrote made up of nodes and objects</li>
+  <li>an object-oriented representation of the HTML we wrote made up of nodes and objects</li>
   <li>automatically created from the HTML we wrote by the browser</li>
 </ul>
 
@@ -43,24 +43,7 @@
 <p>Dirty checking is when our code checks all of the node’s data at regular intervals for changes, like a loop(because it <em>is</em> a loop). It’s an inefficient way to update DOM elements as it requires recursively traversing every single node in the DOM to see if the node’s data is “dirty”(it’s been changed). Compared to “Observable Checking”, where the individual components are responsible for listening to when changes take place in the state and communicating those changes, dirty checking is slow. A good example of this slowness would be updating a <code>li</code> in an unordered list: when dirty checking discovers the updated <code>li</code> it will actually re-render the entire unordered list; a very ineffecient operation.</p>
 
 <h3 id="the-virtual-dom">The Virtual DOM</h3>
-<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweigth and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 26 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
-    <updated>2017-10-31T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
-    <content type="html"><![CDATA[<p>Holy crap it rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; strange.</p>
-
-<p>TIL:
--IndexedDB</p>
-
-<p>Questions:
-- describe async.
-- what is the event queue?
-- what is a promise?</p>
+<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweight and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
 ]]></content>
   </entry>
   
@@ -78,7 +61,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in/"/>
     <updated>2017-10-28T22:23:39-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in</id>
-    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on (Hacker Rank)[] every day for the rest of this year. We’ll see how it goes!</p>
+    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on (Hacker Rank)[https://www.hackerrank.com] every day for the rest of this year. We’ll see how it goes!</p>
 ]]></content>
   </entry>
   
@@ -112,6 +95,22 @@
   <li>print the left child, print the parent, then print the right child</li>
 </ul>
 
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 22 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
+    <updated>2017-10-26T21:40:04-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
+    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!<!--more--></p>
+
+<h3 id="data-binding-characters">Data Binding Characters</h3>
+<ul>
+  <li><code>&lt;</code> one-way data binding</li>
+  <li><code>=</code> two-way data binding</li>
+  <li><code>@</code> access a string value passed into a directive</li>
+</ul>
 ]]></content>
   </entry>
   

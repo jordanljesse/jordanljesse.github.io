@@ -77,7 +77,7 @@
 
 
 
-<time class='entry-date' datetime='2017-10-31T23:46:52-05:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2017</span></span> <span class='time'>11:46 pm</span></time>
+<time class='entry-date' datetime='2017-10-31T14:50:12-05:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2017</span></span> <span class='time'>2:50 pm</span></time>
         
       </p>
     
@@ -92,7 +92,7 @@
 <h5 id="the-dom-is">The DOM is:</h5>
 <ul>
   <li>a programming interface for HTML and XML documents</li>
-  <li>a an object-oriented representation of the HTML we wrote made up of nodes and objects</li>
+  <li>an object-oriented representation of the HTML we wrote made up of nodes and objects</li>
   <li>automatically created from the HTML we wrote by the browser</li>
 </ul>
 
@@ -109,7 +109,7 @@
 <p>Dirty checking is when our code checks all of the node’s data at regular intervals for changes, like a loop(because it <em>is</em> a loop). It’s an inefficient way to update DOM elements as it requires recursively traversing every single node in the DOM to see if the node’s data is “dirty”(it’s been changed). Compared to “Observable Checking”, where the individual components are responsible for listening to when changes take place in the state and communicating those changes, dirty checking is slow. A good example of this slowness would be updating a <code>li</code> in an unordered list: when dirty checking discovers the updated <code>li</code> it will actually re-render the entire unordered list; a very ineffecient operation.</p>
 
 <h3 id="the-virtual-dom">The Virtual DOM</h3>
-<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweigth and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
+<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweight and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
 </div>
 
 
@@ -125,7 +125,7 @@
 
 
 
-<time class='entry-date' datetime='2017-10-31T23:46:52-05:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2017</span></span> <span class='time'>11:46 pm</span></time>
+<time class='entry-date' datetime='2017-10-31T14:50:12-05:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2017</span></span> <span class='time'>2:50 pm</span></time>
       
 
 <span class="categories">
@@ -146,7 +146,7 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2017/10/31/day-26-check-in/" title="Previous Post: Day 26 Check In">&laquo; Day 26 Check In</a>
+        <a class="basic-alignment left" href="/blog/2017/10/30/day-25-check-in/" title="Previous Post: Day 25 Check In">&laquo; Day 25 Check In</a>
       
       
     </p>
@@ -166,10 +166,6 @@
       </li>
     
       <li class="post">
-        <a href="/blog/2017/10/31/day-26-check-in/">Day 26 Check In</a>
-      </li>
-    
-      <li class="post">
         <a href="/blog/2017/10/30/day-25-check-in/">Day 25 Check In</a>
       </li>
     
@@ -179,6 +175,10 @@
     
       <li class="post">
         <a href="/blog/2017/10/27/day-23-check-in/">Day 23 Check In</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/10/26/day-22-check-in/">Day 22 Check In</a>
       </li>
     
   </ul>
