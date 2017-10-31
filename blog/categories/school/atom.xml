@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-31T13:51:53-07:00</updated>
+  <updated>2017-10-31T13:55:11-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -61,7 +61,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in/"/>
     <updated>2017-10-28T22:23:39-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in</id>
-    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on (Hacker Rank)[https://www.hackerrank.com] every day for the rest of this year. We’ll see how it goes!</p>
+    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on <a href="https://www.hackerrank.com">Hacker Rank</a> every day for the rest of this year. We’ll see how it goes!</p>
 ]]></content>
   </entry>
   
