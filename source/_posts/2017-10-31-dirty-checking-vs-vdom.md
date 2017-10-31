@@ -3,7 +3,7 @@ layout: post
 title: "Dirty Checking vs. VDOM"
 date: 2017-10-31 14:50:12 -0500
 comments: true
-categories: school
+categories: www general
 published: true
 ---
 
