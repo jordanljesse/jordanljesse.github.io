@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/</loc>
+<lastmod>2017-10-31T23:46:52-05:00</lastmod>
+</url>
+<url>
 <loc>http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom/</loc>
 <lastmod>2017-10-31T14:50:12-05:00</lastmod>
 </url>
@@ -174,14 +178,5 @@
 </url>
 <url>
 <loc>http://jordanljesse.github.io/blog/categories/www/</loc>
-</url>
-<url>
-<loc>http://jordanljesse.github.io/posts/2/</loc>
-</url>
-<url>
-<loc>http://jordanljesse.github.io/posts/3/</loc>
-</url>
-<url>
-<loc>http://jordanljesse.github.io/posts/4/</loc>
 </url>
 </urlset>
