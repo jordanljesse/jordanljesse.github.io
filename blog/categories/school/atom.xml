@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-31T13:55:11-07:00</updated>
+  <updated>2017-10-31T13:58:01-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,40 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Dirty Checking vs. VDOM]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom/"/>
-    <updated>2017-10-31T14:50:12-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom</id>
-    <content type="html"><![CDATA[<p>What is the difference between updating the DOM using dirty checking and VDOM manipulation? Is one more efficient than the other? What the heck <em>is</em> the DOM? Let’s try to answer these questions!<!--more--></p>
-
-<h3 id="what-is-the-dom">What is the DOM?</h3>
-<p>To understand the differences between dirty checking and VDOM manipulation we first need to understand what the DOM is and isn’t.</p>
-
-<h5 id="the-dom-is">The DOM is:</h5>
-<ul>
-  <li>a programming interface for HTML and XML documents</li>
-  <li>an object-oriented representation of the HTML we wrote made up of nodes and objects</li>
-  <li>automatically created from the HTML we wrote by the browser</li>
-</ul>
-
-<h5 id="the-dom-is-not">The DOM is not:</h5>
-<ul>
-  <li>the actual HTML we wrote</li>
-  <li>the markup we see when we choose ‘view source’ on a page</li>
-  <li>always the same as our HTML(browsers sometimes fix invalid markup behind the scenes)</li>
-</ul>
-
-<p>The DOM can be manipulated and edited using a scripting language like JavaScript including libraries and frameworks such as jQuery, Angular, and React. In fact, the DOM actually has its own API for interacting with other bits of code. Much of what is thought of as a “JavaScript thing” is actually a DOM API feature that allows us to interact with the DOM.</p>
-
-<h3 id="dirty-checking">Dirty Checking</h3>
-<p>Dirty checking is when our code checks all of the node’s data at regular intervals for changes, like a loop(because it <em>is</em> a loop). It’s an inefficient way to update DOM elements as it requires recursively traversing every single node in the DOM to see if the node’s data is “dirty”(it’s been changed). Compared to “Observable Checking”, where the individual components are responsible for listening to when changes take place in the state and communicating those changes, dirty checking is slow. A good example of this slowness would be updating a <code>li</code> in an unordered list: when dirty checking discovers the updated <code>li</code> it will actually re-render the entire unordered list; a very ineffecient operation.</p>
-
-<h3 id="the-virtual-dom">The Virtual DOM</h3>
-<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweight and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 25 Check In]]></title>
@@ -111,6 +77,15 @@
   <li><code>=</code> two-way data binding</li>
   <li><code>@</code> access a string value passed into a directive</li>
 </ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 21 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in/"/>
+    <updated>2017-10-25T22:05:24-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in</id>
+    <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it. I thought it was Thursday all day and it’s actually Wednesday; it’s been one of those weeks.</p>
 ]]></content>
   </entry>
   
