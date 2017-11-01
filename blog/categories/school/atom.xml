@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-31T16:21:58-07:00</updated>
+  <updated>2017-11-01T09:50:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,15 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 27 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
+    <updated>2017-11-01T23:46:52-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
+    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 26 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
     <updated>2017-10-31T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
     <content type="html"><![CDATA[<p>Holy crap it rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
-
-<p>Questions:
-- What is the event queue? :A staging area for functions waiting to be invoked and moved over to the call stack
-- What is a promise? :An object that may produce a single value some time in the future.</p>
 ]]></content>
   </entry>
   
@@ -74,22 +79,6 @@
   <li>print the left child, print the parent, then print the right child</li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 22 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
-    <updated>2017-10-26T21:40:04-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
-    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!<!--more--></p>
-
-<h3 id="data-binding-characters">Data Binding Characters</h3>
-<ul>
-  <li><code>&lt;</code> one-way data binding</li>
-  <li><code>=</code> two-way data binding</li>
-  <li><code>@</code> access a string value passed into a directive</li>
-</ul>
 ]]></content>
   </entry>
   

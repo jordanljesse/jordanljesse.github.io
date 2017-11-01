@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-10-31T16:21:58-07:00</updated>
+  <updated>2017-11-01T09:50:46-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,15 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 27 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
+    <updated>2017-11-01T23:46:52-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
+    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 26 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
     <updated>2017-10-31T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
     <content type="html"><![CDATA[<p>Holy crap it rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
-
-<p>Questions:
-- What is the event queue? :A staging area for functions waiting to be invoked and moved over to the call stack
-- What is a promise? :An object that may produce a single value some time in the future.</p>
 ]]></content>
   </entry>
   
@@ -245,15 +250,6 @@
     <updated>2017-10-11T23:42:36-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in</id>
     <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 8 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/10/day-8-check-in/"/>
-    <updated>2017-10-10T22:45:22-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/10/day-8-check-in</id>
-    <content type="html"><![CDATA[<p>We learned more about AnguarJS today including UI-Router, how to make route tables, and how to build a single page application. Angular is feeling more comfortable each day and I’m loving that I’m able to take a deep dive into the parts that interest me like prototypal inheritance and promises.</p>
 ]]></content>
   </entry>
   
