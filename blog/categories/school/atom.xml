@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-01T09:50:46-07:00</updated>
+  <updated>2017-11-02T09:47:00-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 28 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in/"/>
+    <updated>2017-11-02T22:27:17-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in</id>
+    <content type="html"><![CDATA[<p>We had a substitute instructor today, which turned out to be pretty cool because our sub specialized in a different stack(Node.js) than our own(.NET), so we got exposed to some new ways of doing things and received a brief overview of Node.js.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 27 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
     <updated>2017-11-01T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
-    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday.</p>
+    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday so I can submit a pull request today. It looks like the next feature I’ve got to build involves importing and exporting notes as JSON and using GUID’s to keep track of notes that might contain duplicate id’s on the server.</p>
 ]]></content>
   </entry>
   
@@ -46,39 +55,6 @@
     <updated>2017-10-28T22:23:39-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in</id>
     <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on <a href="https://www.hackerrank.com">Hacker Rank</a> every day for the rest of this year. We’ll see how it goes!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 23 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
-    <updated>2017-10-27T21:40:04-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
-    <content type="html"><![CDATA[<p>Today we learned more about data structures, binary trees, and how to traverse a binary tree using recursion. I’d always perceived binary trees as some scary part of the interview process based off of the complaints of tech interviewees, however they didn’t seem that complex and traversal via recursion made really good sense.<!--more--></p>
-
-<p>Additionally, today I learned that if you want a little green square to show up on your GitHub commit graph that your name and email, specifically the email you login to GitHub with, need to be configured in git. Good to know!</p>
-
-<h2 id="recursion">Recursion</h2>
-
-<h3 id="binary-tree-traversal">Binary Tree Traversal</h3>
-
-<h5 id="preorder">Preorder</h5>
-<ul>
-  <li>node(contains contents, left child, and right child)</li>
-  <li>traversal function uses recursion</li>
-  <li>print the parents before the children</li>
-</ul>
-
-<h5 id="postorder">Postorder</h5>
-<ul>
-  <li>print the children before printing the parents</li>
-</ul>
-
-<h5 id="inorder">Inorder</h5>
-<ul>
-  <li>print the left child, print the parent, then print the right child</li>
-</ul>
-
 ]]></content>
   </entry>
   

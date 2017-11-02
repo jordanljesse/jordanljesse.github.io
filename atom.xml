@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-01T09:50:46-07:00</updated>
+  <updated>2017-11-02T09:47:00-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -14,11 +14,20 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 28 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in/"/>
+    <updated>2017-11-02T22:27:17-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in</id>
+    <content type="html"><![CDATA[<p>We had a substitute instructor today, which turned out to be pretty cool because our sub specialized in a different stack(Node.js) than our own(.NET), so we got exposed to some new ways of doing things and received a brief overview of Node.js.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 27 Check In]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
     <updated>2017-11-01T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
-    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday.</p>
+    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday so I can submit a pull request today. It looks like the next feature I’ve got to build involves importing and exporting notes as JSON and using GUID’s to keep track of notes that might contain duplicate id’s on the server.</p>
 ]]></content>
   </entry>
   
@@ -241,15 +250,6 @@
     <updated>2017-10-12T23:19:41-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/12/day-10-check-in</id>
     <content type="html"><![CDATA[<p>I spent the majority of today learning how to build more flexible views/states in AngularJS with $ctrl and $stateParams - I was surprised by how easy URL based routing could be implemented with Angular. I feel like using jQuery it required a dozen lines of code but with Angular it’s only two. I learned how to write a service that communicates data between two controllers today, which was fun to read up on, and that estimating the amount of time it takes to complete a feature is a challenge.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 9 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in/"/>
-    <updated>2017-10-11T23:42:36-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/11/day-9-check-in</id>
-    <content type="html"><![CDATA[<p>The pace here at Sabio is frenzied. Today I learned about some new git commands, using UI-Router and $stateParams with Angular, and creating and using components. The best part of my day was getting to spend a fair amount of time helping my peers. I enjoy explaining things and I suspect part of it is because if I can’t explain something simply then it motivates me to study up on the subject.</p>
 ]]></content>
   </entry>
   
