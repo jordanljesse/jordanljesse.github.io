@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Day 26 Check In"
-date: 2017-11-02 23:46:52 -0500
+title: "JavaScript Promises"
+date: 2017-11-04 23:46:52 -0500
 comments: true
 categories: school
 published: false
