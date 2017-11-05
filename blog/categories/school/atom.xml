@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-04T20:39:14-07:00</updated>
+  <updated>2017-11-04T20:40:43-07:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,7 +18,9 @@
     <link href="http://jordanljesse.github.io/blog/2017/11/04/day-30-check-in/"/>
     <updated>2017-11-04T20:29:10-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/04/day-30-check-in</id>
-    <content type="html"><![CDATA[<p>Saturdays in Los Angeles are amazing. Farmer’s markets, no traffic, and almost always perfect weather. I spent most of the day designing a user selectable theme feature for the open source logging tool we’re building, along with a dark themed UI. I was glad to have an opportunity to dig into CSS animations after listing to <a href="http://rachelnabors.com">Rachel Nabors</a> on the <a href="https://www.codenewbie.org/podcast/what-and-why-is-web-animation">Code Newbie</a> podcast(highly recommended). I was trying to survive traffic on the 405 when something Nabors said jumped out at me: <em>perceived</em> load time is more important than <em>actual</em> load time. I had never thought about how the user actually perceives the load time of something when I’m looking at benchmark metrics for a website; it turns out those metrics don’t tell the whole story. As a result, my plan is to incorporate some of Nabors ideas from the podcast into this open source note taking tool in the hopes that it will ease the cognitive load of the user and take some of the <em>friction</em> out of note taking.</p>
+    <content type="html"><![CDATA[<p>Saturdays in Los Angeles are amazing. Farmer’s markets, no traffic, and almost always perfect weather. I spent most of the day designing a user selectable theme feature for the open source logging tool we’re building, along with a dark themed UI. I was glad to have an opportunity to dig into CSS animations after listing to <a href="http://rachelnabors.com">Rachel Nabors</a> on the <a href="https://www.codenewbie.org/podcast/what-and-why-is-web-animation">Code Newbie</a> podcast(highly recommended).<!--more--></p>
+
+<p>I was trying to survive traffic on the 405 when something Nabors said jumped out at me: <em>perceived</em> load time is more important than <em>actual</em> load time. I had never thought about how the user actually perceives the load time of something when I’m looking at benchmark metrics for a website; it turns out those metrics don’t tell the whole story. As a result, my plan is to incorporate some of Nabors ideas from the podcast into this open source note taking tool in the hopes that it will ease the cognitive load of the user and take some of the <em>friction</em> out of note taking.</p>
 ]]></content>
   </entry>
   
