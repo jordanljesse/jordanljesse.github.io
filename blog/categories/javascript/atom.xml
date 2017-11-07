@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Javascript | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-06T21:05:10-08:00</updated>
+  <updated>2017-11-07T11:48:13-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -36,17 +36,13 @@ objectName['propertyName'];
 </code></p>
 
 <p>In Javascript, any valid string can be used as a property name - even an empty string - however if a property name is not considered a valid identifier(such as a string that contains a space, hyphen, or begins with a number) it can only be accessed using bracket notation. Bracket notation is also useful for passing in dynamically generated property names and property names that are not determined until the program is run. Properties can also be referenced by using strings stored in variables:<br />
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">propertyName</span> <span class="o">=</span> <span class="err">“</span><span class="nx">make</span><span class="err">”</span><span class="p">;</span>
-</span><span class='line'><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="err">“</span><span class="nx">Chevy</span><span class="err">”</span><span class="p">;</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">propertyName</span> <span class="o">=</span> <span class="err">“</span><span class="nx">model</span><span class="err">”</span><span class="p">;</span>
-</span><span class='line'><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="err">“</span><span class="nx">Impala</span><span class="err">”</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure></p>
+```javascript
+var propertyName = “make”;
+myCar[propertyName] = “Chevy”;</p>
+
+<p>propertyName = “model”;
+myCar[propertyName] = “Impala”;
+```</p>
 
 <p>When it comes to methods, calling them is similar to calling properties, except that methods contain a pair of parentheses at the end for accepting arguments(much like a function because it <em>is</em> a function). It looks like this:<br />
 <code>javascript
@@ -54,19 +50,14 @@ objectName.methodName(argument);
 </code></p>
 
 <p>To pull it all together, here is what it looks like to create a new object with a method that accepts an argument and what happens when the method is called:<br />
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">dog</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
-</span><span class='line'><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ownerName</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="k">return</span> <span class="err">“</span><span class="nx">Woof</span><span class="o">!</span> <span class="nx">Good</span> <span class="nx">morning</span><span class="err">”</span> <span class="o">+</span> <span class="nx">ownerName</span> <span class="o">+</span> <span class="err">“</span><span class="o">!</span><span class="err">”</span><span class="p">;</span>
-</span><span class='line'><span class="p">}</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span><span class="p">(</span><span class="err">“</span><span class="nx">Dave</span><span class="err">”</span><span class="p">);</span>  <span class="c1">// prints “Woof! Good morning Dave!”</span>
-</span></code></pre></td></tr></table></div></figure></p>
+```javascript
+var dog = new Object();
+dog.speak = function(ownerName) {
+    return “Woof! Good morning” + ownerName + “!”;
+}</p>
+
+<p>dog.speak(“Dave”);  // prints “Woof! Good morning Dave!”
+```</p>
 
 <h3 id="wrap-up">Wrap up</h3>
 <p>I highly recommend giving this <a href="http://eloquentjavascript.net/06_object.html">excellent article</a> a read if you want a more thorough(and entertaining!) history of objects. Also, I would be remiss if I didn’t remind you that I myself am still learning this stuff and while I do my best to pick up best practices and incorporate them into my thinking, this post will probably be revised as I better organize my understanding of objects. All that to say, read this with an open mind and a grain of salt ;-)</p>

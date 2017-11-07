@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: .net | Jordan Learns Code]]></title>
+  <link href="http://jordanljesse.github.io/blog/categories/dot-net/atom.xml" rel="self"/>
+  <link href="http://jordanljesse.github.io/"/>
+  <updated>2017-11-07T11:48:13-08:00</updated>
+  <id>http://jordanljesse.github.io/</id>
+  <author>
+    <name><![CDATA[Jordan Jesse]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Collections in C#]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/07/collections-in-c-sharp/"/>
+    <updated>2017-11-07T11:47:34-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/07/collections-in-c-sharp</id>
+    <content type="html"><![CDATA[<h1 id="collections-in-c">Collections in C#</h1>
+<p>When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections offer a more flexible way of storing and referencing groups of objects compared to the fixed size and data type of arrays. The following is a brief overview of a few of the collections available in C# and their properties.<!--more--></p>
+
+<h3 id="array">Array</h3>
+<ul>
+  <li>fixed size</li>
+  <li>single datatype</li>
+  <li>accessed using square brackets
+```C#
+int[] numbers = new int[5];</li>
+</ul>
+
+<p>numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;</p>
+
+<p>foreach (int n in numbers)
+{
+    Console.WriteLine(n); // 1, 2, 3, 0, 0
+}
+```</p>
+
+<h3 id="list">List</h3>
+<ul>
+  <li>variable size</li>
+  <li>single datatype</li>
+  <li>provides methods for searching, sorting, and modifying data
+```C#
+List<int> numbers = new List<int>();</int></int></li>
+</ul>
+
+<p>numbers.Add(100);
+numbers.Add(101);
+numbers.Insert(0, 99); // add 99 to start of List</p>
+
+<p>foreach (int n in numbers)
+{
+    Console.WriteLine(n); // 99, 100, 101
+}
+```</p>
+
+<h3 id="queue">Queue</h3>
+<ul>
+  <li>first in first out(FIFO)
+```C#
+Queue<int> numbers = new Queue<int>();</int></int></li>
+</ul>
+
+<p>numbers.Enqueue(5);
+numbers.Enqueue(6);
+numbers.Enqueue(7);</p>
+
+<p>while (numbers.Count &gt; 0)
+{
+    int n = numbers.Dequeue; // removes things from the queue during iteration
+    Console.WriteLine(n); // 5, 6, 7
+}
+```</p>
+
+<h3 id="stack">Stack</h3>
+<ul>
+  <li>first in last out(LIFO)
+```C#
+Stack<int> numbers = new Stack<int>();</int></int></li>
+</ul>
+
+<p>```</p>
+
+<h3 id="set">Set</h3>
+<ul>
+  <li>data structure that does not allow duplicates
+```C#
+var numbers = new int[] { 101, 102, 103, 101, 104}</li>
+</ul>
+
+<p>HashSet<int> seen = new HashSet<int>();</int></int></p>
+
+<p>foreach (int n in numbers)
+{
+    if (seen.Add(n)) 
+    {
+        Console.WriteLine($”{n} is new.”);
+    }
+    else 
+    {
+        Console.WriteLine($”Already saw {n}.”);
+    }
+}
+// 101 is new.
+// 102 is new.
+// 103 is new.
+// Already saw 101.
+// 104 is new.
+```</p>
+
+<h3 id="dictionary">Dictionary</h3>
+<ul>
+  <li>all about key/value pairs</li>
+  <li>organized by key</li>
+  <li>not good for searching right-&gt;left(looking up names by phone numbers)
+```C#
+Dictionary&lt;string, string&gt; phoneNumbers = new Dictionary&lt;string, string&gt;();</li>
+</ul>
+
+<p>phoneNumbers.Add(“Dan”, “555-310-2345”);
+phoneNumbers.Add(“Joe”, “345-234-2340”);
+phoneNumbers.Add(“Johnny”, “123-432-9834”);</p>
+
+<p>Console.WriteLine(phoneNumbers[“Dan”]); // 555-310-2345
+Console.WriteLine(phoneNumbers[“Steven”]); // throws an exception
+```</p>
+
+<h3 id="arraylist">ArrayList</h3>
+<ul>
+  <li>do not use</li>
+  <li>lots of extra pointers</li>
+  <li>relatively slow</li>
+  <li>no specific size</li>
+  <li>stores everything as an object</li>
+  <li>defeats purpose of strong-typing</li>
+  <li>
+    <p>equivalent of a JavaScript array(undesirable in C#)
+```C#
+  ArrayList arrList = new ArrayList();
+  arrList.Add(100);
+  arrList.Add(101);
+  arrList.Add(“hello”);</p>
+
+    <p>int n = arrList[0]; // Cannot implicitly convert type ‘object’ to ‘int’
+  int n = (int)arrList[0]; // n = 100</p>
+  </li>
+</ul>
+
+<p>```</p>
+
+<h3 id="hashtable">HashTable</h3>
+<ul>
+  <li>do not use</li>
+  <li>legacy</li>
+  <li>
+    <p>similar to ArrayList except key/value pairs instead of indexed
+```C#
+  Hashtable ht = new Hashtable();</p>
+
+    <p>ht.Add(“Dan”, “555-234-2478”);
+  ht.Add(“123”, “555-234-2478”);</p>
+  </li>
+</ul>
+
+<p>```</p>
+]]></content>
+  </entry>
+  
+</feed>
