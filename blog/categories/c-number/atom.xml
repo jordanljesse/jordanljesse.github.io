@@ -4,7 +4,7 @@
   <title><![CDATA[Category: C# | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/c-number/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-07T12:20:17-08:00</updated>
+  <updated>2017-11-07T12:23:20-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -166,7 +166,7 @@ Stack&lt;int&gt; numbers = new Stack&lt;int&gt;();
 <ul>
   <li>all about key/value pairs</li>
   <li>organized by key</li>
-  <li>not good for searching right-&gt;left(looking up names by phone numbers)
+  <li>not good for searching right to left(looking up names by phone numbers)
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
