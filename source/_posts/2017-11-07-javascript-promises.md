@@ -15,7 +15,7 @@ Let's answer that first question: what is a promise? A promise is simply the res
 
 ###### Promise States
 - pending: neither fulfilled or rejected
-- fulfilled:
+- fulfilled
 - rejected
 
 While a promise is 'pending' it may resolve to either of the other two states, however once a promise has resolved its state is fixed and will not change. A promise that is not pending is called *settled*, and a settled promise is immutable.  
