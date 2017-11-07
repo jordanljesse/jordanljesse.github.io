@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-04T20:40:43-07:00</updated>
+  <updated>2017-11-06T21:05:10-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 31 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in/"/>
+    <updated>2017-11-06T23:04:19-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in</id>
+    <content type="html"><![CDATA[<p>I feel like my learning approach for the last few months has been breadth before depth and lately I’ve been wanting to take a few days to dive deeply into a few areas that I feel need bolstering, like currying and recursion.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 30 Check In]]></title>
@@ -243,15 +252,6 @@
     <updated>2017-10-16T21:45:15-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/16/day-13-check-in</id>
     <content type="html"><![CDATA[<p>Today we kicked off the class project that we’ll be working on for the next eight weeks and it looks awesome. I don’t want to give too much away yet, but it’s looking like an awesome info logging tool built with developers in mind that will be open sourced as it nears completion. We spent the morning making sure that everybody was able to clone the project to a local repo and get everything up and running, along with a high level overview of the project and what we’ll be building. Tonight we’ll start working on our respective components, building them out from the database to the view in the browser - full stack.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 12 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/14/day-12-check-in/"/>
-    <updated>2017-10-14T21:42:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/14/day-12-check-in</id>
-    <content type="html"><![CDATA[<p>No Los Angeles traffic on Saturdays! That means I was able to get an early start on coding and complete another card today! I spent most of my day sorting and filtering data; it’s amazing to me how relatively easy it is to implement some of these features with AngularJS compared to jQuery.</p>
 ]]></content>
   </entry>
   

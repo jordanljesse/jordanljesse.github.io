@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-04T20:40:43-07:00</updated>
+  <updated>2017-11-06T21:05:10-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 31 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in/"/>
+    <updated>2017-11-06T23:04:19-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in</id>
+    <content type="html"><![CDATA[<p>I feel like my learning approach for the last few months has been breadth before depth and lately I’ve been wanting to take a few days to dive deeply into a few areas that I feel need bolstering, like currying and recursion.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 30 Check In]]></title>
@@ -48,15 +57,6 @@
     <updated>2017-11-01T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
     <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday so I can submit a pull request today. It looks like the next feature I’ve got to build involves importing and exporting notes as JSON and using GUID’s to keep track of notes that might contain duplicate id’s on the server.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 26 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
-    <updated>2017-10-31T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
-    <content type="html"><![CDATA[<p>Holy crap it rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
 ]]></content>
   </entry>
   
