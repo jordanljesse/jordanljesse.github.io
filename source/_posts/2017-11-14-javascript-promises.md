@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JavaScript Promises"
-date: 2017-11-07 23:46:52 -0500
+date: 2017-11-14 23:46:52 -0500
 comments: true
 categories: school
 published: false
