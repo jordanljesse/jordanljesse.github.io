@@ -1,0 +1,421 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Collections in C# - Jordan Learns Code</title>
+  <meta name="author" content="Jordan Jesse">
+
+  
+  <meta name="description" content="When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jordanljesse.github.io/blog/2017/11/07/collections-in-c-sharp/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Jordan Learns Code" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jordan Learns Code</a></h1>
+  
+    <h2>From military sergeant to software developer</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="jordanljesse.github.io">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Collections in C#</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2017-11-07T11:47:34-05:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>11:47 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections offer a more flexible way of storing and referencing groups of objects compared to the fixed size and data type of arrays. The following is a brief overview of a few of the collections available in C# and their properties.<!--more--></p>
+
+<h3 id="array">Array</h3>
+<ul>
+  <li>fixed size</li>
+  <li>single datatype</li>
+  <li>accessed using square brackets</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="kt">int</span><span class="p">[]</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="m">5</span><span class="p">];</span>
+</span><span class="line">
+</span><span class="line"><span class="n">numbers</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="m">2</span><span class="p">;</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">[</span><span class="m">2</span><span class="p">]</span> <span class="p">=</span> <span class="m">3</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line"><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class="line"><span class="p">{</span>
+</span><span class="line">    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 1, 2, 3, 0, 0</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="list">List</h3>
+<ul>
+  <li>variable size</li>
+  <li>single datatype</li>
+  <li>provides methods for searching, sorting, and modifying data</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span><span class="line">
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">101</span><span class="p">);</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Insert</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">99</span><span class="p">);</span> <span class="c1">// add 99 to start of List</span>
+</span><span class="line">
+</span><span class="line"><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class="line"><span class="p">{</span>
+</span><span class="line">    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 99, 100, 101</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="queue">Queue</h3>
+<ul>
+  <li>first in first out(FIFO)</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">Queue</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Queue</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span><span class="line">
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
+</span><span class="line"><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">7</span><span class="p">);</span>
+</span><span class="line">
+</span><span class="line"><span class="k">while</span> <span class="p">(</span><span class="n">numbers</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+</span><span class="line"><span class="p">{</span>
+</span><span class="line">    <span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="n">numbers</span><span class="p">.</span><span class="n">Dequeue</span><span class="p">;</span> <span class="c1">// removes things from the queue during iteration</span>
+</span><span class="line">    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 5, 6, 7</span>
+</span><span class="line"><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="stack">Stack</h3>
+<ul>
+  <li>first in last out(LIFO)</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">Stack</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Stack</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="set">Set</h3>
+<ul>
+  <li>data structure that does not allow duplicates</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="kt">var</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[]</span> <span class="p">{</span> <span class="m">101</span><span class="p">,</span> <span class="m">102</span><span class="p">,</span> <span class="m">103</span><span class="p">,</span> <span class="m">101</span><span class="p">,</span> <span class="m">104</span><span class="p">};</span>
+</span><span class="line">
+</span><span class="line"><span class="n">HashSet</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">seen</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();</span>
+</span><span class="line">
+</span><span class="line"><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class="line"><span class="p">{</span>
+</span><span class="line">    <span class="k">if</span> <span class="p">(</span><span class="n">seen</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+</span><span class="line">    <span class="p">{</span>
+</span><span class="line">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;{n} is new.&quot;</span><span class="p">);</span>
+</span><span class="line">    <span class="p">}</span>
+</span><span class="line">    <span class="k">else</span>
+</span><span class="line">    <span class="p">{</span>
+</span><span class="line">        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$</span><span class="s">&quot;Already saw {n}.&quot;</span><span class="p">);</span>
+</span><span class="line">    <span class="p">}</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line"><span class="c1">// 101 is new.</span>
+</span><span class="line"><span class="c1">// 102 is new.</span>
+</span><span class="line"><span class="c1">// 103 is new.</span>
+</span><span class="line"><span class="c1">// Already saw 101.</span>
+</span><span class="line"><span class="c1">// 104 is new.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="dictionary">Dictionary</h3>
+<ul>
+  <li>all about key/value pairs</li>
+  <li>organized by key</li>
+  <li>not good for searching right-&gt;left(looking up names by phone numbers)</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;</span> <span class="n">phoneNumbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&gt;();</span>
+</span><span class="line">
+</span><span class="line"><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;Dan&quot;</span><span class="p">,</span> <span class="s">&quot;555-310-2345&quot;</span><span class="p">);</span>
+</span><span class="line"><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;Joe&quot;</span><span class="p">,</span> <span class="s">&quot;345-234-2340&quot;</span><span class="p">);</span>
+</span><span class="line"><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;Johnny&quot;</span><span class="p">,</span> <span class="s">&quot;123-432-9834&quot;</span><span class="p">);</span>
+</span><span class="line">
+</span><span class="line"><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">phoneNumbers</span><span class="p">[</span><span class="s">&quot;Dan&quot;</span><span class="p">]);</span> <span class="c1">// 555-310-2345</span>
+</span><span class="line"><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">phoneNumbers</span><span class="p">[</span><span class="s">&quot;Steven&quot;</span><span class="p">]);</span> <span class="c1">// throws an exception</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="arraylist">ArrayList</h3>
+<ul>
+  <li>do not use</li>
+  <li>lots of extra pointers</li>
+  <li>relatively slow</li>
+  <li>no specific size</li>
+  <li>stores everything as an object</li>
+  <li>defeats purpose of strong-typing</li>
+  <li>equivalent of a JavaScript array(undesirable in C#)</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">ArrayList</span> <span class="n">arrList</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="p">();</span>
+</span><span class="line"><span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
+</span><span class="line"><span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">101</span><span class="p">);</span>
+</span><span class="line"><span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;hello&quot;</span><span class="p">);</span>
+</span><span class="line">
+</span><span class="line"><span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="n">arrList</span><span class="p">[</span><span class="m">0</span><span class="p">];</span> <span class="c1">// Cannot implicitly convert type &#39;object&#39; to &#39;int&#39;</span>
+</span><span class="line"><span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">arrList</span><span class="p">[</span><span class="m">0</span><span class="p">];</span> <span class="c1">// n = 100</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="hashtable">HashTable</h3>
+<ul>
+  <li>do not use</li>
+  <li>legacy</li>
+  <li>similar to ArrayList except key/value pairs instead of indexed</li>
+</ul>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+</pre></td><td class="code"><pre><code class="csharp"><span class="line"><span class="n">Hashtable</span> <span class="n">ht</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Hashtable</span><span class="p">();</span>
+</span><span class="line">
+</span><span class="line"><span class="n">ht</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;Dan&quot;</span><span class="p">,</span> <span class="s">&quot;555-234-2478&quot;</span><span class="p">);</span>
+</span><span class="line"><span class="n">ht</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="s">&quot;123&quot;</span><span class="p">,</span> <span class="s">&quot;555-234-2478&quot;</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Jordan Jesse</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2017-11-07T11:47:34-05:00'><span class='date'><span class='date-month'>Nov</span> <span class='date-day'>7</span><span class='date-suffix'>th</span>, <span class='date-year'>2017</span></span> <span class='time'>11:47 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/dot-net/'>.net</a>, <a class='category' href='/blog/categories/c-number/'>c#</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2017/11/06/day-31-check-in/" title="Previous Post: Day 31 Check In">&laquo; Day 31 Check In</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2017/11/07/collections-in-c-sharp/">Collections in C#</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/11/06/day-31-check-in/">Day 31 Check In</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/11/04/day-30-check-in/">Day 30 Check In</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/11/03/day-29-check-in/">Day 29 Check In</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2017/11/02/day-28-check-in/">Day 28 Check In</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/jordanljesse">@jordanljesse</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'jordanljesse',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Jordan Jesse -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

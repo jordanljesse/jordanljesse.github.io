@@ -4,7 +4,7 @@
   <title><![CDATA[Category: .net | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/dot-net/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-07T11:51:01-08:00</updated>
+  <updated>2017-11-07T12:20:17-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -18,117 +18,174 @@
     <link href="http://jordanljesse.github.io/blog/2017/11/07/collections-in-c-sharp/"/>
     <updated>2017-11-07T11:47:34-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/07/collections-in-c-sharp</id>
-    <content type="html"><![CDATA[<h1 id="collections-in-c">Collections in C#</h1>
-<p>When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections offer a more flexible way of storing and referencing groups of objects compared to the fixed size and data type of arrays. The following is a brief overview of a few of the collections available in C# and their properties.<!--more--></p>
+    <content type="html"><![CDATA[<p>When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections offer a more flexible way of storing and referencing groups of objects compared to the fixed size and data type of arrays. The following is a brief overview of a few of the collections available in C# and their properties.<!--more--></p>
 
 <h3 id="array">Array</h3>
 <ul>
   <li>fixed size</li>
   <li>single datatype</li>
   <li>accessed using square brackets
-```C#
-int[] numbers = new int[5];</li>
-</ul>
-
-<p>numbers[0] = 1;
-numbers[1] = 2;
-numbers[2] = 3;</p>
-
-<p>foreach (int n in numbers)
-{
-    Console.WriteLine(n); // 1, 2, 3, 0, 0
-}
-```</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="kt">int</span><span class="p">[]</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[</span><span class="m">5</span><span class="p">];&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;/</span><span class="n">ul</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">numbers</span><span class="p">[</span><span class="m">0</span><span class="p">]</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">[</span><span class="m">1</span><span class="p">]</span> <span class="p">=</span> <span class="m">2</span><span class="p">;</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">[</span><span class="m">2</span><span class="p">]</span> <span class="p">=</span> <span class="m">3</span><span class="p">;&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 1, 2, 3, 0, 0</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3 id="list">List</h3>
 <ul>
   <li>variable size</li>
   <li>single datatype</li>
   <li>provides methods for searching, sorting, and modifying data
-```C#
-List<int> numbers = new List<int>();</int></int></li>
-</ul>
-
-<p>numbers.Add(100);
-numbers.Add(101);
-numbers.Insert(0, 99); // add 99 to start of List</p>
-
-<p>foreach (int n in numbers)
-{
-    Console.WriteLine(n); // 99, 100, 101
-}
-```</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">List</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;/</span><span class="n">ul</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">numbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">101</span><span class="p">);</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">.</span><span class="n">Insert</span><span class="p">(</span><span class="m">0</span><span class="p">,</span> <span class="m">99</span><span class="p">);</span> <span class="c1">// add 99 to start of List&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 99, 100, 101</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3 id="queue">Queue</h3>
 <ul>
   <li>first in first out(FIFO)
-```C#
-Queue<int> numbers = new Queue<int>();</int></int></li>
-</ul>
-
-<p>numbers.Enqueue(5);
-numbers.Enqueue(6);
-numbers.Enqueue(7);</p>
-
-<p>while (numbers.Count &gt; 0)
-{
-    int n = numbers.Dequeue; // removes things from the queue during iteration
-    Console.WriteLine(n); // 5, 6, 7
-}
-```</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="n">Queue</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Queue</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;/</span><span class="n">ul</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">5</span><span class="p">);</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">6</span><span class="p">);</span>
+</span><span class='line'><span class="n">numbers</span><span class="p">.</span><span class="n">Enqueue</span><span class="p">(</span><span class="m">7</span><span class="p">);&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">while</span> <span class="p">(</span><span class="n">numbers</span><span class="p">.</span><span class="n">Count</span> <span class="p">&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="m">0</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="n">numbers</span><span class="p">.</span><span class="n">Dequeue</span><span class="p">;</span> <span class="c1">// removes things from the queue during iteration</span>
+</span><span class='line'>    <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">n</span><span class="p">);</span> <span class="c1">// 5, 6, 7</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3 id="stack">Stack</h3>
 <ul>
   <li>first in last out(LIFO)
-```C#
-Stack<int> numbers = new Stack<int>();</int></int></li>
+<code>csharp
+Stack&lt;int&gt; numbers = new Stack&lt;int&gt;();
+</code></li>
 </ul>
-
-<p>```</p>
 
 <h3 id="set">Set</h3>
 <ul>
   <li>data structure that does not allow duplicates
-```C#
-var numbers = new int[] { 101, 102, 103, 101, 104}</li>
-</ul>
-
-<p>HashSet<int> seen = new HashSet<int>();</int></int></p>
-
-<p>foreach (int n in numbers)
-{
-    if (seen.Add(n)) 
-    {
-        Console.WriteLine($”{n} is new.”);
-    }
-    else 
-    {
-        Console.WriteLine($”Already saw {n}.”);
-    }
-}
-// 101 is new.
-// 102 is new.
-// 103 is new.
-// Already saw 101.
-// 104 is new.
-```</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="kt">var</span> <span class="n">numbers</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">int</span><span class="p">[]</span> <span class="p">{</span> <span class="m">101</span><span class="p">,</span> <span class="m">102</span><span class="p">,</span> <span class="m">103</span><span class="p">,</span> <span class="m">101</span><span class="p">,</span> <span class="m">104</span><span class="p">};&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;/</span><span class="n">ul</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">HashSet</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;</span> <span class="n">seen</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HashSet</span><span class="p">&lt;</span><span class="kt">int</span><span class="p">&gt;();&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="kt">int</span><span class="p">&gt;&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="k">foreach</span> <span class="p">(</span><span class="kt">int</span> <span class="n">n</span> <span class="k">in</span> <span class="n">numbers</span><span class="p">)</span>
+</span><span class='line'><span class="p">{</span>
+</span><span class='line'>    <span class="k">if</span> <span class="p">(</span><span class="n">seen</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">n</span><span class="p">))</span>
+</span><span class='line'>    <span class="p">{</span>
+</span><span class='line'>        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$”</span><span class="p">{</span><span class="n">n</span><span class="p">}</span> <span class="k">is</span> <span class="k">new</span><span class="p">.</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'>    <span class="k">else</span>
+</span><span class='line'>    <span class="p">{</span>
+</span><span class='line'>        <span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="err">$”</span><span class="n">Already</span> <span class="n">saw</span> <span class="p">{</span><span class="n">n</span><span class="p">}.</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// 101 is new.</span>
+</span><span class='line'><span class="c1">// 102 is new.</span>
+</span><span class='line'><span class="c1">// 103 is new.</span>
+</span><span class='line'><span class="c1">// Already saw 101.</span>
+</span><span class='line'><span class="c1">// 104 is new.</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3 id="dictionary">Dictionary</h3>
 <ul>
   <li>all about key/value pairs</li>
   <li>organized by key</li>
   <li>not good for searching right-&gt;left(looking up names by phone numbers)
-```C#
-Dictionary&lt;string, string&gt; phoneNumbers = new Dictionary&lt;string, string&gt;();</li>
-</ul>
-
-<p>phoneNumbers.Add(“Dan”, “555-310-2345”);
-phoneNumbers.Add(“Joe”, “345-234-2340”);
-phoneNumbers.Add(“Johnny”, “123-432-9834”);</p>
-
-<p>Console.WriteLine(phoneNumbers[“Dan”]); // 555-310-2345
-Console.WriteLine(phoneNumbers[“Steven”]); // throws an exception
-```</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'><span class="n">Dictionary</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;</span> <span class="n">phoneNumbers</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Dictionary</span><span class="p">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="kt">string</span><span class="p">,</span> <span class="kt">string</span><span class="p">&amp;</span><span class="n">gt</span><span class="p">;();&lt;/</span><span class="n">li</span><span class="p">&gt;</span>
+</span><span class='line'><span class="p">&lt;/</span><span class="n">ul</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="n">Dan</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="m">555</span><span class="p">-</span><span class="m">310</span><span class="p">-</span><span class="m">2345</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="n">Joe</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="m">345</span><span class="p">-</span><span class="m">234</span><span class="p">-</span><span class="m">2340</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'><span class="n">phoneNumbers</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="n">Johnny</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="m">123</span><span class="p">-</span><span class="m">432</span><span class="p">-</span><span class="m">9834</span><span class="err">”</span><span class="p">);&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">phoneNumbers</span><span class="p">[</span><span class="err">“</span><span class="n">Dan</span><span class="err">”</span><span class="p">]);</span> <span class="c1">// 555-310-2345</span>
+</span><span class='line'><span class="n">Console</span><span class="p">.</span><span class="n">WriteLine</span><span class="p">(</span><span class="n">phoneNumbers</span><span class="p">[</span><span class="err">“</span><span class="n">Steven</span><span class="err">”</span><span class="p">]);</span> <span class="c1">// throws an exception</span>
+</span></code></pre></td></tr></table></div></figure></p>
 
 <h3 id="arraylist">ArrayList</h3>
 <ul>
@@ -140,18 +197,23 @@ Console.WriteLine(phoneNumbers[“Steven”]); // throws an exception
   <li>defeats purpose of strong-typing</li>
   <li>
     <p>equivalent of a JavaScript array(undesirable in C#)
-```C#
-  ArrayList arrList = new ArrayList();
-  arrList.Add(100);
-  arrList.Add(101);
-  arrList.Add(“hello”);</p>
-
-    <p>int n = arrList[0]; // Cannot implicitly convert type ‘object’ to ‘int’
-  int n = (int)arrList[0]; // n = 100</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'>  <span class="n">ArrayList</span> <span class="n">arrList</span> <span class="p">=</span> <span class="k">new</span> <span class="n">ArrayList</span><span class="p">();</span>
+</span><span class='line'>  <span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">100</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="m">101</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">arrList</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="n">hello</span><span class="err">”</span><span class="p">);&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="n">arrList</span><span class="p">[</span><span class="m">0</span><span class="p">];</span> <span class="c1">// Cannot implicitly convert type ‘object’ to ‘int’</span>
+</span><span class='line'>  <span class="kt">int</span> <span class="n">n</span> <span class="p">=</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">arrList</span><span class="p">[</span><span class="m">0</span><span class="p">];</span> <span class="c1">// n = 100</span>
+</span></code></pre></td></tr></table></div></figure></p>
   </li>
 </ul>
-
-<p>```</p>
 
 <h3 id="hashtable">HashTable</h3>
 <ul>
@@ -159,15 +221,17 @@ Console.WriteLine(phoneNumbers[“Steven”]); // throws an exception
   <li>legacy</li>
   <li>
     <p>similar to ArrayList except key/value pairs instead of indexed
-```C#
-  Hashtable ht = new Hashtable();</p>
-
-    <p>ht.Add(“Dan”, “555-234-2478”);
-  ht.Add(“123”, “555-234-2478”);</p>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='csharp'><span class='line'>  <span class="n">Hashtable</span> <span class="n">ht</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Hashtable</span><span class="p">();&lt;/</span><span class="n">p</span><span class="p">&gt;</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="p">&lt;</span><span class="n">p</span><span class="p">&gt;</span><span class="n">ht</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="n">Dan</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="m">555</span><span class="p">-</span><span class="m">234</span><span class="p">-</span><span class="m">2478</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">ht</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="err">“</span><span class="m">123</span><span class="err">”</span><span class="p">,</span> <span class="err">“</span><span class="m">555</span><span class="p">-</span><span class="m">234</span><span class="p">-</span><span class="m">2478</span><span class="err">”</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure></p>
   </li>
 </ul>
-
-<p>```</p>
 ]]></content>
   </entry>
   
