@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-07T16:50:30-08:00</updated>
+  <updated>2017-11-08T14:25:15-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 32 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in/"/>
+    <updated>2017-11-07T21:56:08-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in</id>
+    <content type="html"><![CDATA[<p>I struggled with my health today and as a result I wasn’t able to write as much code as I would have liked. I’m going to make this evening about self-care so that I can get back on top of my feature tomorrow.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Collections in C#]]></title>
@@ -443,17 +452,6 @@
     <updated>2017-10-18T23:18:23-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in</id>
     <content type="html"><![CDATA[<p>I finished up my full stack component last night and spent today giving it some styling and then integrating it into the main project. I learned some fancy git commands like <code>git log --all --graph --pretty=oneline</code> and how to deal with merge conflicts(edit by hand with attention to detail). Reading and writing code is feeling more natural with each day. I finally installed the Vim plugin in Visual Studio so that I can start moving around my code more nimbly! I find myself marveling at how clever Vim is every time I use it - my goal is to be a Vim wizard by the end of this year.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 14 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in/"/>
-    <updated>2017-10-17T23:21:48-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/17/day-14-check-in</id>
-    <content type="html"><![CDATA[<p>I spent most of today feeling overwhelmed and trying to keep my head up and press forward despite the feeling. We started building our individual components today, from the database, through the middle tier, and to the front end(using SQL, .NET, and AngularJS respectively). I struggled most of the day to understand how all of the pieces communicate with each other, however by the end of the day I felt like I had a grasp on the flow of data.<!--more--></p>
-
-<p>I was able to write a console application that allowed me to test the API I had written in C# along with the SQL procedures. The pace is definitely moving fast at Sabio however I feel like I’m learning some non-trivial new things every single day here. I’m looking forward to going in tomorrow and building out the front end of this component with AngularJS, and then watching the data go from the client, to the Angular controller, to the Angular service, to the Api Controller, to the Api Service, to the SQL database, and back again. The internet is a series of pipes indeed!</p>
 ]]></content>
   </entry>
   

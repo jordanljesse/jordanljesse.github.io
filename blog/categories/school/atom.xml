@@ -4,7 +4,7 @@
   <title><![CDATA[Category: School | Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/blog/categories/school/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-07T16:50:30-08:00</updated>
+  <updated>2017-11-08T14:25:15-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Day 32 Check In]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in/"/>
+    <updated>2017-11-07T21:56:08-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in</id>
+    <content type="html"><![CDATA[<p>I struggled with my health today and as a result I wasn’t able to write as much code as I would have liked. I’m going to make this evening about self-care so that I can get back on top of my feature tomorrow.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Day 31 Check In]]></title>
@@ -48,15 +57,6 @@
     <updated>2017-11-02T22:27:17-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in</id>
     <content type="html"><![CDATA[<p>We had a substitute instructor today, which turned out to be pretty cool because our sub specialized in a different stack(Node.js) than our own(.NET), so we got exposed to some new ways of doing things. I started <em>and</em> finished a component today that crawls the IndexdDB and exports all of the notes it contains as JSON and vice versa(import JSON as notes in IndexedDB).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 27 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
-    <updated>2017-11-01T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
-    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday so I can submit a pull request today. It looks like the next feature I’ve got to build involves importing and exporting notes as JSON and using GUID’s to keep track of notes that might contain duplicate id’s on the server.</p>
 ]]></content>
   </entry>
   
