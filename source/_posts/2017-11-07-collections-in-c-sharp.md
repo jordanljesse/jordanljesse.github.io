@@ -7,7 +7,6 @@ categories: .NET C#
 published: true
 ---
 
-# Collections in C\#
 When you want to keep track of a group of objects in C#, you can do so by either creating arrays of objects or collections of objects. Collections offer a more flexible way of storing and referencing groups of objects compared to the fixed size and data type of arrays. The following is a brief overview of a few of the collections available in C# and their properties.<!--more-->
 
 
@@ -15,7 +14,7 @@ When you want to keep track of a group of objects in C#, you can do so by either
 - fixed size
 - single datatype
 - accessed using square brackets
-```C#
+```csharp
 int[] numbers = new int[5];
 
 numbers[0] = 1;
@@ -32,7 +31,7 @@ foreach (int n in numbers)
 - variable size
 - single datatype
 - provides methods for searching, sorting, and modifying data
-```C#
+```csharp
 List<int> numbers = new List<int>();
 
 numbers.Add(100);
@@ -47,7 +46,7 @@ foreach (int n in numbers)
 
 ### Queue
 - first in first out(FIFO)
-```C#
+```csharp
 Queue<int> numbers = new Queue<int>();
 
 numbers.Enqueue(5);
@@ -63,16 +62,14 @@ while (numbers.Count > 0)
 
 ### Stack
 - first in last out(LIFO)
-```C#
+```csharp
 Stack<int> numbers = new Stack<int>();
-
-
 ```
 
 ### Set
 - data structure that does not allow duplicates
-```C#
-var numbers = new int[] { 101, 102, 103, 101, 104}
+```csharp
+var numbers = new int[] { 101, 102, 103, 101, 104};
 
 HashSet<int> seen = new HashSet<int>();
 
@@ -94,11 +91,11 @@ foreach (int n in numbers)
 // 104 is new.
 ```
 
-###Dictionary
+### Dictionary
 - all about key/value pairs
 - organized by key
-- not good for searching right->left(looking up names by phone numbers)
-```C#
+- not good for searching right to left(looking up names by phone numbers)
+```csharp
 Dictionary<string, string> phoneNumbers = new Dictionary<string, string>();
 
 phoneNumbers.Add("Dan", "555-310-2345");
@@ -109,7 +106,7 @@ Console.WriteLine(phoneNumbers["Dan"]); // 555-310-2345
 Console.WriteLine(phoneNumbers["Steven"]); // throws an exception
 ```
 
-###ArrayList
+### ArrayList
 - do not use
 - lots of extra pointers
 - relatively slow
@@ -117,7 +114,7 @@ Console.WriteLine(phoneNumbers["Steven"]); // throws an exception
 - stores everything as an object
 - defeats purpose of strong-typing
 - equivalent of a JavaScript array(undesirable in C#)
-```C#
+```csharp
     ArrayList arrList = new ArrayList();
     arrList.Add(100);
     arrList.Add(101);
@@ -125,18 +122,15 @@ Console.WriteLine(phoneNumbers["Steven"]); // throws an exception
 
     int n = arrList[0]; // Cannot implicitly convert type 'object' to 'int'
     int n = (int)arrList[0]; // n = 100
-
 ```
 
-###HashTable
+### HashTable
 - do not use
 - legacy
 - similar to ArrayList except key/value pairs instead of indexed
-```C#
+```csharp
     Hashtable ht = new Hashtable();
 
     ht.Add("Dan", "555-234-2478");
     ht.Add("123", "555-234-2478");
-
-
 ```
