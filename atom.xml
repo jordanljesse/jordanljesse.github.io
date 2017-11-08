@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-07T12:23:20-08:00</updated>
+  <updated>2017-11-07T16:50:30-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -278,7 +278,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
     <updated>2017-10-31T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
-    <content type="html"><![CDATA[<p>Holy crap it rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
+    <content type="html"><![CDATA[<p>It rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; so strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
 ]]></content>
   </entry>
   
@@ -309,10 +309,10 @@
 <p>The DOM can be manipulated and edited using a scripting language like JavaScript including libraries and frameworks such as jQuery, Angular, and React. In fact, the DOM actually has its own API for interacting with other bits of code. Much of what is thought of as a “JavaScript thing” is actually a DOM API feature that allows us to interact with the DOM.</p>
 
 <h3 id="dirty-checking">Dirty Checking</h3>
-<p>Dirty checking is when our code checks all of the node’s data at regular intervals for changes, like a loop(because it <em>is</em> a loop). It’s an inefficient way to update DOM elements as it requires recursively traversing every single node in the DOM to see if the node’s data is “dirty”(it’s been changed). Compared to “Observable Checking”, where the individual components are responsible for listening to when changes take place in the state and communicating those changes, dirty checking is slow. A good example of this slowness would be updating a <code>li</code> in an unordered list: when dirty checking discovers the updated <code>li</code> it will actually re-render the entire unordered list; a very ineffecient operation.</p>
+<p>Dirty checking is when our code loops through all of the node’s data at regular intervals for changes. It’s an inefficient way to update DOM elements as it requires recursively traversing every single node in the DOM to see if the node’s data is “dirty”(been changed). Compared to “Observable Checking”, where the individual components are responsible for listening to when changes take place in the state and communicating those changes, dirty checking is slow. A good example of this slowness would be updating a <code>li</code> in an unordered list: when dirty checking discovers the updated <code>li</code> it will actually re-render the entire unordered list; a very ineffecient operation.</p>
 
 <h3 id="the-virtual-dom">The Virtual DOM</h3>
-<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweight and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update it’s parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
+<p>The virtual DOM, or VDOM, is an abstraction of the DOM that is lightweight and can be updated without affecting the actual DOM. It has all of the same nodes, objects, and properties as the real DOM except without the ability to write to the screen. It’s worth noting that a new VDOM is created after every re-render of the UI. When using React a snapshot is made of the VDOM before applying any updates and this snapshot is used to compare against an updated VDOM. By comparing and contrasting the VDOM snapshot with the updated VDOM React is able to update only those elements that have been changed. Unlike the dirty checking example previously mentioned, VDOM manipulation will only update the node that’s been changed <em>without</em> having to update its parent element or containing list. This is what makes VDOM manipulation faster and more efficient than dirty checking.</p>
 ]]></content>
   </entry>
   
@@ -321,7 +321,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in/"/>
     <updated>2017-10-30T23:46:52-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in</id>
-    <content type="html"><![CDATA[<p>I had an idea for an app last night that I really want to build, so I’m using it as an excuse to run through making a full stack CRUD app again with Angular/.NET/SQL. It’s a web app to help unlicensed social workers track the hours required for their licensure. After hearing a few social workers frustrated with the process of tracking their hours it seemed like an app that could store the hours and return some meaningful analysis to the user would be the way forward - certainly more convenient than an Excel spreadsheet.</p>
+    <content type="html"><![CDATA[<p>I had an idea for an app last night that I really want to build, so I’m using it as an excuse to run through making a full stack CRUD app again with Angular/.NET/SQL. It’s a web app to help new social workers track the hours required for their licensure. After hearing a few social workers frustrated with the process of tracking their hours it seemed like an app that could store the hours and return some meaningful analysis to the user would be the way forward - certainly more convenient than an Excel spreadsheet.</p>
 ]]></content>
   </entry>
   
@@ -339,13 +339,11 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
     <updated>2017-10-27T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
-    <content type="html"><![CDATA[<p>Today we learned more about data structures, binary trees, and how to traverse a binary tree using recursion. I’d always perceived binary trees as some scary part of the interview process based off of the complaints of tech interviewees, however they didn’t seem that complex and traversal via recursion made really good sense.<!--more--></p>
+    <content type="html"><![CDATA[<p>Today we learned more about data structures, binary trees, and how to traverse a binary tree using recursion. I’d always perceived binary trees as some scary part of the interview process based off of the complaints of tech interviewees on social media, however they didn’t seem that complex and traversal via recursion made really good sense.<!--more--></p>
 
 <p>Additionally, today I learned that if you want a little green square to show up on your GitHub commit graph that your name and email, specifically the email you login to GitHub with, need to be configured in git. Good to know!</p>
 
-<h2 id="recursion">Recursion</h2>
-
-<h3 id="binary-tree-traversal">Binary Tree Traversal</h3>
+<h3 id="binary-tree-traversal-via-recursion">Binary Tree Traversal Via Recursion</h3>
 
 <h5 id="preorder">Preorder</h5>
 <ul>
@@ -372,9 +370,9 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
     <updated>2017-10-26T21:40:04-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
-    <content type="html"><![CDATA[<p>Today we we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how to handle git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!<!--more--></p>
+    <content type="html"><![CDATA[<p>Today we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how more on handling git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!<!--more--></p>
 
-<h3 id="data-binding-characters">Data Binding Characters</h3>
+<h3 id="data-binding-characters-in-angular">Data Binding Characters in Angular</h3>
 <ul>
   <li><code>&lt;</code> one-way data binding</li>
   <li><code>=</code> two-way data binding</li>
@@ -388,7 +386,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in/"/>
     <updated>2017-10-25T22:05:24-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in</id>
-    <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it. I thought it was Thursday all day and it’s actually Wednesday; it’s been one of those weeks.</p>
+    <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it(because you value time and efficiency!). I thought it was Thursday all day and it’s actually Wednesday; it’s been one of <em>those</em> weeks.</p>
 ]]></content>
   </entry>
   
@@ -397,7 +395,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in/"/>
     <updated>2017-10-24T23:27:24-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in</id>
-    <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this techie logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
+    <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this for-developers logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
 ]]></content>
   </entry>
   
@@ -408,7 +406,7 @@
     <id>http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in</id>
     <content type="html"><![CDATA[<p>I spent most of my day ‘off’ yesterday building a web app that can get the user’s location data and return the local weather using the Weather Underground API and the <code>navigator.geolocation</code> API built into HTML5. I learned a lot about SSL, HTTPS, and ports 443/80 while attempting(the operative word here) to securely retrieve and transmit the user’s location. You can check out my little weather API experiment <a href="http://codepen.io/jljesse/pen/LzvoJq">here</a>. Additionally, I’m trying to be better about digging into the call stack when I’m debugging; it’s a really helpful tool.<!--more--></p>
 
-<p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together instructor supplied crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
+<p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together preexisting crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
 ]]></content>
   </entry>
   
@@ -426,7 +424,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in/"/>
     <updated>2017-10-20T22:51:37-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in</id>
-    <content type="html"><![CDATA[<p>I started working on my second component today and it was different from the first in that it already contained a bunch of code that I had to work around, which provided some extra challenges. The main thing I learned about today was encryption and how to apply it to a user’s password; trying to handle the password so that it’s secure is tricky business however I’m really enjoying the challenge.</p>
+    <content type="html"><![CDATA[<p>I started working on my second component today and it was different from the first in that it already contained a bunch of code that I had to work around, which provided some extra challenges. The main thing I learned about today was encryption and how to apply it to a user’s password; trying to handle the password so that it’s secure is tricky business however I enjoy the challenge.</p>
 ]]></content>
   </entry>
   
@@ -435,7 +433,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in/"/>
     <updated>2017-10-19T23:23:45-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in</id>
-    <content type="html"><![CDATA[<p>So I thought I finished my full stack component yesterday, however I added some validation to the API I wrote with C#… and it broke. As a result, today I learned how to troubleshoot The Unity framework configuration, how to implement validation on the server(as opposed to client side), and how to improve my debugging by digging into the call stack more.</p>
+    <content type="html"><![CDATA[<p>So I thought I finished my full stack component yesterday, however I added some validation to the API I wrote with C#… and it broke. As a result, today I learned how to troubleshoot the Unity framework configuration, how to implement validation on the server(as opposed to client side), and how to improve my debugging by digging into the call stack.</p>
 ]]></content>
   </entry>
   
@@ -444,7 +442,7 @@
     <link href="http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in/"/>
     <updated>2017-10-18T23:18:23-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/10/18/day-15-check-in</id>
-    <content type="html"><![CDATA[<p>I finished up my full stack component last night and spent today giving it some styling and then integrating it into the main project. I learned some fancy git commands like <code>git log --all --graph --pretty=oneline</code> and how do deal with merge conflicts(edit by hand with attention to detail). Reading and writing code is feeling more natural with each day. I finally installed the Vim plugin in Visual Studio so that I can start moving around my code more nimbly! I find myself marveling at how clever Vim is ever time I use it - my goal is to be a Vim wizard by the end of this year.</p>
+    <content type="html"><![CDATA[<p>I finished up my full stack component last night and spent today giving it some styling and then integrating it into the main project. I learned some fancy git commands like <code>git log --all --graph --pretty=oneline</code> and how to deal with merge conflicts(edit by hand with attention to detail). Reading and writing code is feeling more natural with each day. I finally installed the Vim plugin in Visual Studio so that I can start moving around my code more nimbly! I find myself marveling at how clever Vim is every time I use it - my goal is to be a Vim wizard by the end of this year.</p>
 ]]></content>
   </entry>
   
