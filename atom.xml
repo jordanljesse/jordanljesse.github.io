@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-08T20:14:40-08:00</updated>
+  <updated>2017-11-08T20:43:33-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,24 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Day 33 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/08/day-33-check-in/"/>
-    <updated>2017-11-08T21:56:08-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/08/day-33-check-in</id>
-    <content type="html"><![CDATA[<p>A recent alumni that just got hired at an extremely desireable company with offices in Santa Monica came by to talk with my class about his job hunting experience and to answer some our questions. The visit was inspiring and a little anxiety inducing at the stame time; the former because it was great to hear a (mostly)self-taught developer success story and the latter because it reminded me of how much there is out there I just don’t know yet.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 32 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in/"/>
-    <updated>2017-11-07T21:56:08-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/07/day-32-check-in</id>
-    <content type="html"><![CDATA[<p>I struggled with my health today and as a result I wasn’t able to write as much code as I would have liked. I’m going to make this evening about self-care so that I can get back on top of my feature tomorrow.</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Collections in C#]]></title>
@@ -245,62 +227,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 31 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in/"/>
-    <updated>2017-11-06T23:04:19-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/06/day-31-check-in</id>
-    <content type="html"><![CDATA[<p>I feel like my learning approach for the last few months has been breadth before depth and lately I’ve been wanting to take a few days to dive deeply into a few areas that I feel need bolstering, like currying and recursion.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 30 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/04/day-30-check-in/"/>
-    <updated>2017-11-04T20:29:10-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/04/day-30-check-in</id>
-    <content type="html"><![CDATA[<p>Saturdays in Los Angeles are amazing. Farmer’s markets, no traffic, and almost always perfect weather. I spent most of the day designing a user selectable theme feature for the open source logging tool we’re building, along with a dark themed UI. I was glad to have an opportunity to dig into CSS animations after listing to <a href="http://rachelnabors.com">Rachel Nabors</a> on the <a href="https://www.codenewbie.org/podcast/what-and-why-is-web-animation">Code Newbie</a> podcast(highly recommended).<!--more--></p>
-
-<p>I was trying to survive traffic on the 405 when something Nabors said jumped out at me: <em>perceived</em> load time is more important than <em>actual</em> load time. I had never thought about how the user actually perceives the load time of something when I’m looking at benchmark metrics for a website; it turns out those metrics don’t tell the whole story. As a result, my plan is to incorporate some of Nabors ideas from the podcast into this open source note taking tool in the hopes that it will ease the cognitive load of the user and take some of the <em>friction</em> out of note taking.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 29 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/03/day-29-check-in/"/>
-    <updated>2017-11-03T23:45:32-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/03/day-29-check-in</id>
-    <content type="html"><![CDATA[<p>Today was demo day for a couple cohorts that are ahead of us. I’m always amazed at the amount of features that each cohort is able to cram into their app in the short amount of time they have to work on it. It’s simultaneously inspiring and intimidating to see how high the bar is here at Sabio.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 28 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in/"/>
-    <updated>2017-11-02T22:27:17-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/02/day-28-check-in</id>
-    <content type="html"><![CDATA[<p>We had a substitute instructor today, which turned out to be pretty cool because our sub specialized in a different stack(Node.js) than our own(.NET), so we got exposed to some new ways of doing things. I started <em>and</em> finished a component today that crawls the IndexdDB and exports all of the notes it contains as JSON and vice versa(import JSON as notes in IndexedDB).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 27 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in/"/>
-    <updated>2017-11-01T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/11/01/day-27-check-in</id>
-    <content type="html"><![CDATA[<p>Cleaning up the git branch for the markdown note editor I made yesterday so I can submit a pull request today. It looks like the next feature I’ve got to build involves importing and exporting notes as JSON and using GUID’s to keep track of notes that might contain duplicate id’s on the server.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 26 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in/"/>
-    <updated>2017-10-31T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/31/day-26-check-in</id>
-    <content type="html"><![CDATA[<p>It rained in Los Angeles this morning! Somehow, rain in LA affects drivers like snow does in Kansas; so strange. We got introduced to IndexedDB this morning which seems like a clever way of storing things locally in the user’s browser(instead of a database). This afternoon I <em>finally</em> finished up the markdown editor for notes I’ve been working on the last few days! I’m hoping to move on to a feature that utilizes <a href="https://d3js.org">D3.js</a> as I’ve got a personal project I think would really benefit from data visualization.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Dirty Checking vs. VDOM]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/10/31/dirty-checking-vs-vdom/"/>
     <updated>2017-10-31T14:50:12-05:00</updated>
@@ -335,123 +261,259 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 25 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in/"/>
-    <updated>2017-10-30T23:46:52-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/30/day-25-check-in</id>
-    <content type="html"><![CDATA[<p>I had an idea for an app last night that I really want to build, so I’m using it as an excuse to run through making a full stack CRUD app again with Angular/.NET/SQL. It’s a web app to help new social workers track the hours required for their licensure. After hearing a few social workers frustrated with the process of tracking their hours it seemed like an app that could store the hours and return some meaningful analysis to the user would be the way forward - certainly more convenient than an Excel spreadsheet.</p>
+    <title type="html"><![CDATA[Mac Backup Strategy]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy/"/>
+    <updated>2017-09-30T22:18:25-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/09/30/mac-backup-strategy</id>
+    <content type="html"><![CDATA[<p>If you’re like me, then you probably store a lot of precious data on your digital devices: family photos, videos, music, fun projects, work projects, notes, and the like. When(it’s <em>definitely</em> when, not if) we experience a device failure/loss, the last thing we want to worry about is whether the data we’ve accumuated over the years, our digital life, is safe or not. Here is the backup strategy I use to make sure that when a computer fails it’s a minor inconvenience instead of a major headache(or heartache).
+<!-- more --></p>
+
+<h3 id="the-3-2-1-rule">The 3-2-1 Rule</h3>
+<p>There is a rule for reliable digital backups called <a href="https://www.carbonite.com/en/cloud-backup/business/resources/carbonite-blog/what-is-3-2-1-backup/"><em>The 3-2-1 Rule</em></a> and it goes like this: for our data to be properly backed up it needs to exist in <em>three</em> places, on <em>two</em> seperate mediums, and with at least <em>one</em> backup offsite. So if we have a copy of our data on our laptop, an external hard drive, and in the cloud we can be pretty confident that our data is safe. Let’s dig into the tools to get this done!</p>
+
+<h3 id="local-versioned-backups">Local Versioned Backups</h3>
+<p>The first, and perhaps easiest to implement, backup we should make is a local versioned backup of our data. The <em>“local”</em> in local versioned backup means that the data exists locally, physically near us, and not offsite on some remote server or cloud service(Dropbox, iCloud, etc.). The <em>“versioned”</em> part means that our data is backed up incrementally and different versions of our data are maintained. A good use case for this would be if we have a project we’re working on and the files get corrupted, or we make a change that we’re not happy with and want to restore the project to an earlier version. With local versioned backups, we can do this!</p>
+
+<p>One of the easiest ways to maintain local versioned backups of our data on a Mac is to use Apple’s own <a href="https://www.apple.com/in/support/timemachine/">Time Machine</a> software, which is included with every Mac. We open up <code>System Preferences</code>, select <code>Time Machine</code>, check the box labeled <code>Back Up Automatically</code>, and click on <code>Select Disk</code> to choose which disk we would like to use with Time Machine. It’s important to note that the disk we choose should <em>NOT</em> be our Mac’s startup disk - it should be a seperate disk. This is so that if our Mac were to fail or get lost our local versioned backup would remain intact, keeping our data safe. It’s worth mentioning that Time Machine only backs up our <em>data</em>(photos, videos, music, notes, etc.), <em>not</em> our applications or settings, which is where our second backup comes in.</p>
+
+<h3 id="local-bootable-backups">Local Bootable Backups</h3>
+<p>A local bootable backup is like the previous backup, except with two major differences: it backs up our <em>entire</em> hard drive including data, apps, and settings, and we can use it to boot up our computer. The <em>“bootable”</em> in local bootable backup means that we can take the drive that contains our backup, plug it into another computer, and boot from it. It is a clone of our system in its entirety. One of the shortcomings of this type of backup is that if we make a change to a project that we don’t like or a file gets messed up, those changes will get backed up to the local bootable backup as well. That is exactly why we keep a versioned backup <em>in addition to</em> a bootable backup.</p>
+
+<p>For a bootable backup I use and highly recommend the application <a href="https://bombich.com"><em>Carbon Copy Cloner</em></a> by Bombich Software. After installing Carbon Copy Cloner, we select which disk we would like the application to use as a backup(again, one that is <em>seperate</em> from our startup disk), the schedule for our backup(I recommend daily), and click on the <code>clone</code> button.</p>
+
+<h3 id="offsite-backups">Offsite Backups</h3>
+<p>An offsite backup of our data is data that is literally <em>offsite</em> - it is located far away from our devices and backup drives. This is typically used as a worst case scenario backup, like if our house were subject to flood, fire, or theft. It would be nice to know that if we were unfortunate enough to lose everything that all of our data would be safe somewhere, and with an offsite backup this is possible.</p>
+
+<p>For most people, one of the easiest ways to maintain an offsite backup is to use a service who’s mission is to keep our data backed up safely. Services like <a href="https://www.backblaze.com">Backblaze</a> can back up our entire computer to their servers(the cloud) and restore those files at our request.</p>
+
+<p>For the more technically inclined, I use and recommend <a href="https://www.arqbackup.com">Arq</a> configured to back up our data to AWS Glacier servers, which have relatively low storage fees. Arq is essentially Time Machine for the cloud - it creates versioned backups of our data stored on a server of our choosing. As long as we have an internet connection our files are constantly being backed up to the cloud. However, unlike local backups, we will need to be connected to the internet to restore our files.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 24 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in/"/>
-    <updated>2017-10-28T22:23:39-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/28/day-24-check-in</id>
-    <content type="html"><![CDATA[<p>I’m working on a new feature that involves building a custom tag in Angular that incorporates an open source project. I’ve made a personal goal of solving a new algorithm challenge on <a href="https://www.hackerrank.com">Hacker Rank</a> every day for the rest of this year. We’ll see how it goes!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 23 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in/"/>
-    <updated>2017-10-27T21:40:04-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/27/day-23-check-in</id>
-    <content type="html"><![CDATA[<p>Today we learned more about data structures, binary trees, and how to traverse a binary tree using recursion. I’d always perceived binary trees as some scary part of the interview process based off of the complaints of tech interviewees on social media, however they didn’t seem that complex and traversal via recursion made really good sense.<!--more--></p>
+    <title type="html"><![CDATA[Managing Multiple Ruby Versions]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions/"/>
+    <updated>2017-09-18T23:20:20-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/09/18/managing-multiple-ruby-versions</id>
+    <content type="html"><![CDATA[<p>The other day I decided to dust off this Octopress blog that I had started back in the Spring of this year to find that my <code>rake</code> tasks weren’t running properly. After a brief search of the web it seemed that outdated versions of Ruby were to blame. However, I still needed to maintain these older versions of Ruby for other projects I’m working on. With that in mind, I set about learning how to manage multiple versions of Ruby on my Mac and stumbled across <a href="https://github.com/rbenv">rbenv</a>.
+<!-- more --></p>
 
-<p>Additionally, today I learned that if you want a little green square to show up on your GitHub commit graph that your name and email, specifically the email you login to GitHub with, need to be configured in git. Good to know!</p>
+<p>First I’ll go over why I chose to use rbenv over similar tools like RVM and then get into how to install and use rbenv. The main reasons I choose to go with rbenv are:</p>
 
-<h3 id="binary-tree-traversal-via-recursion">Binary Tree Traversal Via Recursion</h3>
-
-<h5 id="preorder">Preorder</h5>
 <ul>
-  <li>node(contains contents, left child, and right child)</li>
-  <li>traversal function uses recursion</li>
-  <li>print the parents before the children</li>
+  <li>it’s <em>light</em> compared to RVM</li>
+  <li>I can set <em>application-specific Ruby versions</em></li>
+  <li><em>no configuration file!</em></li>
+  <li>easier to get set up and back to work</li>
 </ul>
 
-<h5 id="postorder">Postorder</h5>
+<p>What rbenv does is essentially create a sandboxed Ruby environment for our project in which we get to control which version of Ruby is run, separately from the version that may be the default for our system. To start using rbenv we will want to have Homebrew installed and up to date. After making sure that Homebrew is up to date we are ready to install rbenv! You can see that rbenv also installs <a href="https://github.com/rbenv/ruby-build">ruby-build</a>, a plugin that allows us to install multiple versions of Ruby and enables rbenv to specify which version to use for the current project.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>brew update
+</span><span class="line"><span class="nv">$ </span>brew install rbenv ruby-build
+</span></code></pre></td></tr></table></div></figure>
+
+<p>When the above completes, we’re ready to install our desired version(s) of Ruby by running:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv install 2.4.2
+</span></code></pre></td></tr></table></div></figure>
+
+<p>We’ll also need to run the following command to install the shims required for all the Ruby executables that rbenv is aware of. We will want to run the <code>rehash</code> command each time we install a new version of Ruby or a gem that provides commands.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv rehash
+</span></code></pre></td></tr></table></div></figure>
+
+<p>After restarting our terminal we should be able to specify which version of Ruby we’d like to run in our project by <code>cd</code>-ing into the root folder of the project and running the following command:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv <span class="nb">local </span>2.4.2
+</span></code></pre></td></tr></table></div></figure>
+
+<p>We can verify the current active Ruby version by running:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="bash"><span class="line"><span class="nv">$ </span>rbenv version
+</span></code></pre></td></tr></table></div></figure>
+
+<p>And that’s it! We’re now able to install and manage multiple versions of Ruby on a per-project basis with minimal fuss.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Intro to Javascript Objects]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/05/12/javascript-objects/"/>
+    <updated>2017-05-12T10:10:43-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/05/12/javascript-objects</id>
+    <content type="html"><![CDATA[<p>To understand how functions and other objects work in Javascript it’s important to first understand objects. What makes an object, how are they used, and what can we do with them? Let’s tackle a few of these questions!
+<!-- more --></p>
+
+<h3 id="objects">Objects</h3>
+<p>Almost everything in Javascript is an object as the language is an object-based programming language(compared to an object-<em>oriented</em> language an object-<em>based</em> language lacks inheritance and subtyping). The first important takeaway is that an object is a collection of <em>properties</em> and that properties themselves are key/value pairs. When a property’s value is a function, that property is then referred to as a <em>method</em> and can be used by(or “called on”) the object that it is attached to. Additionally, while there are many predefined objects in the browser you can also create your own objects, complete with unique properties and methods. But how do we use these properties and methods?</p>
+
+<h3 id="properties--methods">Properties &amp; Methods</h3>
+<p>Objects and their properties/methods can be accessed by using <em>dot notation</em>. It’s also important to note that object names and property names are case-sensitive in Javascript.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">propertyName</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>Additionally, properties can be accessed by the use of <em>bracket notation</em>, which yields the same results as the line of code above.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">[</span><span class="s1">&#39;propertyName&#39;</span><span class="p">];</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>In Javascript, any valid string can be used as a property name - even an empty string - however if a property name is not considered a valid identifier(such as a string that contains a space, hyphen, or begins with a number) it can only be accessed using bracket notation. Bracket notation is also useful for passing in dynamically generated property names and property names that are not determined until the program is run. Properties can also be referenced by using strings stored in variables:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;make&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Chevy&quot;</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">propertyName</span> <span class="o">=</span> <span class="s2">&quot;model&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="nx">myCar</span><span class="p">[</span><span class="nx">propertyName</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;Impala&quot;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>When it comes to methods, calling them is similar to calling properties, except that methods contain a pair of parentheses at the end for accepting arguments(much like a function because it <em>is</em> a function). It looks like this:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="nx">objectName</span><span class="p">.</span><span class="nx">methodName</span><span class="p">(</span><span class="nx">argument</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<p>To pull it all together, here is what it looks like to create a new object with a method that accepts an argument and what happens when the method is called:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">dog</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Object</span><span class="p">();</span>
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">ownerName</span><span class="p">)</span> <span class="p">{</span>
+</span><span class="line">    <span class="k">return</span> <span class="s2">&quot;Woof! Good morning&quot;</span> <span class="o">+</span> <span class="nx">ownerName</span> <span class="o">+</span> <span class="s2">&quot;!&quot;</span><span class="p">;</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">dog</span><span class="p">.</span><span class="nx">speak</span><span class="p">(</span><span class="s2">&quot;Dave&quot;</span><span class="p">);</span>  <span class="c1">// prints &quot;Woof! Good morning Dave!&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="wrap-up">Wrap up</h3>
+<p>I highly recommend giving this <a href="http://eloquentjavascript.net/06_object.html">excellent article</a> a read if you want a more thorough(and entertaining!) history of objects. Also, I would be remiss if I didn’t remind you that I myself am still learning this stuff and while I do my best to pick up best practices and incorporate them into my thinking, this post will probably be revised as I better organize my understanding of objects. All that to say, read this with an open mind and a grain of salt ;-)</p>
+
+<h5 id="sources">Sources</h5>
 <ul>
-  <li>print the children before printing the parents</li>
-</ul>
-
-<h5 id="inorder">Inorder</h5>
-<ul>
-  <li>print the left child, print the parent, then print the right child</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 22 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in/"/>
-    <updated>2017-10-26T21:40:04-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/26/day-22-check-in</id>
-    <content type="html"><![CDATA[<p>Today we got into the nuts and bolts of how to build custom tags and components in AngularJS, data binding characters to be used with custom directives, and how more on handling git merge conflicts. Additionally, I <em>finally</em> figured out how to handle salting a SHA1 hashed password and validating the user login and registration, subsequently returning a cookie to the logged in user!<!--more--></p>
-
-<h3 id="data-binding-characters-in-angular">Data Binding Characters in Angular</h3>
-<ul>
-  <li><code>&lt;</code> one-way data binding</li>
-  <li><code>=</code> two-way data binding</li>
-  <li><code>@</code> access a string value passed into a directive</li>
+  <li>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects</li>
+  <li>https://en.wikipedia.org/wiki/Object-based_language</li>
+  <li>https://en.wikipedia.org/wiki/Object-oriented_programming</li>
 </ul>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 21 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in/"/>
-    <updated>2017-10-25T22:05:24-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/25/day-21-check-in</id>
-    <content type="html"><![CDATA[<p>Today was a blur. I continued to build the registration and login feature for this app with Angular and .NET. I gave my first code talk tonight; it was about what vim is and why you would want to use it(because you value time and efficiency!). I thought it was Thursday all day and it’s actually Wednesday; it’s been one of <em>those</em> weeks.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 20 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in/"/>
-    <updated>2017-10-24T23:27:24-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/24/day-20-check-in</id>
-    <content type="html"><![CDATA[<p>Holy smokes. Today I <em>finally</em> completed my two full stack components, however I’ve said that at standup for the last week it seems, so my ability to predict when something will be “done” needs work. I’m excited to start working on my assigned feature for this for-developers logging tool, the user registration/login, mostly because with all the news lately(Equifax) I’d like to learn more about seurity and things to be aware of.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Day 19 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in/"/>
-    <updated>2017-10-23T22:01:14-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/23/day-19-check-in</id>
-    <content type="html"><![CDATA[<p>I spent most of my day ‘off’ yesterday building a web app that can get the user’s location data and return the local weather using the Weather Underground API and the <code>navigator.geolocation</code> API built into HTML5. I learned a lot about SSL, HTTPS, and ports 443/80 while attempting(the operative word here) to securely retrieve and transmit the user’s location. You can check out my little weather API experiment <a href="http://codepen.io/jljesse/pen/LzvoJq">here</a>. Additionally, I’m trying to be better about digging into the call stack when I’m debugging; it’s a really helpful tool.<!--more--></p>
+    <title type="html"><![CDATA[Learning Bootstrap vs Vanilla CSS]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css/"/>
+    <updated>2017-04-24T23:15:18-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/04/24/bootstrap-vs-custom-css</id>
+    <content type="html"><![CDATA[<p>I don’t know why I had an aversion to learning a framework. Perhaps I was a CSS purist? During my internet travels I had come to believe that frameworks were for people who didn’t understand the underlying “vanilla” language that powered them. I was wrong.<!-- more --></p>
 
-<p>I learned a small amount about cryptography and how writing your own crypto can be dangerous. With that in mind, my goal is to implement the salting and hashing of the user’s password by stitching together preexisting crypto libraries with a minimum of my own code. Bonus round: today I learned that encryption != hashing.</p>
+<p>I’ve been following along with <a href="https://www.freecodecamp.org/challenges/factorialize-a-number">freeCodeCamp(fCC)</a> and one of the earliest things you learn through fCC is how to style HTML using the Bootstrap framework. In fact, I felt like the fCC curriculum glossed over CSS in order to get to Bootstrap quicker. However, I feel like knowing vanilla CSS is more practical than knowing Bootstrap, which abstracts away a lot of what the CSS is actually <em>doing</em>. This may be a personal preference though as I feel <em>strongly compelled</em> to understand the inner-workings of my projects.</p>
+
+<p>The first few websites I made I had designed them first before moving on to implementing them in code, trying to get as close to the high fidelity mockup as possible. This work flow felt smooth and yielded decent results. However, redesigning my personal portfolio while following along with the fCC curriculum it seems that the fCC workflow has me designing in the browser(skipping wireframes and mockups) and relies heavily on the Bootstrap framework. At first, this approach irked me and felt a little lazy. Skip the static mockups? Where do my markers and sketchbooks fit into this work flow? I had almost decided to write off the fCC method in favor of my own(because habits) when I realized that I would be robbing myself of a learning opportunity.</p>
+
+<p>I decided that even if it added a whole day to my personal portfolio redesign that trying out new workflows and learning Bootstrap 4 would be worth the time. After all, it’s knowledge I can carry forward with me. I <em>did</em> decide to sketch out my site before coding it up though. Personally, I find it much easier to make design changes and get visual feedback using a design tool like <a href="https://www.sketchapp.com">Sketch</a> rather than designing in the browser or with an IDE. That said, after my first few hours googling various Bootstrap features the framework started to grow on me and I can now appreciate how knowing how to use it could speed up development on projects in the future. It definitely felt like a step forward after having used the <a href="https://960.gs">960 grid system</a> and I liked how easy it was to implement responsive features.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 18 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/21/day-18-check-in/"/>
-    <updated>2017-10-21T22:01:14-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/21/day-18-check-in</id>
-    <content type="html"><![CDATA[<p>This morning was rough; I felt like I wrote more bugs than functioning code. I’m trying to encrypt the user’s password before it is sent to the server and ran into some trouble with the <code>salt</code> portion of the encryption. Nevertheless, I’m getting more confident in my ability to debug things, knowing which tools to use, and how to follow the flow of data through my application from the user’s input on the front end to the database in the back end. By the late evening, I had my second component mostly complete and felt like I was able to learn from most of this morning’s missteps.</p>
+    <title type="html"><![CDATA[Fibonacci Sequence in Ruby]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby/"/>
+    <updated>2017-03-15T22:38:32-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/03/15/fibonacci-sequence-in-ruby</id>
+    <content type="html"><![CDATA[<p>So I’m teaching myself Ruby and today I decided to learn how to write a <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci</a> sequence after hearing about them on Twitter. When I first looked at this particular problem, I had an idea of what was supposed to happen but was unsure of how to write the expression in Ruby - that is until I stopped to draw it out on paper.
+<!-- more -->
+Being a very visual person/learner, I found it helpful to write out the first few numbers of the Fibonacci sequence with pen and paper, and then to sketch in where the variables would go and how they move as the sequence progresses. Once I was able to visualize how the variables leapfrog each other within the loop and are added together for the next number in the Fibonacci sequence, it was much more clear how I needed to write the expression in Ruby. Sometimes you just need to sketch something to see the pattern. By outlining my problem and subsequent solution with pen and paper first, I was able to spend less time writing code. My Fibonacci sequence in Ruby looks like this:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+<span class="line-number">17</span>
+<span class="line-number">18</span>
+<span class="line-number">19</span>
+<span class="line-number">20</span>
+<span class="line-number">21</span>
+<span class="line-number">22</span>
+<span class="line-number">23</span>
+<span class="line-number">24</span>
+<span class="line-number">25</span>
+<span class="line-number">26</span>
+</pre></td><td class="code"><pre><code class="ruby"><span class="line"><span class="c1"># Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ... Calculate the Fibonacci sequence up to 4 million.</span>
+</span><span class="line">
+</span><span class="line"><span class="k">class</span> <span class="nc">Fibonacci</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">initialize</span>
+</span><span class="line">        <span class="vi">@numA</span> <span class="o">=</span> <span class="mi">1</span>
+</span><span class="line">        <span class="vi">@numB</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="vi">@sum</span> <span class="o">=</span> <span class="mi">0</span>
+</span><span class="line">        <span class="nb">self</span><span class="o">.</span><span class="n">fibonacci_sequence</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">def</span> <span class="nf">fibonacci_sequence</span>
+</span><span class="line">        <span class="k">while</span> <span class="vi">@fibonacci_number</span> <span class="o">&lt;</span> <span class="mi">4000000</span>
+</span><span class="line">            <span class="vi">@fibonacci_number</span> <span class="o">=</span> <span class="vi">@numA</span> <span class="o">+</span> <span class="vi">@numB</span>
+</span><span class="line">            <span class="nb">puts</span> <span class="s2">&quot;fibonacci_number</span><span class="se">\&#39;</span><span class="s2">s current value is &quot;</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span><span class="o">.</span><span class="n">to_s</span>
+</span><span class="line">            <span class="vi">@numB</span> <span class="o">=</span> <span class="vi">@numA</span>
+</span><span class="line">            <span class="vi">@numA</span> <span class="o">=</span> <span class="vi">@fibonacci_number</span>
+</span><span class="line">            <span class="vi">@sum</span> <span class="o">=</span> <span class="vi">@sum</span> <span class="o">+</span> <span class="vi">@fibonacci_number</span>
+</span><span class="line">        <span class="k">end</span>
+</span><span class="line">        <span class="nb">puts</span> <span class="s2">&quot;The sum of the Fibonacci sequence thus far is &quot;</span> <span class="o">+</span> <span class="vi">@sum</span><span class="o">.</span><span class="n">to_s</span>
+</span><span class="line">    <span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="k">end</span>
+</span><span class="line">
+</span><span class="line"><span class="n">fibonacciNumber</span> <span class="o">=</span> <span class="no">Fibonacci</span><span class="o">.</span><span class="n">new</span><span class="p">()</span>
+</span></code></pre></td></tr></table></div></figure>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 17 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in/"/>
-    <updated>2017-10-20T22:51:37-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/20/day-17-check-in</id>
-    <content type="html"><![CDATA[<p>I started working on my second component today and it was different from the first in that it already contained a bunch of code that I had to work around, which provided some extra challenges. The main thing I learned about today was encryption and how to apply it to a user’s password; trying to handle the password so that it’s secure is tricky business however I enjoy the challenge.</p>
+    <title type="html"><![CDATA[On Failure and Moving Forward]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/23/fail-forward/"/>
+    <updated>2017-02-23T22:34:06-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/23/fail-forward</id>
+    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. <!-- more -->I applied to a paid internship at a company in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future. Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
+
+<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 16 Check In]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in/"/>
-    <updated>2017-10-19T23:23:45-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/10/19/day-16-check-in</id>
-    <content type="html"><![CDATA[<p>So I thought I finished my full stack component yesterday, however I added some validation to the API I wrote with C#… and it broke. As a result, today I learned how to troubleshoot the Unity framework configuration, how to implement validation on the server(as opposed to client side), and how to improve my debugging by digging into the call stack.</p>
+    <title type="html"><![CDATA[First Open Source Pull Request!]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/22/first-pull-request/"/>
+    <updated>2017-02-22T23:40:23-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/22/first-pull-request</id>
+    <content type="html"><![CDATA[<p>I made my first open source contribution today, and it felt triumphant! The challenges! The errors! The long nights searching the internet by candlelight!(Okay maybe not that last part.)<!--more--> Feeling like you’re contributing to something bigger than yourself.  To be clear, I only replaced an outdated link with a more current one, but that doesn’t mean that the first step of a long journey is less exciting.</p>
+
+<p>Since deciding that I would learn how to code, I’ve always been enamored with open source software, or more specifically <em>free</em> open source software(there’s a difference – ask <a href="https://stallman.org">Richard Stallman</a>). So when I learned that Operation Code was a FOSS program designed by veterans to help fellow veterans I knew I had to be a part of it. I think that the majority of veterans miss being part of a team working towards a common goal; I know I do. Being able to spend time working on a project like Operation Code makes me feel like I’m able to give back, even if it’s in a small way.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/02/20/hello-world/"/>
+    <updated>2017-02-20T19:20:20-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/02/20/hello-world</id>
+    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor - and eventually get paid to learn!</p>
+
+<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
