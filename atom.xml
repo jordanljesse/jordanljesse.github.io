@@ -4,7 +4,7 @@
   <title><![CDATA[Jordan Learns Code]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2017-11-08T20:43:33-08:00</updated>
+  <updated>2017-11-17T12:11:56-08:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started With Regular Expressions]]></title>
+    <link href="http://jordanljesse.github.io/blog/2017/11/14/regular-expressions/"/>
+    <updated>2017-11-14T11:02:07-05:00</updated>
+    <id>http://jordanljesse.github.io/blog/2017/11/14/regular-expressions</id>
+    <content type="html"><![CDATA[<p>Regular expressions, commonly referred to as “regex” or “regexp”, are a special kind of text string used for describing a search pattern for string data. Put simply, regular expressions find patterns in strings. Neat huh? This post will cover how to use regular expressions, considerations when using special characters, and character classes.<!--more--></p>
+
+<p>Regular expressions are both confusing and powerful, and understanding them will definitely aid us in our programming endeavors. The concept of regular expressions originated in 1956 after <a href="https://en.wikipedia.org/wiki/Stephen_Cole_Kleene">Stephen Cole Kleene</a>, an American mathematician, created a formal description of <em>regular language</em> using his own mathematical notation called <em>regular sets</em>. Regular expressions are used to power search engines, text editor “find and replace” features, and even <a href="https://en.wikipedia.org/wiki/Lexical_analysis">lexical analysis</a>. However, we’re going to focus on regular expressions in the context of programming with JavaScript, and as such we’ll be using regular expressions with the string methods <code>search</code>, <code>replace</code>, <code>match</code>, and <code>split</code>. Additionally, we’re able to use regular expressions with the <code>test</code> and <code>exec</code> methods built into the <code>RegExp</code> object.</p>
+
+<h3 id="using-regular-expressions">Using Regular Expressions</h3>
+<p>There are two ways to write regular expressions: as a <em>regular expression literal</em> or by using the <code>RegExp</code> object constructor. The simplest regular expression would consist of a single character and find the first occurrence of that character in a string. Both of the regular expressions in the example below contain the same search pattern.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">var</span> <span class="nx">reg1</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">RegExp</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">);</span>     <span class="c1">// regex object; compiled at runtime</span>
+</span><span class="line"><span class="kd">var</span> <span class="nx">reg2</span> <span class="o">=</span> <span class="sr">/a/</span><span class="p">;</span>                 <span class="c1">// regex literal; compiled when script loads</span>
+</span><span class="line">
+</span><span class="line"><span class="kd">var</span> <span class="nx">str</span> <span class="o">=</span> <span class="s2">&quot;Jack loves to eat at In-N-Out&quot;</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">str</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="nx">reg1</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">));</span> <span class="c1">// &quot;Jck loves to eat at In-N-Out&quot; </span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Regular expression literals are compiled when the script that invokes them loads, whereas regex objects are compiled at run time. So how do we choose which regex syntax to use? If our regex pattern is going to remain <em>constant</em> then using a regex literal can help improve performance. Conversely, if our regex pattern is going to <em>change</em> or be pulled in from an external source(like user input) then we want to use the regex object consructor.</p>
+
+<h3 id="special-characters">Special Characters</h3>
+<p>It’s worth noting that there are some special considerations when it comes to using certain characters with the regular expression literal syntax. Because the regex pattern ends with a forward slash, any forward slash that we want to be <em>part of the search pattern</em> needs to be escaped with a backslash. Additionally, there are 12 characters that have special meanings in regular expressions and as such they also need to be escaped with a backslash if we want to use them as literals in a regex pattern:</p>
+
+<ul>
+  <li><code>?</code> question mark</li>
+  <li><code>+</code> plus sign</li>
+  <li><code>$</code> dollar sign</li>
+  <li><code>*</code> asterisk</li>
+  <li><code>/</code> backslash</li>
+  <li><code>.</code> period</li>
+  <li><code>|</code> pipe</li>
+  <li><code>^</code> caret</li>
+  <li><code>(</code> opening parenthesis</li>
+  <li><code>)</code> closing parenthesis</li>
+  <li><code>[</code> opening square bracket</li>
+  <li><code>{</code> opening curly brace</li>
+</ul>
+
+<h3 id="character-classessets">Character Classes/Sets</h3>
+<p>A character class(also referred to as a set) is a way to search for a specific character or set of characters out of various combinations of characters within a string. Say we wanted to find both American and British spellings of the word ‘grey’ using a regex pattern, we could construct our pattern using character classes as follows:</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">function</span> <span class="nx">isGrayOrGrey</span><span class="p">(</span><span class="nx">string</span><span class="p">){</span>
+</span><span class="line">    <span class="kd">var</span> <span class="nx">regex1</span> <span class="o">=</span> <span class="sr">/gr[ae]y/</span><span class="p">;</span>
+</span><span class="line">
+</span><span class="line">    <span class="k">return</span> <span class="nx">string</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">regex1</span><span class="p">);</span> <span class="c1">// returns array with match as first element</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line">
+</span><span class="line"><span class="nx">isGrayOrGrey</span><span class="p">(</span><span class="s2">&quot;gray&quot;</span><span class="p">);</span>  <span class="c1">// [&quot;gray&quot;]</span>
+</span><span class="line"><span class="nx">isGrayOrGrey</span><span class="p">(</span><span class="s2">&quot;grey&quot;</span><span class="p">);</span>  <span class="c1">// [&quot;grey&quot;]</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>It’s worth noting that the order of characters in a character class doesn’t matter. Additionally, you can invert/negate a character class by inserting a caret after the opening square bracket, resulting in a regex pattern that finds any character that is <em>not</em> in the character class. In the example below, the function <code>noZAfterA</code> returns an array with the matched regex pattern as its first element. The regex pattern <code>a[^z]</code> matches the <code>ap</code> in <code>apple</code> but it does <em>not</em> match <code>mocha</code>; this is because there is no character after the ‘a’ for our pattern to match.</p>
+<figure class="code"><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+</pre></td><td class="code"><pre><code class="javascript"><span class="line"><span class="kd">function</span> <span class="nx">noZAfterA</span><span class="p">(</span><span class="nx">string</span><span class="p">){</span>
+</span><span class="line">    <span class="kd">var</span> <span class="nx">regex</span> <span class="o">=</span> <span class="sr">/a[^z]/</span><span class="p">;</span>
+</span><span class="line">    <span class="k">return</span> <span class="nx">string</span><span class="p">.</span><span class="nx">match</span><span class="p">(</span><span class="nx">regex</span><span class="p">);</span>
+</span><span class="line"><span class="p">}</span>
+</span><span class="line"><span class="nx">noZAfterA</span><span class="p">(</span><span class="s2">&quot;apple&quot;</span><span class="p">);</span>  <span class="c1">// [&quot;ap&quot;]</span>
+</span><span class="line"><span class="nx">noZAfterA</span><span class="p">(</span><span class="s2">&quot;azure&quot;</span><span class="p">);</span>  <span class="c1">// null</span>
+</span><span class="line"><span class="nx">noZAfterA</span><span class="p">(</span><span class="s2">&quot;mocha&quot;</span><span class="p">);</span>  <span class="c1">// null</span>
+</span></code></pre></td></tr></table></div></figure>
+
+<h3 id="conclusion">Conclusion</h3>
+<p>Regular expressions ought to be part of every programmer’s toolkit and having a solid understanding of regex patterns and how to use them can empower us to search, filter, and validate(among other things) all manner of string data. In <em>Intermediate Regular Expressions</em> we will dig into more advanced regex patterns that include repeating patterns, shorthand for character classes, and using anchors to mark positions within a string.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Collections in C#]]></title>
