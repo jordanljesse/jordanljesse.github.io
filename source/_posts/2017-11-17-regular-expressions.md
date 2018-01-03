@@ -22,7 +22,7 @@ var str = "Jack loves to eat at In-N-Out";
 
 console.log(str.replace(reg1, "")); // "Jck loves to eat at In-N-Out" 
 ```
-Regular expression literals are compiled when the script that invokes them loads, whereas regex objects are compiled at run time. So how do we choose which regex syntax to use? If our regex pattern is going to remain _constant_ then using a regex literal can help improve performance. Conversely, if our regex pattern is going to _change_ or be pulled in from an external source(like user input) then we want to use the regex object consructor.
+Regular expression literals are compiled when the script that invokes them loads, whereas regex objects are compiled at run time. So how do we choose which regex syntax to use? If our regex pattern is going to remain _constant_ then using a regex literal can help improve performance. Conversely, if our regex pattern is going to _change_ or be pulled in from an external source(like user input) then we want to use the `RegExp` object consructor.
 
 ### Special Characters
 It's worth noting that there are some special considerations when it comes to using certain characters with the regular expression literal syntax. Because the regex pattern ends with a forward slash, any forward slash that we want to be _part of the search pattern_ needs to be escaped with a backslash. Additionally, there are 12 characters that have special meanings in regular expressions and as such they also need to be escaped with a backslash if we want to use them as literals in a regex pattern:
