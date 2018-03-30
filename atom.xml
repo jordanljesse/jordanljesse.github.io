@@ -4,7 +4,7 @@
   <title><![CDATA[Code As A Craft]]></title>
   <link href="http://jordanljesse.github.io/atom.xml" rel="self"/>
   <link href="http://jordanljesse.github.io/"/>
-  <updated>2018-03-29T21:13:34-05:00</updated>
+  <updated>2018-03-29T21:24:05-05:00</updated>
   <id>http://jordanljesse.github.io/</id>
   <author>
     <name><![CDATA[Jordan Jesse]]></name>
@@ -570,17 +570,6 @@ Being a very visual person/learner, I found it helpful to write out the first fe
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[On Failure and Moving Forward]]></title>
-    <link href="http://jordanljesse.github.io/blog/2017/02/23/fail-forward/"/>
-    <updated>2017-02-23T22:34:06-05:00</updated>
-    <id>http://jordanljesse.github.io/blog/2017/02/23/fail-forward</id>
-    <content type="html"><![CDATA[<p>Today I received my fist rejection letter and to be honest it kind of feels like a right of passage. I can only imagine how many rejection letters developers who’ve come before me have received. <!-- more -->I applied to a paid internship at a company in Kansas City and received a professional yet tactful ‘no’ regarding the position, suggesting that I practice interviewing more and reapply in the future. Admittedly, I did <em>not</em> do much in the way of preparation for the HackerRank code puzzles and they wound up hitting me in some pretty weak areas(manipulating arrays, math functions, etc). However, because I failed those code puzzles I now have a better idea of where I need to spend more of my self-study time, which is good.</p>
-
-<p>When I first received the notice that I was rejected I <em>did</em> feel bewildered, as if perhaps I wasn’t smart enough to be a professional developer. “Maybe I just should just stick to design, making t-shirts and posters?” I thought to myself. That kind of work can be fun. But, and it’s a big <em>but</em>, it doesn’t satisfy that part of my brain that loves a good logic puzzle(especially coupled with technology!). Failure is a hard thing sometimes, but I’m realizing lately that as long as I’m able to learn <em>something</em> from the experience it’s not a waste. That, and I’m getting the impression that a <em>lot</em> of professional developers spend a <em>lot</em> of time in a state of frustration. As a result, I feel the need to get my mind organized as positively as possible and to increase my mental resilience to difficult problems. It would seem that I need to get comfortable with being uncomfortable.</p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[First Open Source Pull Request!]]></title>
     <link href="http://jordanljesse.github.io/blog/2017/02/22/first-pull-request/"/>
     <updated>2017-02-22T23:40:23-05:00</updated>
@@ -596,9 +585,9 @@ Being a very visual person/learner, I found it helpful to write out the first fe
     <link href="http://jordanljesse.github.io/blog/2017/02/20/hello-world/"/>
     <updated>2017-02-20T19:20:20-05:00</updated>
     <id>http://jordanljesse.github.io/blog/2017/02/20/hello-world</id>
-    <content type="html"><![CDATA[<p>Hey there! My name’s Jordan and I’m on a journey to learn how to code! This blog is a personal notebook of sorts to help me keep track of the things I’m learning and the tools I’m using. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a professional developer. My goal is to get comfortable enough with the basics so that I can attend a coding bootcamp where I can find structure, comaraderie, and a mentor - and eventually get paid to learn!</p>
+    <content type="html"><![CDATA[<p>Howdy! My name’s Jordan and I’m a military veteran teaching myself how to code. This blog is a personal notebook of sorts to help me keep track of the things I’m learning, the tools I’m using, and the problems I’m solving along the way. <!--more-->I’ve been coding as a hobby for a while now and recently I’ve decided to pursue becoming a developer full time. My goal is to get a strong foundation on the front end so that I can attend a coding bootcamp and focus on rounding out my knowledge of the back end. Why a coding bootcamp? I like the idea of having structure, comaraderie, and a mentor - along with the opportunity to take a single-minded deep dive into technology.</p>
 
-<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, developer tools, and computer maintenance and would like to document some of these endeavors with the hope that other developers might find something useful and save some time. Additionally, I want to be better about documenting my learning progress and projects so that in the future I can look back and see where I’ve been so that I can better appreciate where I am. With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
+<p>So why start a blog? Why not? I spend a fair amount of time solving problems related to web development, tooling, and devops related stuff and would like to document some of these endeavors with the hope that other developers might find something useful and save some time(or at least have a laugh). Additionally, I want to be better about documenting my learning process and personal projects so that in the future I can look back and see where I’ve been so that I can better know where I’m going(and where not to go again). With that said, welcome to my blog and feel free to share any questions/comments you might have. Cheers!</p>
 ]]></content>
   </entry>
   
